@@ -1,0 +1,272 @@
+{
+  "main": {
+    "id": "c8e13de026a3fa50",
+    "type": "split",
+    "children": [
+      {
+        "id": "2eb6a4b703690e3f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "01d9e55b54a4f505",
+            "type": "leaf",
+            "state": {
+              "type": "excel-view",
+              "state": {
+                "file": "Calendars/2024年日程.md"
+              }
+            }
+          },
+          {
+            "id": "ea28300dc22b42a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "签证相关/2024-02-06.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1b23ce2eee32448c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "项目开发/游戏制作/Flame/关于Flutter Flame的学习.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e08b586bc501099a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "签证相关/回国计划.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "814fef2439595e89",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "项目开发/游戏制作/项目管理/FruitNinja项目.md"
+              }
+            }
+          },
+          {
+            "id": "06f73b819f0c8573",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GameAI/Learning Videos.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "76abab8e0c2122e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "实用学习笔记/Github相关/GitHub.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a972581b2b86aff6",
+    "type": "split",
+    "children": [
+      {
+        "id": "bad4270337180f93",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "58e71cf1a088e7fd",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3e8b7795040e8b21",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1ab5da9118d98076",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "0770e2c5a45717c4",
+    "type": "split",
+    "children": [
+      {
+        "id": "0785070a3b53ed54",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ba4b0406aebf215b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "实用学习笔记/Github相关/GitHub.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "8b65c6117471eb5c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "实用学习笔记/Github相关/GitHub.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ffb0abffa3914b8c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "dc03ccf1b5c2016c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "实用学习笔记/Github相关/GitHub.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 240.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "command-palette:Open command palette": false,
+      "templates:Insert template": false,
+      "excel:Create Excel File": false,
+      "obsidian-projects:Open projects": false
+    }
+  },
+  "active": "76abab8e0c2122e0",
+  "lastOpenFiles": [
+    "GameAI/Learning Videos.md",
+    "项目开发",
+    "实用学习笔记/Github相关",
+    "项目开发/游戏制作/项目管理/FruitNinja项目.md",
+    "签证相关/回国计划.md",
+    "项目开发/游戏制作/Flame/关于Flutter Flame的学习.md",
+    "Calendars/2024年日程.md",
+    "签证相关/2024-02-06.md",
+    "2024-02-11.md",
+    "Ruoxi/笔记📒.md",
+    "实用学习笔记/面试+小红书.md",
+    "网站开发/Untitled.md",
+    "网站开发/Untitled",
+    "项目开发/网站开发",
+    "GameAI/images/Screenshot 2024-02-06 at 14.08.47.png",
+    "GameAI/images/Screenshot 2024-02-06 at 14.06.47.png",
+    "GameAI/images/Screenshot 2024-02-06 at 13.15.27.png",
+    "Ruoxi/小红书+TikTok.md",
+    "实用学习笔记/Netsuite/Netsuite.md",
+    "实用学习笔记/Netsuite/images/Screenshot 2024-02-01 at 12.43.32.png",
+    "实用学习笔记/Netsuite/images/Screenshot 2024-02-01 at 12.10.25.png",
+    "实用学习笔记/Netsuite/images",
+    "实用学习笔记/Netsuite/images/Screenshot 2024-02-01 at 12.04.44.png",
+    "实用学习笔记/Netsuite/images/Pasted image 20240201120429.png",
+    "实用学习笔记/Netsuite",
+    "GameAI/images/Pasted image 20240131103859.png",
+    "GameAI/images/Pasted image 20240131103715.png",
+    "实用学习笔记/Github相关/images/Screenshot 2024-01-24 at 15.40.17.png",
+    "实用学习笔记/Github相关/images",
+    "项目开发/游戏制作/项目管理/【添加一个新手关】.md",
+    "实用学习笔记/Airflow学习.md",
+    "GameAI/images",
+    "GameAI",
+    "签证相关",
+    "项目开发/游戏制作/2023-12-27.md",
+    "项目开发/游戏制作/项目管理/【特效】.md",
+    "【连击】.md",
+    "实用学习笔记/Github相关/GitHub.md",
+    "项目开发/游戏制作/项目管理/【修图】.md",
+    "项目开发/游戏制作/游戏核心机制（Core Loop）.md",
+    "游戏制作/Untitled.canvas",
+    "项目开发/游戏制作/有用的工具.md",
+    "Untitled Kanban.md",
+    "2024-01-09.md",
+    "Screenshot.md",
+    "Untitled.canvas",
+    "Projects - Demo Project/5 Mistakes I Made When I Started Using Obsidian.md",
+    "Untitled 1.canvas"
+  ]
+}
