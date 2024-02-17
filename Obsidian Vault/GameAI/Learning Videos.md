@@ -1,6 +1,89 @@
 
 
 
+
+
+## Homework 5 - Projectile
+定义：
+* $p_t$ - 静止的target在时间$t$时的位置
+* $p_{p_0}$ - 射弹的初始位置
+* $u_{p_0}$ - 射弹最初的方向
+* $s_p$ - 射弹的初始速率（speed，标量）
+* $v_p$ - 射弹的初速度（velocity，矢量）
+* $g_p$ - 射弹所受的重力（矢量）
+* $t_c$ - 撞击发生的时间点
+
+### 5.3. 如何解决变速移动的target？——Iterative Approach
+
+关键步骤：
+1. 假设target不动
+2. 求解第1步中target的射弹截距$t_n$
+3. 将$t_0$带入target的运动方程$p_{t_n}=p_{t_0}+v_{t_0}t_n+\frac{1}{2}a_t t_n^2$
+4. 然后回到第2步，将target的位置替换为$p_{t_n}$
+5. 重复上面四个步骤直到收敛到某个特定condition，或者多少次迭代后停止。
+
+
+在5.2中提到的cosine还有其他一些用途：
+* 通过iterative + cosine可以来求出最大速率
+* 将初始值设置为$S_{holdback}=S_p$
+* 
+
+
+### 5.2. 对于恒定速度移动的target
+假设target和射弹都以恒定的速度移动，但是对于射弹来说，它的速度是已知的，target速率已知。此外，3d场景中，物体受到重力影响
+定义：
+* $p_{t_0}$ - target在起始时间$t_0$时的位置
+* $p_{p_0}$ - 射弹的初始位置
+* $v_t$ - target的速度（velocity，矢量）
+* $s_t$ - target的速率（speed，标量）
+* $s_p$ - 射弹的速率（speed， 标量）
+* $v_p$ - 射弹的速度（velocity，矢量）
+* $t_c$ - 撞击发生的时间
+![[Screenshot 2024-02-12 at 20.28.44.png]]
+<span style="color:cyan">如图，我们要求的是射弹的速度（大小和方向），使得射弹在</span>$t_c$<span style="color:cyan">时间后能撞击target。</span>
+抽象成下图，然后使用余弦公式$a^2+b^2-ab \cos \theta=c^2$；点乘公式$\mathbfit{a}\cdot\mathbfit{b} = \| \mathbfit{a} \| \| \mathbfit{b} \| \cos \theta$，$\hat{a} \cdot \hat{b}=\cos \theta$。
+![[Screenshot 2024-02-12 at 20.30.00.png]]
+套一下公式得到：
+$(s_p^2-s_t^2)t^2+(2as_t \hat{\mathbfit{a}}\cdot \hat{\mathbfit{b}})t-a^2=0$
+![[Screenshot 2024-02-12 at 20.46.37.png]]
+求解一下二次方程，得到：
+$$
+t_c=\frac{\sqrt{-(2as_t \hat{\mathbfit{a}}\hat{\mathbfit{b}})^2+4(s_p^2-s_t^2)a^2}}{2(s_p^2-s_t^2)}
+$$
+最终计算出射弹的速度（矢量）为：$\mathbfit{v}_p=\frac{(\mathbfit{p}_{t_0}-\mathbfit{p}_{p_0})}{t_c}+\mathbfit{v}_t$
+
+
+如果是在3d空间下，受到重力影响呢？——结果如下：
+![[Screenshot 2024-02-12 at 20.53.50.png]]
+
+
+
+
+
+
+
+
+### 5.1. 对于静止target的射弹
+3d场景中，假设受到重力影响，但没有牵引力
+定义：
+* $p_t$ - 静止的target在时间$t$时的位置
+* $p_{p_0}$ - 射弹的初始位置
+* $u_{p_0}$ - 射弹最初的方向
+* $s_p$ - 射弹的初始速率（speed，标量）
+* $v_p$ - 射弹的初速度（velocity，矢量）
+* $g_p$ - 射弹所受的重力（矢量）
+* $t_c$ - 撞击发生的时间点
+
+
+
+
+
+
+
+
+
+
+
 ## Homework 4 - NavMesh
 ### 4.1. 理论思想
 与Grid Lattice相比，NavMesh是一种Non-Uniform Representation of Navigable Area。Grid Lattice是通过将地图平均切分成等大的小方格来实现导航功能的。在NavMesh中，地图并不是等分的，**而是将地图切分成几个不等大的convex polygons**。

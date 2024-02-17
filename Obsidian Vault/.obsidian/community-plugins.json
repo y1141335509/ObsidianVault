@@ -5,5 +5,9 @@
   "obsidian-git",
   "obsidian-kanban",
   "better-word-count",
-  "terminal"
+  "terminal",
+  "chronology",
+  "editing-toolbar",
+  "obsidian-full-calendar",
+  "obsidian-plugin-toc"
 ]

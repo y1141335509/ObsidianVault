@@ -1,1 +1,10 @@
-{}
+{
+  "terminal:open-terminal.select.": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "M"
+    }
+  ]
+}
