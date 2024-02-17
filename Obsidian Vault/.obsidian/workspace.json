@@ -6,6 +6,7 @@
       {
         "id": "2eb6a4b703690e3f",
         "type": "tabs",
+        "dimension": 44.59613196814562,
         "children": [
           {
             "id": "ea28300dc22b42a4",
@@ -85,10 +86,12 @@
       {
         "id": "367f1a399b480fc5",
         "type": "split",
+        "dimension": 55.40386803185437,
         "children": [
           {
             "id": "091748106addc3cc",
             "type": "tabs",
+            "dimension": 85.31571218795888,
             "children": [
               {
                 "id": "3aa4295c85a306f1",
@@ -107,6 +110,7 @@
           {
             "id": "010b2abd97b286fb",
             "type": "tabs",
+            "dimension": 14.684287812041116,
             "children": [
               {
                 "id": "768152a0717d06f9",
@@ -137,9 +141,9 @@
                         "useWin32Conhost": true
                       },
                       "serial": {
-                        "columns": 97,
-                        "data": "(base) yinghaiyu@Yinghais-MacBook-Pro / % ls\r\nApplications\u001b[4CUsers\u001b[11Ccores\u001b[11Chome\u001b[12Csbin\u001b[12Cvar\r\nLibrary\u001b[9CVolumes\u001b[9Cdev\u001b[13Copt\u001b[13Ctmp\r\nSystem\u001b[10Cbin\u001b[13Cetc\u001b[13Cprivate\u001b[9Cusr\r\n(base) yinghaiyu@Yinghais-MacBook-Pro / % ls                                          \r\nApplications\u001b[4CUsers\u001b[11Ccores\u001b[11Chome\u001b[12Csbin\u001b[12Cvar\r\nLibrary\u001b[9CVolumes\u001b[9Cdev\u001b[13Copt\u001b[13Ctmp\r\nSystem\u001b[10Cbin\u001b[13Cetc\u001b[13Cprivate\u001b[9Cusr\r\n(base) yinghaiyu@Yinghais-MacBook-Pro / % cd /Users/yinghaiyu/Main/DesktopMain/STUDY/KnowledgeVault\r\n(base) yinghaiyu@Yinghais-MacBook-Pro KnowledgeVault % ls\r\nObsidianVault\u001b[3CZoteroPapers\r\n(base) yinghaiyu@Yinghais-MacBook-Pro KnowledgeVault % cd ObsidianVault \r\n(base) yinghaiyu@Yinghais-MacBook-Pro ObsidianVault % ls\r\nObsidian Vault\r\n(base) yinghaiyu@Yinghais-MacBook-Pro ObsidianVault % git branch\r\n* \u001b[32mmain\r\n\u001b[0m(base) yinghaiyu@Yinghais-MacBook-Pro ObsidianVault % git add .",
-                        "rows": 33
+                        "columns": 108,
+                        "data": "(base) yinghaiyu@Yinghais-MacBook-Pro / % ls\r\nApplications\u001b[4CUsers\u001b[11Ccores\u001b[11Chome\u001b[12Csbin\u001b[12Cvar\r\nLibrary\u001b[9CVolumes\u001b[9Cdev\u001b[13Copt\u001b[13Ctmp\r\nSystem\u001b[10Cbin\u001b[13Cetc\u001b[13Cprivate\u001b[9Cusr\r\n(base) yinghaiyu@Yinghais-MacBook-Pro / % ls                                          \r\nApplications\u001b[4CUsers\u001b[11Ccores\u001b[11Chome\u001b[12Csbin\u001b[12Cvar\r\nLibrary\u001b[9CVolumes\u001b[9Cdev\u001b[13Copt\u001b[13Ctmp\r\nSystem\u001b[10Cbin\u001b[13Cetc\u001b[13Cprivate\u001b[9Cusr\r\n(base) yinghaiyu@Yinghais-MacBook-Pro / % cd /Users/yinghaiyu/Main/DesktopMain/STUDY/KnowledgeVault\r\n(base) yinghaiyu@Yinghais-MacBook-Pro KnowledgeVault % ls\r\nObsidianVault\u001b[3CZoteroPapers\r\n(base) yinghaiyu@Yinghais-MacBook-Pro KnowledgeVault % cd ObsidianVault \r\n(base) yinghaiyu@Yinghais-MacBook-Pro ObsidianVault % ls\r\nObsidian Vault\r\n(base) yinghaiyu@Yinghais-MacBook-Pro ObsidianVault % git branch\r\n* \u001b[32mmain\r\n\u001b[0m(base) yinghaiyu@Yinghais-MacBook-Pro ObsidianVault % git add .\r\n(base) yinghaiyu@Yinghais-MacBook-Pro ObsidianVault % git commit -m \r\nerror: switch `m' requires a value\r\n(base) yinghaiyu@Yinghais-MacBook-Pro ObsidianVault % git commit -m 'small business feb 16 2024'\r\n[main 10b4394] small business feb 16 2024\r\n 31 files changed, 99506 insertions(+), 153 deletions(-)\r\n create mode 100644 Obsidian Vault/.obsidian/plugins/chronology/main.js\r\n create mode 100644 Obsidian Vault/.obsidian/plugins/chronology/manifest.json\r\n create mode 100644 Obsidian Vault/.obsidian/plugins/chronology/styles.css\r\n create mode 100644 Obsidian Vault/.obsidian/plugins/editing-toolbar/data.json\r\n create mode 100644 Obsidian Vault/.obsidian/plugins/editing-toolbar/main.js\r\n create mode 100644 Obsidian Vault/.obsidian/plugins/editing-toolbar/manifest.json\r\n create mode 100644 Obsidian Vault/.obsidian/plugins/editing-toolbar/styles.css\r\n create mode 100644 Obsidian Vault/.obsidian/plugins/obsidian-full-calendar/main.js\r\n create mode 100644 Obsidian Vault/.obsidian/plugins/obsidian-full-calendar/manifest.json\r\n create mode 100644 Obsidian Vault/.obsidian/plugins/obsidian-full-calendar/styles.css\r\n create mode 100644 Obsidian Vault/.obsidian/plugins/obsidian-plugin-toc/main.js\r\n create mode 100644 Obsidian Vault/.obsidian/plugins/obsidian-plugin-toc/manifest.json\r\n create mode 100644 Obsidian Vault/.obsidian/themes/Blue Topaz/manifest.json\r\n create mode 100644 Obsidian Vault/.obsidian/themes/Blue Topaz/theme.css\r\n create mode 100644 Obsidian Vault/.obsidian/themes/Minimal/manifest.json\r\n create mode 100644 Obsidian Vault/.obsidian/themes/Minimal/theme.css\r\n create mode 100644 Obsidian Vault/Buy Small Business.md\r\n create mode 100644 Obsidian Vault/GameAI/images/Screenshot 2024-02-12 at 20.28.44.png\r\n create mode 100644 Obsidian Vault/GameAI/images/Screenshot 2024-02-12 at 20.30.00.png\r\n create mode 100644 Obsidian Vault/GameAI/images/Screenshot 2024-02-12 at 20.46.37.png\r\n create mode 100644 Obsidian Vault/GameAI/images/Screenshot 2024-02-12 at 20.53.50.png\r\n rename \"Obsidian Vault/\\345\\256\\236\\347\\224\\250\\345\\255\\246\\344\\271\\240\\347\\254\\224\\350\\256\\260/Airflow\\345\\255\\246\\344\\271\\240.md\" => \"Obsidian Vault/\\345\\256\\236\\347\\224\\250\\345\\255\\246\\344\\271\\240\\347\\254\\224\\350\\256\\260/Airflow/Airflow\\345\\255\\246\\344\\271\\240.md\" (100%)\r\n rename \"Obsidian Vault/\\345\\256\\236\\347\\224\\250\\345\\255\\246\\344\\271\\240\\347\\254\\224\\350\\256\\260/\\351\\235\\242\\350\\257\\225+\\345\\260\\217\\347\\272\\242\\344\\271\\246.md\" => \"Obsidian Vault/\\345\\256\\236\\347\\224\\250\\345\\255\\246\\344\\271\\240\\347\\254\\224\\350\\256\\260/Airflow/\\351\\235\\242\\350\\257\\225+\\345\\260\\217\\347\\272\\242\\344\\271\\246.md\" (100%)\r\n create mode 100644 \"Obsidian Vault/\\345\\256\\236\\347\\224\\250\\345\\255\\246\\344\\271\\240\\347\\254\\224\\350\\256\\260/\\351\\207\\217\\345\\214\\226\\344\\272\\244\\346\\230\\223\\347\\233\\270\\345\\205\\263/Quant\\345\\255\\246\\344\\271\\240\\347\\254\\224\\350\\256\\260.md\"\r\n create mode 100644 \"Obsidian Vault/\\347\\255\\276\\350\\257\\201\\347\\233\\270\\345\\205\\263/NIW.md\"\r\n(base) yinghaiyu@Yinghais-MacBook-Pro ObsidianVault % git push \r\nEnumerating objects: 68, done.\r\nCounting objects: 100% (68/68), done.\r\nDelta compression using up to 10 threads\r\nCompressing objects: 100% (47/47), done.\r\nWriting objects: 100% (50/50), 1.20 MiB | 9.50 MiB/s, done.\r\nTotal 50 (delta 9), reused 0 (delta 0), pack-reused 0\r\nremote: Resolving deltas: 100% (9/9), completed with 9 local objects.\r\nTo github.com:y1141335509/ObsidianVault.git\r\n   952b065..10b4394  main -> main\r\n(base) yinghaiyu@Yinghais-MacBook-Pro ObsidianVault % git add .",
+                        "rows": 5
                       }
                     }
                   },
