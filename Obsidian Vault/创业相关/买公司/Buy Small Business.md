@@ -12,7 +12,7 @@ Thank you
 
 （自己3w，妈妈5w，Ruoxi 3w）
 
-1. [BubblesandBooks](https://flippa.com/11704000-book-and-bath-subscription-box-with-155-monthly-subscribers-current)  - $1.1w; 网店。     要问能不能提供给我供应商；
+1. [BubblesandBooks](https://flippa.com/11704000-book-and-bath-subscription-box-with-155-monthly-subscribers-current)  - $1.1w; [网店](https://flippa.com/auctions/11704000/discussions/4102114?elinktoken=245839152)。     要问能不能提供给我供应商；
 2. [Owl and Company Bookstore](https://us.businessesforsale.com/us/owl-and-company-bookstore-in-alameda-county-for-sale.aspx) - 8w; 月租$3000 （Alameda, CA) Revenue $4.5w/year
 3. [Online Clothing Brand Seller](https://www.bizquest.com/business-for-sale/online-clothing-brand-seller-financing-big-social-media-following/BW2177119/) - $3w; 租金未知 (san Jose).  周六拜访  📍
 4. [High Street Station Catering & Events](https://www.loopnet.com/biz/Business-Asset/tremendous-opportunity-to-start-your-own-cafe/2171461/) - 9w; 租金未知 （Alameda，CA）  [📍](1303 High St, Alameda, CA 94501)
