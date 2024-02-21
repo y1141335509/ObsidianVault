@@ -84,14 +84,14 @@
         "currentTab": 5
       },
       {
-        "id": "367f1a399b480fc5",
+        "id": "1d48eadc8c087f88",
         "type": "split",
         "dimension": 55.40386803185437,
         "children": [
           {
             "id": "091748106addc3cc",
             "type": "tabs",
-            "dimension": 85.31571218795888,
+            "dimension": 84.43465491923642,
             "children": [
               {
                 "id": "3aa4295c85a306f1",
@@ -100,6 +100,18 @@
                   "type": "markdown",
                   "state": {
                     "file": "创业相关/买公司/Buy Small Business.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "e872b490abf45b6c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Ceribell, Inc..md",
                     "mode": "source",
                     "source": false
                   }
@@ -145,12 +157,12 @@
             "currentTab": 1
           },
           {
-            "id": "010b2abd97b286fb",
+            "id": "f2e2ae00f11a6b92",
             "type": "tabs",
-            "dimension": 14.684287812041116,
+            "dimension": 15.565345080763581,
             "children": [
               {
-                "id": "768152a0717d06f9",
+                "id": "4642d7d2d108fe92",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -179,8 +191,8 @@
                       },
                       "serial": {
                         "columns": 108,
-                        "data": "(base) yinghaiyu@Yinghais-MacBook-Pro / % ls\r\nApplications\u001b[4CUsers\u001b[11Ccores\u001b[11Chome\u001b[12Csbin\u001b[12Cvar\r\nLibrary\u001b[9CVolumes\u001b[9Cdev\u001b[13Copt\u001b[13Ctmp\r\nSystem\u001b[10Cbin\u001b[13Cetc\u001b[13Cprivate\u001b[9Cusr\r\n(base) yinghaiyu@Yinghais-MacBook-Pro / % ls                                          \r\nApplications\u001b[4CUsers\u001b[11Ccores\u001b[11Chome\u001b[12Csbin\u001b[12Cvar\r\nLibrary\u001b[9CVolumes\u001b[9Cdev\u001b[13Copt\u001b[13Ctmp\r\nSystem\u001b[10Cbin\u001b[13Cetc\u001b[13Cprivate\u001b[9Cusr\r\n(base) yinghaiyu@Yinghais-MacBook-Pro / % cd /Users/yinghaiyu/Main/DesktopMain/STUDY/KnowledgeVault\r\n(base) yinghaiyu@Yinghais-MacBook-Pro KnowledgeVault % ls\r\nObsidianVault\u001b[3CZoteroPapers\r\n(base) yinghaiyu@Yinghais-MacBook-Pro KnowledgeVault % cd ObsidianVault \r\n(base) yinghaiyu@Yinghais-MacBook-Pro ObsidianVault % ls\r\nObsidian Vault\r\n(base) yinghaiyu@Yinghais-MacBook-Pro ObsidianVault % git branch\r\n* \u001b[32mmain\r\n\u001b[0m(base) yinghaiyu@Yinghais-MacBook-Pro ObsidianVault % git add .\r\n(base) yinghaiyu@Yinghais-MacBook-Pro ObsidianVault % git commit -m \r\nerror: switch `m' requires a value\r\n(base) yinghaiyu@Yinghais-MacBook-Pro ObsidianVault % git commit -m 'small business feb 16 2024'\r\n[main 10b4394] small business feb 16 2024\r\n 31 files changed, 99506 insertions(+), 153 deletions(-)\r\n create mode 100644 Obsidian Vault/.obsidian/plugins/chronology/main.js\r\n create mode 100644 Obsidian Vault/.obsidian/plugins/chronology/manifest.json\r\n create mode 100644 Obsidian Vault/.obsidian/plugins/chronology/styles.css\r\n create mode 100644 Obsidian Vault/.obsidian/plugins/editing-toolbar/data.json\r\n create mode 100644 Obsidian Vault/.obsidian/plugins/editing-toolbar/main.js\r\n create mode 100644 Obsidian Vault/.obsidian/plugins/editing-toolbar/manifest.json\r\n create mode 100644 Obsidian Vault/.obsidian/plugins/editing-toolbar/styles.css\r\n create mode 100644 Obsidian Vault/.obsidian/plugins/obsidian-full-calendar/main.js\r\n create mode 100644 Obsidian Vault/.obsidian/plugins/obsidian-full-calendar/manifest.json\r\n create mode 100644 Obsidian Vault/.obsidian/plugins/obsidian-full-calendar/styles.css\r\n create mode 100644 Obsidian Vault/.obsidian/plugins/obsidian-plugin-toc/main.js\r\n create mode 100644 Obsidian Vault/.obsidian/plugins/obsidian-plugin-toc/manifest.json\r\n create mode 100644 Obsidian Vault/.obsidian/themes/Blue Topaz/manifest.json\r\n create mode 100644 Obsidian Vault/.obsidian/themes/Blue Topaz/theme.css\r\n create mode 100644 Obsidian Vault/.obsidian/themes/Minimal/manifest.json\r\n create mode 100644 Obsidian Vault/.obsidian/themes/Minimal/theme.css\r\n create mode 100644 Obsidian Vault/Buy Small Business.md\r\n create mode 100644 Obsidian Vault/GameAI/images/Screenshot 2024-02-12 at 20.28.44.png\r\n create mode 100644 Obsidian Vault/GameAI/images/Screenshot 2024-02-12 at 20.30.00.png\r\n create mode 100644 Obsidian Vault/GameAI/images/Screenshot 2024-02-12 at 20.46.37.png\r\n create mode 100644 Obsidian Vault/GameAI/images/Screenshot 2024-02-12 at 20.53.50.png\r\n rename \"Obsidian Vault/\\345\\256\\236\\347\\224\\250\\345\\255\\246\\344\\271\\240\\347\\254\\224\\350\\256\\260/Airflow\\345\\255\\246\\344\\271\\240.md\" => \"Obsidian Vault/\\345\\256\\236\\347\\224\\250\\345\\255\\246\\344\\271\\240\\347\\254\\224\\350\\256\\260/Airflow/Airflow\\345\\255\\246\\344\\271\\240.md\" (100%)\r\n rename \"Obsidian Vault/\\345\\256\\236\\347\\224\\250\\345\\255\\246\\344\\271\\240\\347\\254\\224\\350\\256\\260/\\351\\235\\242\\350\\257\\225+\\345\\260\\217\\347\\272\\242\\344\\271\\246.md\" => \"Obsidian Vault/\\345\\256\\236\\347\\224\\250\\345\\255\\246\\344\\271\\240\\347\\254\\224\\350\\256\\260/Airflow/\\351\\235\\242\\350\\257\\225+\\345\\260\\217\\347\\272\\242\\344\\271\\246.md\" (100%)\r\n create mode 100644 \"Obsidian Vault/\\345\\256\\236\\347\\224\\250\\345\\255\\246\\344\\271\\240\\347\\254\\224\\350\\256\\260/\\351\\207\\217\\345\\214\\226\\344\\272\\244\\346\\230\\223\\347\\233\\270\\345\\205\\263/Quant\\345\\255\\246\\344\\271\\240\\347\\254\\224\\350\\256\\260.md\"\r\n create mode 100644 \"Obsidian Vault/\\347\\255\\276\\350\\257\\201\\347\\233\\270\\345\\205\\263/NIW.md\"\r\n(base) yinghaiyu@Yinghais-MacBook-Pro ObsidianVault % git push \r\nEnumerating objects: 68, done.\r\nCounting objects: 100% (68/68), done.\r\nDelta compression using up to 10 threads\r\nCompressing objects: 100% (47/47), done.\r\nWriting objects: 100% (50/50), 1.20 MiB | 9.50 MiB/s, done.\r\nTotal 50 (delta 9), reused 0 (delta 0), pack-reused 0\r\nremote: Resolving deltas: 100% (9/9), completed with 9 local objects.\r\nTo github.com:y1141335509/ObsidianVault.git\r\n   952b065..10b4394  main -> main\r\n(base) yinghaiyu@Yinghais-MacBook-Pro ObsidianVault % git add .\r\n(base) yinghaiyu@Yinghais-MacBook-Pro ObsidianVault % git commit -m '周末看店买店'\r\n[main c64932b] 周末看店买店\r\n 2 files changed, 18 insertions(+), 15 deletions(-)\r\n(base) yinghaiyu@Yinghais-MacBook-Pro ObsidianVault % git push\r\nEnumerating objects: 11, done.\r\nCounting objects: 100% (11/11), done.\r\nDelta compression using up to 10 threads\r\nCompressing objects: 100% (5/5), done.\r\nWriting objects: 100% (6/6), 1.70 KiB | 1.70 MiB/s, done.\r\nTotal 6 (delta 4), reused 0 (delta 0), pack-reused 0\r\nremote: Resolving deltas: 100% (4/4), completed with 4 local objects.\r\nTo github.com:y1141335509/ObsidianVault.git\r\n   10b4394..c64932b  main -> main\r\n(base) yinghaiyu@Yinghais-MacBook-Pro ObsidianVault % git add .\r\n(base) yinghaiyu@Yinghais-MacBook-Pro ObsidianVault % git commit -m 'added addresses'\r\n[main badce39] added addresses\r\n 2 files changed, 11 insertions(+), 11 deletions(-)\r\n rename Obsidian Vault/Buy Small Business.md => \"Obsidian Vault/\\345\\210\\233\\344\\270\\232\\347\\233\\270\\345\\205\\263/\\344\\271\\260\\345\\205\\254\\345\\217\\270/Buy Small Business.md\" (81%)\r\n(base) yinghaiyu@Yinghais-MacBook-Pro ObsidianVault % git push\r\nEnumerating objects: 12, done.\r\nCounting objects: 100% (12/12), done.\r\nDelta compression using up to 10 threads\r\nCompressing objects: 100% (5/5), done.\r\nWriting objects: 100% (8/8), 1.99 KiB | 1.99 MiB/s, done.\r\nTotal 8 (delta 3), reused 0 (delta 0), pack-reused 0\r\nremote: Resolving deltas: 100% (3/3), completed with 3 local objects.\r\nTo github.com:y1141335509/ObsidianVault.git\r\n   c64932b..badce39  main -> main\r\n(base) yinghaiyu@Yinghais-MacBook-Pro ObsidianVault % git add .\r\n(base) yinghaiyu@Yinghais-MacBook-Pro ObsidianVault % git commit -m '2024-02-17'\r\n[main cd7c7c9] 2024-02-17\r\n 2 files changed, 5 insertions(+), 5 deletions(-)\r\n(base) yinghaiyu@Yinghais-MacBook-Pro ObsidianVault % git push\r\nEnumerating objects: 15, done.\r\nCounting objects: 100% (15/15), done.\r\nDelta compression using up to 10 threads\r\nCompressing objects: 100% (5/5), done.\r\nWriting objects: 100% (8/8), 1.22 KiB | 1.22 MiB/s, done.\r\nTotal 8 (delta 4), reused 0 (delta 0), pack-reused 0\r\nremote: Resolving deltas: 100% (4/4), completed with 4 local objects.\r\nTo github.com:y1141335509/ObsidianVault.git\r\n   badce39..cd7c7c9  main -> main\r\n(base) yinghaiyu@Yinghais-MacBook-Pro ObsidianVault % git add .\r\n(base) yinghaiyu@Yinghais-MacBook-Pro ObsidianVault % git commit -m 'elasticsearch learning'\r\n[main 63b6fe2] elasticsearch learning\r\n 3 files changed, 92 insertions(+), 14 deletions(-)\r\n create mode 100644 \"Obsidian Vault/\\345\\256\\236\\347\\224\\250\\345\\255\\246\\344\\271\\240\\347\\254\\224\\350\\256\\260/Elasticsearch/Elasticsearch + Kibana\\345\\255\\246\\344\\271\\240.md\"\r\n(base) yinghaiyu@Yinghais-MacBook-Pro ObsidianVault % git push\r\nEnumerating objects: 19, done.\r\nCounting objects: 100% (19/19), done.\r\nDelta compression using up to 10 threads\r\nCompressing objects: 100% (8/8), done.\r\nWriting objects: 100% (11/11), 2.02 KiB | 2.02 MiB/s, done.\r\nTotal 11 (delta 5), reused 0 (delta 0), pack-reused 0\r\nremote: Resolving deltas: 100% (5/5), completed with 5 local objects.\r\nTo github.com:y1141335509/ObsidianVault.git\r\n   cd7c7c9..63b6fe2  main -> main\r\n(base) yinghaiyu@Yinghais-MacBook-Pro ObsidianVault % git add. r \u001b[1D",
-                        "rows": 5
+                        "data": "(base) yinghaiyu@Yinghais-MacBook-Pro / % git add .\r\nfatal: not a git repository (or any of the parent directories): .git\r\n(base) yinghaiyu@Yinghais-MacBook-Pro / % git commit -m 'ceribell'\r\nfatal: not a git repository (or any of the parent directories): .git\r\n(base) yinghaiyu@Yinghais-MacBook-Pro / % git push\r\nfatal: not a git repository (or any of the parent directories): .git\r\n(base) yinghaiyu@Yinghais-MacBook-Pro / % ls\r\nApplications\u001b[4CUsers\u001b[11Ccores\u001b[11Chome\u001b[12Csbin\u001b[12Cvar\r\nLibrary\u001b[9CVolumes\u001b[9Cdev\u001b[13Copt\u001b[13Ctmp\r\nSystem\u001b[10Cbin\u001b[13Cetc\u001b[13Cprivate\u001b[9Cusr\r\n(base) yinghaiyu@Yinghais-MacBook-Pro / % cd Users/yinghaiyu/Main/DesktopMain/\r\nEIN-Enhigh.pdf                                   Yinghai\\ Yu.docx\r\nGAMES/                                           Yinghai\\ Yu.pdf\r\nGM/                                              amazonOA.pdf\r\nLaiOffer/                                        download.png\r\nOffer\\ Letter\\ of\\ Employment.pdf                i983-Chenyun\\ Yang.pdf\r\nResumes/                                         visa/\r\nSTUDY/                                           狗生规划.xlsx\r\nScreen\\ Recording\\ 2023-01-26\\ at\\ 21.28.37.mov  \r\n(base) yinghaiyu@Yinghais-MacBook-Pro / % cd Users/yinghaiyu/Main/DesktopMain/STUDY/\r\nAirflowTrigger/                   Ruoxi/                            app\\ store\\ dev.developerprofile\r\nGA/                               SparkBatch/                       app\\ store\\ dev.p12\r\nGameDevelopment/                  SparkStreaming/                   google\\ store\\ signing\\ key/\r\nGithubRepos/                      StableDiffusion/                  y1141-app\\ store\\ key.p12\r\nKnowledgeVault/                   VideoProducer/                    素材/\r\nLANGUAGES/                        Wallpapers/                       \r\n(base) yinghaiyu@Yinghais-MacBook-Pro / % cd Users/yinghaiyu/Main/DesktopMain/STUDY/  \r\nAirflowTrigger/                   Ruoxi/                            app\\ store\\ dev.developerprofile\r\nGA/                               SparkBatch/                       app\\ store\\ dev.p12\r\nGameDevelopment/                  SparkStreaming/                   google\\ store\\ signing\\ key/\r\nGithubRepos/                      StableDiffusion/                  y1141-app\\ store\\ key.p12\r\nKnowledgeVault/                   VideoProducer/                    素材/\r\nLANGUAGES/                        Wallpapers/                       \r\n(base) yinghaiyu@Yinghais-MacBook-Pro / % cd Users/yinghaiyu/Main/DesktopMain/STUDY/\r\n(base) yinghaiyu@Yinghais-MacBook-Pro STUDY % ls\r\nAirflowTrigger\u001b[18CRuoxi\u001b[27Capp store dev.developerprofile\r\nGA\u001b[30CSparkBatch\u001b[22Capp store dev.p12\r\nGameDevelopment\u001b[17CSparkStreaming\u001b[18Cgoogle store signing key\r\nGithubRepos\u001b[21CStableDiffusion\u001b[17Cy1141-app store key.p12\r\nKnowledgeVault\u001b[18CVideoProducer\u001b[19C素材\r\nLANGUAGES\u001b[23CWallpapers\r\n(base) yinghaiyu@Yinghais-MacBook-Pro STUDY % cd KnowledgeVault/ObsidianVault/Obsidian\\ Vault \r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % ls\r\nCalendars\u001b[15CPapers\u001b[18C实用学习笔记\r\nCeribell, Inc..md\u001b[7CRuoxi\u001b[19C签证相关\r\nGameAI\u001b[18C创业相关\u001b[16C项目开发\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git add",
+                        "rows": 6
                       }
                     }
                   },
@@ -326,10 +338,12 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "768152a0717d06f9",
+  "active": "4642d7d2d108fe92",
   "lastOpenFiles": [
-    "Ruoxi/换租房子.md",
+    "签证相关/NIW.md",
+    "Ceribell, Inc..md",
     "创业相关/买公司/Buy Small Business.md",
+    "Ruoxi/换租房子.md",
     "Excel 2024-02-18 10.38.28.sheet.md",
     "实用学习笔记/Elasticsearch/Elasticsearch + Kibana学习.md",
     "创业相关/Faire/Faire.md",
@@ -337,7 +351,6 @@
     "实用学习笔记/Elasticsearch",
     "Ruoxi/小红书+TikTok.md",
     "实用学习笔记/Airflow/面试+小红书.md",
-    "签证相关/NIW.md",
     "实用学习笔记/量化交易相关/Quant学习笔记.md",
     "创业相关/买公司",
     "创业相关",
@@ -373,7 +386,6 @@
     "实用学习笔记/Netsuite/Netsuite.md",
     "实用学习笔记/Netsuite/images/Screenshot 2024-02-01 at 12.43.32.png",
     "项目开发/游戏制作/项目管理/【添加一个新手关】.md",
-    "实用学习笔记/Airflow/Airflow学习.md",
     "游戏制作/Untitled.canvas",
     "Untitled.canvas",
     "Untitled 1.canvas"
