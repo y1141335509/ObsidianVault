@@ -179,7 +179,7 @@
                       },
                       "serial": {
                         "columns": 108,
-                        "data": "(base) yinghaiyu@Yinghais-MacBook-Pro / % cd Users/yinghaiyu/Main/DesktopMain/\r\nEIN-Enhigh.pdf                                   Yinghai\\ Yu.docx\r\nGAMES/                                           Yinghai\\ Yu.pdf\r\nGM/                                              amazonOA.pdf\r\nLaiOffer/                                        download.png\r\nOffer\\ Letter\\ of\\ Employment.pdf                i983-Chenyun\\ Yang.pdf\r\nResumes/                                         visa/\r\nSTUDY/                                           狗生规划.xlsx\r\nScreen\\ Recording\\ 2023-01-26\\ at\\ 21.28.37.mov  \r\n(base) yinghaiyu@Yinghais-MacBook-Pro / % cd Users/yinghaiyu/Main/DesktopMain/STUDY/\r\nAirflowTrigger/                   Ruoxi/                            app\\ store\\ dev.developerprofile\r\nGA/                               SparkBatch/                       app\\ store\\ dev.p12\r\nGameDevelopment/                  SparkStreaming/                   google\\ store\\ signing\\ key/\r\nGithubRepos/                      StableDiffusion/                  y1141-app\\ store\\ key.p12\r\nKnowledgeVault/                   VideoProducer/                    素材/\r\nLANGUAGES/                        Wallpapers/                       \r\n(base) yinghaiyu@Yinghais-MacBook-Pro / % cd Users/yinghaiyu/Main/DesktopMain/STUDY/KnowledgeVault \r\n(base) yinghaiyu@Yinghais-MacBook-Pro KnowledgeVault % ls\r\nObsidianVault\u001b[3CZoteroPapers\r\n(base) yinghaiyu@Yinghais-MacBook-Pro KnowledgeVault % cd ObsidianVault \r\n(base) yinghaiyu@Yinghais-MacBook-Pro ObsidianVault % ls\r\nObsidian Vault\r\n(base) yinghaiyu@Yinghais-MacBook-Pro ObsidianVault % cd Obsidian\\ Vault/\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git add . \r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git commit -m 'publisher company/house'\r\n[main 97b47da] publisher company/house\r\n 4 files changed, 151 insertions(+), 38 deletions(-)\r\n create mode 100644 \"Obsidian Vault/\\345\\210\\233\\344\\270\\232\\347\\233\\270\\345\\205\\263/\\345\\274\\200\\345\\205\\254\\345\\217\\270/\\345\\274\\200\\345\\207\\272\\347\\211\\210\\347\\244\\276.md\"\r\n rename Obsidian Vault/Ceribell, Inc..md => \"Obsidian Vault/\\345\\256\\236\\347\\224\\250\\345\\255\\246\\344\\271\\240\\347\\254\\224\\350\\256\\260/\\351\\235\\242\\350\\257\\225\\347\\254\\224\\350\\256\\260/Ceribell, Inc..md\" (100%)\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git push\r\nEnumerating objects: 22, done.\r\nCounting objects: 100% (22/22), done.\r\nDelta compression using up to 10 threads\r\nCompressing objects: 100% (10/10), done.\r\nWriting objects: 100% (13/13), 8.33 KiB | 8.33 MiB/s, done.\r\nTotal 13 (delta 6), reused 0 (delta 0), pack-reused 0\r\nremote: Resolving deltas: 100% (6/6), completed with 6 local objects.\r\nTo github.com:y1141335509/ObsidianVault.git\r\n   cd0af27..97b47da  main -> main\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git add .\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git commit -m 'adding manager wage questions'\r\n[main 03220ea] adding manager wage questions\r\n 2 files changed, 49 insertions(+), 4 deletions(-)\r\n create mode 100644 \"Obsidian Vault/\\345\\210\\233\\344\\270\\232\\347\\233\\270\\345\\205\\263/\\345\\274\\200\\345\\205\\254\\345\\217\\270/\\345\\212\\240\\345\\267\\236\\345\\274\\200\\345\\205\\254\\345\\217\\270\\351\\233\\207Manager\\345\\217\\257\\344\\270\\215\\345\\217\\257\\344\\273\\245\\344\\270\\215\\346\\224\\257\\344\\273\\230\\345\\267\\245\\350\\265\\204\\357\\274\\237.md\"\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git push\r\nEnumerating objects: 14, done.\r\nCounting objects: 100% (14/14), done.\r\nDelta compression using up to 10 threads\r\nCompressing objects: 100% (7/7), done.\r\nWriting objects: 100% (8/8), 2.22 KiB | 2.22 MiB/s, done.\r\nTotal 8 (delta 4), reused 0 (delta 0), pack-reused 0\r\nremote: Resolving deltas: 100% (4/4), completed with 4 local objects.\r\nTo github.com:y1141335509/ObsidianVault.git\r\n   97b47da..03220ea  main -> main\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git add . ",
+                        "data": "(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git add .",
                         "rows": 5
                       }
                     }
@@ -329,6 +329,7 @@
   "active": "d366c9301febba19",
   "lastOpenFiles": [
     "Bubbles and Books商业计划书（Business Plan）.md",
+    "签证相关/NIW.md",
     "创业相关/Faire/Faire.md",
     "创业相关/开公司/加州开公司雇Manager可不可以不支付工资？.md",
     "创业相关/开公司/开出版社.md",
@@ -338,7 +339,6 @@
     "创业相关/买公司/Buy Small Business.md",
     "实用学习笔记/面试笔记/Ceribell, Inc..md",
     "Ruoxi/换租房子.md",
-    "签证相关/NIW.md",
     "Excel 2024-02-18 10.38.28.sheet.md",
     "创业相关/Faire",
     "实用学习笔记/Elasticsearch",
