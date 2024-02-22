@@ -84,14 +84,14 @@
         "currentTab": 5
       },
       {
-        "id": "1d48eadc8c087f88",
+        "id": "643ccc1bcf7d88e1",
         "type": "split",
         "dimension": 55.40386803185437,
         "children": [
           {
             "id": "091748106addc3cc",
             "type": "tabs",
-            "dimension": 84.43465491923642,
+            "dimension": 85.29411764705883,
             "children": [
               {
                 "id": "3aa4295c85a306f1",
@@ -100,30 +100,6 @@
                   "type": "markdown",
                   "state": {
                     "file": "创业相关/买公司/Buy Small Business.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "e872b490abf45b6c",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Ceribell, Inc..md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "22089032b90303a3",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Ruoxi/换租房子.md",
                     "mode": "source",
                     "source": false
                   }
@@ -152,17 +128,29 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "7cdca9929b934f13",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "创业相关/开公司/开出版社.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 1
+            "currentTab": 3
           },
           {
-            "id": "f2e2ae00f11a6b92",
+            "id": "777557d746da2279",
             "type": "tabs",
-            "dimension": 15.565345080763581,
+            "dimension": 14.705882352941178,
             "children": [
               {
-                "id": "4642d7d2d108fe92",
+                "id": "d366c9301febba19",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -191,8 +179,8 @@
                       },
                       "serial": {
                         "columns": 108,
-                        "data": "(base) yinghaiyu@Yinghais-MacBook-Pro / % git add .\r\nfatal: not a git repository (or any of the parent directories): .git\r\n(base) yinghaiyu@Yinghais-MacBook-Pro / % git commit -m 'ceribell'\r\nfatal: not a git repository (or any of the parent directories): .git\r\n(base) yinghaiyu@Yinghais-MacBook-Pro / % git push\r\nfatal: not a git repository (or any of the parent directories): .git\r\n(base) yinghaiyu@Yinghais-MacBook-Pro / % ls\r\nApplications\u001b[4CUsers\u001b[11Ccores\u001b[11Chome\u001b[12Csbin\u001b[12Cvar\r\nLibrary\u001b[9CVolumes\u001b[9Cdev\u001b[13Copt\u001b[13Ctmp\r\nSystem\u001b[10Cbin\u001b[13Cetc\u001b[13Cprivate\u001b[9Cusr\r\n(base) yinghaiyu@Yinghais-MacBook-Pro / % cd Users/yinghaiyu/Main/DesktopMain/\r\nEIN-Enhigh.pdf                                   Yinghai\\ Yu.docx\r\nGAMES/                                           Yinghai\\ Yu.pdf\r\nGM/                                              amazonOA.pdf\r\nLaiOffer/                                        download.png\r\nOffer\\ Letter\\ of\\ Employment.pdf                i983-Chenyun\\ Yang.pdf\r\nResumes/                                         visa/\r\nSTUDY/                                           狗生规划.xlsx\r\nScreen\\ Recording\\ 2023-01-26\\ at\\ 21.28.37.mov  \r\n(base) yinghaiyu@Yinghais-MacBook-Pro / % cd Users/yinghaiyu/Main/DesktopMain/STUDY/\r\nAirflowTrigger/                   Ruoxi/                            app\\ store\\ dev.developerprofile\r\nGA/                               SparkBatch/                       app\\ store\\ dev.p12\r\nGameDevelopment/                  SparkStreaming/                   google\\ store\\ signing\\ key/\r\nGithubRepos/                      StableDiffusion/                  y1141-app\\ store\\ key.p12\r\nKnowledgeVault/                   VideoProducer/                    素材/\r\nLANGUAGES/                        Wallpapers/                       \r\n(base) yinghaiyu@Yinghais-MacBook-Pro / % cd Users/yinghaiyu/Main/DesktopMain/STUDY/  \r\nAirflowTrigger/                   Ruoxi/                            app\\ store\\ dev.developerprofile\r\nGA/                               SparkBatch/                       app\\ store\\ dev.p12\r\nGameDevelopment/                  SparkStreaming/                   google\\ store\\ signing\\ key/\r\nGithubRepos/                      StableDiffusion/                  y1141-app\\ store\\ key.p12\r\nKnowledgeVault/                   VideoProducer/                    素材/\r\nLANGUAGES/                        Wallpapers/                       \r\n(base) yinghaiyu@Yinghais-MacBook-Pro / % cd Users/yinghaiyu/Main/DesktopMain/STUDY/\r\n(base) yinghaiyu@Yinghais-MacBook-Pro STUDY % ls\r\nAirflowTrigger\u001b[18CRuoxi\u001b[27Capp store dev.developerprofile\r\nGA\u001b[30CSparkBatch\u001b[22Capp store dev.p12\r\nGameDevelopment\u001b[17CSparkStreaming\u001b[18Cgoogle store signing key\r\nGithubRepos\u001b[21CStableDiffusion\u001b[17Cy1141-app store key.p12\r\nKnowledgeVault\u001b[18CVideoProducer\u001b[19C素材\r\nLANGUAGES\u001b[23CWallpapers\r\n(base) yinghaiyu@Yinghais-MacBook-Pro STUDY % cd KnowledgeVault/ObsidianVault/Obsidian\\ Vault \r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % ls\r\nCalendars\u001b[15CPapers\u001b[18C实用学习笔记\r\nCeribell, Inc..md\u001b[7CRuoxi\u001b[19C签证相关\r\nGameAI\u001b[18C创业相关\u001b[16C项目开发\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git add",
-                        "rows": 6
+                        "data": "(base) yinghaiyu@Yinghais-MacBook-Pro / % cd Users/yinghaiyu/Main/DesktopMain/\r\nEIN-Enhigh.pdf                                   Yinghai\\ Yu.docx\r\nGAMES/                                           Yinghai\\ Yu.pdf\r\nGM/                                              amazonOA.pdf\r\nLaiOffer/                                        download.png\r\nOffer\\ Letter\\ of\\ Employment.pdf                i983-Chenyun\\ Yang.pdf\r\nResumes/                                         visa/\r\nSTUDY/                                           狗生规划.xlsx\r\nScreen\\ Recording\\ 2023-01-26\\ at\\ 21.28.37.mov  \r\n(base) yinghaiyu@Yinghais-MacBook-Pro / % cd Users/yinghaiyu/Main/DesktopMain/STUDY/\r\nAirflowTrigger/                   Ruoxi/                            app\\ store\\ dev.developerprofile\r\nGA/                               SparkBatch/                       app\\ store\\ dev.p12\r\nGameDevelopment/                  SparkStreaming/                   google\\ store\\ signing\\ key/\r\nGithubRepos/                      StableDiffusion/                  y1141-app\\ store\\ key.p12\r\nKnowledgeVault/                   VideoProducer/                    素材/\r\nLANGUAGES/                        Wallpapers/                       \r\n(base) yinghaiyu@Yinghais-MacBook-Pro / % cd Users/yinghaiyu/Main/DesktopMain/STUDY/KnowledgeVault \r\n(base) yinghaiyu@Yinghais-MacBook-Pro KnowledgeVault % ls\r\nObsidianVault\u001b[3CZoteroPapers\r\n(base) yinghaiyu@Yinghais-MacBook-Pro KnowledgeVault % cd ObsidianVault \r\n(base) yinghaiyu@Yinghais-MacBook-Pro ObsidianVault % ls\r\nObsidian Vault\r\n(base) yinghaiyu@Yinghais-MacBook-Pro ObsidianVault % cd Obsidian\\ Vault/\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git add \r\n\u001b[1A\u001b[63C",
+                        "rows": 5
                       }
                     }
                   },
@@ -317,11 +305,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 269
+    "width": 261.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -338,15 +326,18 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "4642d7d2d108fe92",
+  "active": "d366c9301febba19",
   "lastOpenFiles": [
-    "签证相关/NIW.md",
-    "Ceribell, Inc..md",
-    "创业相关/买公司/Buy Small Business.md",
-    "Ruoxi/换租房子.md",
-    "Excel 2024-02-18 10.38.28.sheet.md",
-    "实用学习笔记/Elasticsearch/Elasticsearch + Kibana学习.md",
+    "创业相关/开公司/开出版社.md",
+    "创业相关/开公司",
     "创业相关/Faire/Faire.md",
+    "实用学习笔记/面试笔记",
+    "实用学习笔记/Elasticsearch/Elasticsearch + Kibana学习.md",
+    "创业相关/买公司/Buy Small Business.md",
+    "实用学习笔记/面试笔记/Ceribell, Inc..md",
+    "Ruoxi/换租房子.md",
+    "签证相关/NIW.md",
+    "Excel 2024-02-18 10.38.28.sheet.md",
     "创业相关/Faire",
     "实用学习笔记/Elasticsearch",
     "Ruoxi/小红书+TikTok.md",
@@ -375,17 +366,13 @@
     "项目开发/游戏制作/帮助文档/images/Screenshot 2024-02-11 at 22.16.42.png",
     "Untitled 1.md",
     "项目开发/游戏制作/帮助文档/游戏核心机制（Core Loop）.md",
-    "项目开发",
-    "实用学习笔记/Github相关",
     "2024-02-11.md",
     "Ruoxi/笔记📒.md",
     "网站开发/Untitled.md",
     "GameAI/images/Screenshot 2024-02-06 at 14.08.47.png",
     "GameAI/images/Screenshot 2024-02-06 at 14.06.47.png",
     "GameAI/images/Screenshot 2024-02-06 at 13.15.27.png",
-    "实用学习笔记/Netsuite/Netsuite.md",
     "实用学习笔记/Netsuite/images/Screenshot 2024-02-01 at 12.43.32.png",
-    "项目开发/游戏制作/项目管理/【添加一个新手关】.md",
     "游戏制作/Untitled.canvas",
     "Untitled.canvas",
     "Untitled 1.canvas"
