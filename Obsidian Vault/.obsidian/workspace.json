@@ -135,7 +135,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Bubbles and Books商业计划书（Business Plan）.md",
+                    "file": "创业相关/开公司/Bubbles and Books商业计划书（Business Plan）.md",
                     "mode": "source",
                     "source": false
                   }
@@ -179,7 +179,7 @@
                       },
                       "serial": {
                         "columns": 108,
-                        "data": "(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git add .",
+                        "data": "(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git add .\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git commit -m 'updated BB plan'\r\n[main 0f5d220] updated BB plan\r\n 2 files changed, 85 insertions(+), 42 deletions(-)\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git push\r\nEnumerating objects: 11, done.\r\nCounting objects: 100% (11/11), done.\r\nDelta compression using up to 10 threads\r\nCompressing objects: 100% (5/5), done.\r\nWriting objects: 100% (6/6), 2.67 KiB | 2.67 MiB/s, done.\r\nTotal 6 (delta 3), reused 0 (delta 0), pack-reused 0\r\nremote: Resolving deltas: 100% (3/3), completed with 3 local objects.\r\nTo github.com:y1141335509/ObsidianVault.git\r\n   4b42eb6..0f5d220  main -> main\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git add .                      \u001b[22D",
                         "rows": 5
                       }
                     }
@@ -328,7 +328,7 @@
   },
   "active": "d366c9301febba19",
   "lastOpenFiles": [
-    "Bubbles and Books商业计划书（Business Plan）.md",
+    "创业相关/开公司/Bubbles and Books商业计划书（Business Plan）.md",
     "签证相关/NIW.md",
     "创业相关/Faire/Faire.md",
     "创业相关/开公司/加州开公司雇Manager可不可以不支付工资？.md",
