@@ -140,9 +140,21 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "38e4e89079d6e07b",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Scrapy爬虫.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 3
+            "currentTab": 4
           },
           {
             "id": "777557d746da2279",
@@ -179,7 +191,7 @@
                       },
                       "serial": {
                         "columns": 108,
-                        "data": "(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git add .\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git commit -m 'updated BB plan'\r\n[main 0f5d220] updated BB plan\r\n 2 files changed, 85 insertions(+), 42 deletions(-)\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git push\r\nEnumerating objects: 11, done.\r\nCounting objects: 100% (11/11), done.\r\nDelta compression using up to 10 threads\r\nCompressing objects: 100% (5/5), done.\r\nWriting objects: 100% (6/6), 2.67 KiB | 2.67 MiB/s, done.\r\nTotal 6 (delta 3), reused 0 (delta 0), pack-reused 0\r\nremote: Resolving deltas: 100% (3/3), completed with 3 local objects.\r\nTo github.com:y1141335509/ObsidianVault.git\r\n   4b42eb6..0f5d220  main -> main\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git add .                      \u001b[22D",
+                        "data": "(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git add .\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git commit -m 'updated BB plan'\r\n[main 0f5d220] updated BB plan\r\n 2 files changed, 85 insertions(+), 42 deletions(-)\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git push\r\nEnumerating objects: 11, done.\r\nCounting objects: 100% (11/11), done.\r\nDelta compression using up to 10 threads\r\nCompressing objects: 100% (5/5), done.\r\nWriting objects: 100% (6/6), 2.67 KiB | 2.67 MiB/s, done.\r\nTotal 6 (delta 3), reused 0 (delta 0), pack-reused 0\r\nremote: Resolving deltas: 100% (3/3), completed with 3 local objects.\r\nTo github.com:y1141335509/ObsidianVault.git\r\n   4b42eb6..0f5d220  main -> main\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git add .                      \r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git commit -m 'updated BB plan'\r\n[main 72ad16c] updated BB plan\r\n 2 files changed, 3 insertions(+), 3 deletions(-)\r\n rename \"Obsidian Vault/Bubbles and Books\\345\\225\\206\\344\\270\\232\\350\\256\\241\\345\\210\\222\\344\\271\\246\\357\\274\\210Business Plan\\357\\274\\211.md\" => \"Obsidian Vault/\\345\\210\\233\\344\\270\\232\\347\\233\\270\\345\\205\\263/\\345\\274\\200\\345\\205\\254\\345\\217\\270/Bubbles and Books\\345\\225\\206\\344\\270\\232\\350\\256\\241\\345\\210\\222\\344\\271\\246\\357\\274\\210Business Plan\\357\\274\\211.md\" (100%)\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git push                       \r\nEnumerating objects: 13, done.\r\nCounting objects: 100% (13/13), done.\r\nDelta compression using up to 10 threads\r\nCompressing objects: 100% (6/6), done.\r\nWriting objects: 100% (7/7), 1.10 KiB | 1.10 MiB/s, done.\r\nTotal 7 (delta 4), reused 0 (delta 0), pack-reused 0\r\nremote: Resolving deltas: 100% (4/4), completed with 4 local objects.\r\nTo github.com:y1141335509/ObsidianVault.git\r\n   0f5d220..72ad16c  main -> main\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git ad",
                         "rows": 5
                       }
                     }
@@ -328,15 +340,16 @@
   },
   "active": "d366c9301febba19",
   "lastOpenFiles": [
+    "Scrapy爬虫.md",
+    "创业相关/买公司/Buy Small Business.md",
+    "实用学习笔记/Elasticsearch/Elasticsearch + Kibana学习.md",
+    "创业相关/Faire/Faire.md",
     "创业相关/开公司/Bubbles and Books商业计划书（Business Plan）.md",
     "签证相关/NIW.md",
-    "创业相关/Faire/Faire.md",
     "创业相关/开公司/加州开公司雇Manager可不可以不支付工资？.md",
     "创业相关/开公司/开出版社.md",
     "创业相关/开公司",
     "实用学习笔记/面试笔记",
-    "实用学习笔记/Elasticsearch/Elasticsearch + Kibana学习.md",
-    "创业相关/买公司/Buy Small Business.md",
     "实用学习笔记/面试笔记/Ceribell, Inc..md",
     "Ruoxi/换租房子.md",
     "Excel 2024-02-18 10.38.28.sheet.md",
@@ -369,7 +382,6 @@
     "Untitled 1.md",
     "项目开发/游戏制作/帮助文档/游戏核心机制（Core Loop）.md",
     "2024-02-11.md",
-    "Ruoxi/笔记📒.md",
     "GameAI/images/Screenshot 2024-02-06 at 14.08.47.png",
     "GameAI/images/Screenshot 2024-02-06 at 14.06.47.png",
     "GameAI/images/Screenshot 2024-02-06 at 13.15.27.png",
