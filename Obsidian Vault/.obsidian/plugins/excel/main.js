@@ -3636,6 +3636,7 @@ var Selector2 = class {
   set(ri, ci, indexesUpdated = true) {
     const { data } = this;
     const cellRange = data.calSelectedRangeByStart(ri, ci);
+    console.log("-------", cellRange);
     const { sri, sci } = cellRange;
     if (indexesUpdated) {
       let [cri, cci] = [ri, ci];
@@ -7168,6 +7169,17 @@ function selectorMove(multiple, direction) {
   selectorSet.call(this, multiple, ri, ci);
   scrollbarMove.call(this);
 }
+function selectedAll() {
+  const {
+    selector,
+    data
+  } = this;
+  selector.set(0, 0);
+  const { rows, cols } = data;
+  const ci = cols.len - 1;
+  const ri = rows.len - 1;
+  selectorSet.call(this, true, ri, ci);
+}
 function overlayerMousemove(evt) {
   if (evt.buttons !== 0)
     return;
@@ -7730,6 +7742,10 @@ function sheetInitEvents() {
           break;
         case 89:
           this.redo();
+          evt.preventDefault();
+          break;
+        case 65:
+          selectedAll.call(this);
           evt.preventDefault();
           break;
         case 67:

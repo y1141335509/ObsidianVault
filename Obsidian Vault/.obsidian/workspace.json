@@ -62,19 +62,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "项目开发/游戏制作/帮助文档/发布应用.md",
+                "file": "Calendars/2024-02-27.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "744fd0def350371f",
+            "id": "54278469ee480682",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "签证相关/NIW.md",
+                "file": "Calendars/2024-02-26.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,30 +106,6 @@
                 }
               },
               {
-                "id": "95d0fb74b733f17c",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "实用学习笔记/Elasticsearch/Elasticsearch + Kibana学习.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "0c134c2ede85bb0c",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "创业相关/Faire/Faire.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
                 "id": "f4a2ff75bc1051e0",
                 "type": "leaf",
                 "state": {
@@ -142,31 +118,15 @@
                 }
               },
               {
-                "id": "0bc4e23b180a9326",
+                "id": "c224769a7b9ee595",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Ruoxi/换租房子.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "38e4e89079d6e07b",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Scrapy爬虫.md",
-                    "mode": "source",
-                    "source": false
-                  }
+                  "type": "full-calendar-view",
+                  "state": {}
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 2
           },
           {
             "id": "777557d746da2279",
@@ -202,8 +162,8 @@
                         "useWin32Conhost": true
                       },
                       "serial": {
-                        "columns": 121,
-                        "data": "(base) yinghaiyu@Yinghais-MacBook-Pro / % cd Users/yinghaiyu/Main/DesktopMain/\r\nEIN-Enhigh.pdf                                   Yinghai\\ Yu.docx\r\nGAMES/                                           Yinghai\\ Yu.pdf\r\nLaiOffer/                                        amazonOA.pdf\r\nOffer\\ Letter\\ of\\ Employment.pdf                download.png\r\nResumes/                                         i983-Chenyun\\ Yang.pdf\r\nSTUDY/                                           visa/\r\nScreen\\ Recording\\ 2023-01-26\\ at\\ 21.28.37.mov  狗生规划.xlsx\r\n(base) yinghaiyu@Yinghais-MacBook-Pro / % cd Users/yinghaiyu/Main/DesktopMain/STUDY/KnowledgeVault/ObsidianVault/Obsidian\\ Vault\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % ls\r\nCalendars\u001b[15CPapers\u001b[18CScrapy爬虫.md\u001b[11C实用学习笔记\u001b[12C项目开发\r\nGameAI\u001b[18CRuoxi\u001b[19C创业相关\u001b[16C签证相关\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git ad .  \u001b[2D",
+                        "columns": 95,
+                        "data": "(base) yinghaiyu@lshdehfvb16q1 / % ls \r\nApplications\u001b[4CVolumes\u001b[9Cetc\u001b[13Csbin\r\nLibrary\u001b[9Cbin\u001b[13Chome\u001b[12Ctmp\r\nSystem\u001b[10Ccores\u001b[11Copt\u001b[13Cusr\r\nUsers\u001b[11Cdev\u001b[13Cprivate\u001b[9Cvar\r\n(base) yinghaiyu@lshdehfvb16q1 / % cd Users/yinghaiyu/Main/DesktopMain/\r\nEIN-Enhigh.pdf\r\nGAMES/\r\nLaiOffer/\r\nOffer\\ Letter\\ of\\ Employment.pdf\r\nResumes/\r\nSTUDY/\r\nScreen\\ Recording\\ 2023-01-26\\ at\\ 21.28.37.mov\r\nYinghai\\ Yu.docx\r\nYinghai\\ Yu.pdf\r\namazonOA.pdf\r\ndownload.png\r\ni983-Chenyun\\ Yang.pdf\r\nimag/\r\nvisa/\r\n狗生规划.xlsx\r\n(base) yinghaiyu@lshdehfvb16q1 / % cd Users/yinghaiyu/Main/DesktopMain/STUDY/\r\nAirflowTrigger/                   StableDiffusion/\r\nGA/                               VideoProducer/\r\nGameDevelopment/                  Wallpapers/\r\nGithubRepos/                      app\\ store\\ dev.developerprofile\r\nKnowledgeVault/                   app\\ store\\ dev.p12\r\nLANGUAGES/                        google\\ store\\ signing\\ key/\r\nRuoxi/                            y1141-app\\ store\\ key.p12\r\nSparkBatch/                       素材/\r\nSparkStreaming/                   \r\n(base) yinghaiyu@lshdehfvb16q1 / % cd Users/yinghaiyu/Main/DesktopMain/STUDY/KnowledgeVault/Obs\r\nidianVault \r\n(base) yinghaiyu@lshdehfvb16q1 ObsidianVault % ls\r\nObsidian Vault\r\n(base) yinghaiyu@lshdehfvb16q1 ObsidianVault %  cd Obsidian\\ Vault \r\n(base) yinghaiyu@lshdehfvb16q1 Obsidian Vault % git add .",
                         "rows": 5
                       }
                     }
@@ -327,13 +287,21 @@
               "type": "chronology-calendar-view",
               "state": {}
             }
+          },
+          {
+            "id": "96baf581caa42f9d",
+            "type": "leaf",
+            "state": {
+              "type": "full-calendar-sidebar-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 261.5
+    "width": 474.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -343,21 +311,26 @@
       "daily-notes:Open today's daily note": false,
       "command-palette:Open command palette": false,
       "templates:Insert template": false,
-      "excel:Create Excel File": false,
       "obsidian-projects:Open projects": false,
       "terminal:Open terminal": false,
       "chronology:Open Chronology": false,
-      "obsidian-full-calendar:Open Full Calendar": false
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "excel:Create Excel File": false
     }
   },
   "active": "d366c9301febba19",
   "lastOpenFiles": [
-    "Ruoxi/换租房子.md",
-    "创业相关/开公司/Bubbles and Books商业计划书（Business Plan）.md",
-    "Scrapy爬虫.md",
-    "创业相关/买公司/Buy Small Business.md",
+    "Calendars/2024-02-26.md",
+    "Calendars/2024-02-27.md",
+    "项目开发/游戏制作/帮助文档/发布应用.md",
+    "YYH",
+    "签证相关/2024-02-06.md",
     "实用学习笔记/Elasticsearch/Elasticsearch + Kibana学习.md",
     "创业相关/Faire/Faire.md",
+    "创业相关/开公司/Bubbles and Books商业计划书（Business Plan）.md",
+    "Ruoxi/换租房子.md",
+    "Scrapy爬虫.md",
+    "创业相关/买公司/Buy Small Business.md",
     "签证相关/NIW.md",
     "创业相关/开公司/加州开公司雇Manager可不可以不支付工资？.md",
     "创业相关/开公司/开出版社.md",
@@ -372,9 +345,7 @@
     "实用学习笔记/量化交易相关/Quant学习笔记.md",
     "创业相关/买公司",
     "创业相关",
-    "项目开发/游戏制作/帮助文档/发布应用.md",
     "GameAI/Learning Videos.md",
-    "签证相关/2024-02-06.md",
     "Calendars/2024年日程.md",
     "项目开发/游戏制作/Flame/关于Flutter Flame的学习.md",
     "签证相关/回国计划.md",
@@ -389,11 +360,7 @@
     "GameAI/images/Screenshot 2024-02-12 at 20.28.44.png",
     "项目开发/游戏制作/帮助文档/images/Screenshot 2024-02-11 at 22.25.39.png",
     "项目开发/游戏制作/帮助文档/images",
-    "项目开发/游戏制作/帮助文档",
     "项目开发/游戏制作/帮助文档/images/Screenshot 2024-02-11 at 22.16.42.png",
-    "Untitled 1.md",
-    "项目开发/游戏制作/帮助文档/游戏核心机制（Core Loop）.md",
-    "2024-02-11.md",
     "GameAI/images/Screenshot 2024-02-06 at 14.08.47.png",
     "GameAI/images/Screenshot 2024-02-06 at 14.06.47.png",
     "GameAI/images/Screenshot 2024-02-06 at 13.15.27.png",
