@@ -1,4 +1,22 @@
 
+
+
+---
+Update 2024-02-27
+
+Deb:
+1. 三月份的箱子已经下单并购买了，所以Debbie会负责寄送
+2. Airtable数据库里面有用户订阅书籍的类型。Debbie会更新最近几个月的数据。
+3. 只要下周前完成交易，那么四月份的货物就可以发送给我的仓库。之后由我来执行四月份的单子。Debbie已经想好四月份做什么主题的单子了，就看我这边想不想让她来做四月份的单子了
+4. 使用Flippa托管，让他们做银行转账
+5. 对于目前inventory的运费：不会很便宜，需要给inventory称重，从Fedex/UPS/USPS里面挑选便宜的快递。此外也可以考虑其他的快递服务，例如卡车运输，这样可能会更实惠。Debbie问我的运费有没有budget？
+6. 此外，Debbie还问想不想要那个花生机？——什么时候需要用花生机？
+7. 
+
+---
+
+
+
 Hello and hope this is right way to contact. I'm writing to express my interest in the store listed on BizQuest. I wonder if this store is still available and want to know more about it.
 
 Thank you
