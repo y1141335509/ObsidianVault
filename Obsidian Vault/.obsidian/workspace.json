@@ -9,18 +9,6 @@
         "dimension": 43.9247311827957,
         "children": [
           {
-            "id": "ea28300dc22b42a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "签证相关/2024-02-06.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "e08b586bc501099a",
             "type": "leaf",
             "state": {
@@ -43,21 +31,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "91c7753f60ba8568",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "项目开发/网站开发/项目.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       },
       {
         "id": "643ccc1bcf7d88e1",
@@ -106,7 +82,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           },
           {
             "id": "777557d746da2279",
@@ -142,8 +118,8 @@
                         "useWin32Conhost": true
                       },
                       "serial": {
-                        "columns": 116,
-                        "data": "(base) yinghaiyu@lshdehfvb16q1 / % ls \r\nApplications\u001b[4CVolumes\u001b[9Cetc\u001b[13Csbin\r\nLibrary\u001b[9Cbin\u001b[13Chome\u001b[12Ctmp\r\nSystem\u001b[10Ccores\u001b[11Copt\u001b[13Cusr\r\nUsers\u001b[11Cdev\u001b[13Cprivate\u001b[9Cvar\r\n(base) yinghaiyu@lshdehfvb16q1 / % cd Users/yinghaiyu/Main/DesktopMain/\r\nEIN-Enhigh.pdf\r\nGAMES/\r\nLaiOffer/\r\nOffer\\ Letter\\ of\\ Employment.pdf\r\nResumes/\r\nSTUDY/\r\nScreen\\ Recording\\ 2023-01-26\\ at\\ 21.28.37.mov\r\nYinghai\\ Yu.docx\r\nYinghai\\ Yu.pdf\r\namazonOA.pdf\r\ndownload.png\r\ni983-Chenyun\\ Yang.pdf\r\nimag/\r\nvisa/\r\n狗生规划.xlsx\r\n(base) yinghaiyu@lshdehfvb16q1 / % cd Users/yinghaiyu/Main/DesktopMain/STUDY/\r\nAirflowTrigger/                   StableDiffusion/\r\nGA/                               VideoProducer/\r\nGameDevelopment/                  Wallpapers/\r\nGithubRepos/                      app\\ store\\ dev.developerprofile\r\nKnowledgeVault/                   app\\ store\\ dev.p12\r\nLANGUAGES/                        google\\ store\\ signing\\ key/\r\nRuoxi/                            y1141-app\\ store\\ key.p12\r\nSparkBatch/                       素材/\r\nSparkStreaming/                   \r\n(base) yinghaiyu@lshdehfvb16q1 / % cd Users/yinghaiyu/Main/DesktopMain/STUDY/KnowledgeVault/Obs\r\nidianVault \r\n(base) yinghaiyu@lshdehfvb16q1 ObsidianVault % ls\r\nObsidian Vault\r\n(base) yinghaiyu@lshdehfvb16q1 ObsidianVault %  cd Obsidian\\ Vault \r\n(base) yinghaiyu@lshdehfvb16q1 Obsidian Vault % git add .\r\n(base) yinghaiyu@lshdehfvb16q1 Obsidian Vault % git commit -m 'calendar'\r\n[main dbe5020] calendar\r\n 13 files changed, 10710 insertions(+), 235 deletions(-)\r\n create mode 100644 Obsidian Vault/.obsidian/plugins/obsidian-full-calendar/data.json\r\n create mode 100644 Obsidian Vault/Calendars/2024-02-26.md\r\n create mode 100644 Obsidian Vault/Calendars/2024-02-27.md\r\n(base) yinghaiyu@lshdehfvb16q1 Obsidian Vault % git pus\r\ngit: 'pus' is not a git command. See 'git --help'.\r\n\r\nThe most similar commands are\r\n\u001b[8Cpush\r\n\u001b[8Cpull\r\n(base) yinghaiyu@lshdehfvb16q1 Obsidian Vault % git push\r\nEnumerating objects: 44, done.\r\nCounting objects: 100% (44/44), done.\r\nDelta compression using up to 10 threads\r\nCompressing objects: 100% (24/24), done.\r\nWriting objects: 100% (25/25), 549.12 KiB | 4.39 MiB/s, done.\r\nTotal 25 (delta 11), reused 0 (delta 0), pack-reused 0\r\nremote: Resolving deltas: 100% (11/11), completed with 11 local objects.\r\nTo github.com:y1141335509/ObsidianVault.git\r\n   f85f5ca..dbe5020  main -> main\r\n(base) yinghaiyu@lshdehfvb16q1 Obsidian Vault % git add .\r\n(base) yinghaiyu@lshdehfvb16q1 Obsidian Vault % git commit -m 'calendar'\r\n[main 17838b8] calendar\r\n 4 files changed, 18 insertions(+), 40 deletions(-)\r\n create mode 100644 Obsidian Vault/Calendars/2024-03-12.md\r\n(base) yinghaiyu@lshdehfvb16q1 Obsidian Vault % git push\r\nEnumerating objects: 16, done.\r\nCounting objects: 100% (16/16), done.\r\nDelta compression using up to 10 threads\r\nCompressing objects: 100% (8/8), done.\r\nWriting objects: 100% (9/9), 1.63 KiB | 1.63 MiB/s, done.\r\nTotal 9 (delta 3), reused 0 (delta 0), pack-reused 0\r\nremote: Resolving deltas: 100% (3/3), completed with 3 local objects.\r\nTo github.com:y1141335509/ObsidianVault.git\r\n   dbe5020..17838b8  main -> main\r\n(base) yinghaiyu@lshdehfvb16q1 Obsidian Vault % git add .               \r\n(base) yinghaiyu@lshdehfvb16q1 Obsidian Vault % git commit -m 'calendar'\r\n[main 93e38d5] calendar\r\n 3 files changed, 6 insertions(+), 3 deletions(-)\r\n(base) yinghaiyu@lshdehfvb16q1 Obsidian Vault % git push                \r\nEnumerating objects: 15, done.\r\nCounting objects: 100% (15/15), done.\r\nDelta compression using up to 10 threads\r\nCompressing objects: 100% (7/7), done.\r\nWriting objects: 100% (8/8), 1.03 KiB | 1.03 MiB/s, done.\r\nTotal 8 (delta 5), reused 0 (delta 0), pack-reused 0\r\nremote: Resolving deltas: 100% (5/5), completed with 5 local objects.\r\nTo github.com:y1141335509/ObsidianVault.git\r\n   17838b8..93e38d5  main -> main\r\n(base) yinghaiyu@lshdehfvb16q1 Obsidian Vault % git add .               \r\n(base) yinghaiyu@lshdehfvb16q1 Obsidian Vault % git commit -m 'calendar'\r\n[main 94a1639] calendar\r\n 2 files changed, 2 insertions(+), 1 deletion(-)\r\n(base) yinghaiyu@lshdehfvb16q1 Obsidian Vault % git push                \r\nEnumerating objects: 13, done.\r\nCounting objects: 100% (13/13), done.\r\nDelta compression using up to 10 threads\r\nCompressing objects: 100% (6/6), done.\r\nWriting objects: 100% (7/7), 827 bytes | 827.00 KiB/s, done.\r\nTotal 7 (delta 5), reused 0 (delta 0), pack-reused 0\r\nremote: Resolving deltas: 100% (5/5), completed with 5 local objects.\r\nTo github.com:y1141335509/ObsidianVault.git\r\n   93e38d5..94a1639  main -> main\r\n(base) yinghaiyu@lshdehfvb16q1 Obsidian Vault % git add .               \r\n(base) yinghaiyu@lshdehfvb16q1 Obsidian Vault % git commit -m 'calendar'\r\n[main 05d83a0] calendar\r\n 3 files changed, 3 insertions(+), 2 deletions(-)\r\n(base) yinghaiyu@lshdehfvb16q1 Obsidian Vault % git push                \r\nEnumerating objects: 15, done.\r\nCounting objects: 100% (15/15), done.\r\nDelta compression using up to 10 threads\r\nCompressing objects: 100% (7/7), done.\r\nWriting objects: 100% (8/8), 879 bytes | 879.00 KiB/s, done.\r\nTotal 8 (delta 5), reused 0 (delta 0), pack-reused 0\r\nremote: Resolving deltas: 100% (5/5), completed with 5 local objects.\r\nTo github.com:y1141335509/ObsidianVault.git\r\n   94a1639..05d83a0  main -> main\r\n(base) yinghaiyu@lshdehfvb16q1 Obsidian Vault % git add .\r\n(base) yinghaiyu@lshdehfvb16q1 Obsidian Vault % git commit -m 'calendar'\r\n[main e4b7e2e] calendar\r\n 4 files changed, 33 insertions(+), 7 deletions(-)\r\n create mode 100644 Obsidian Vault/Calendars/2024-02-28.md\r\n(base) yinghaiyu@lshdehfvb16q1 Obsidian Vault % git push\r\nEnumerating objects: 20, done.\r\nCounting objects: 100% (20/20), done.\r\nDelta compression using up to 10 threads\r\nCompressing objects: 100% (9/9), done.\r\nWriting objects: 100% (11/11), 1.89 KiB | 1.89 MiB/s, done.\r\nTotal 11 (delta 6), reused 0 (delta 0), pack-reused 0\r\nremote: Resolving deltas: 100% (6/6), completed with 6 local objects.\r\nTo github.com:y1141335509/ObsidianVault.git\r\n   05d83a0..e4b7e2e  main -> main\r\n(base) yinghaiyu@lshdehfvb16q1 Obsidian Vault % git add . \r\n(base) yinghaiyu@lshdehfvb16q1 Obsidian Vault % git commit -m 'small business'\r\n[main 006cf2b] small business\r\n 4 files changed, 48 insertions(+), 10 deletions(-)\r\n rename \"Obsidian Vault/Scrapy\\347\\210\\254\\350\\231\\253.md\" => \"Obsidian Vault/\\345\\210\\233\\344\\270\\232\\347\\233\\270\\345\\205\\263/\\345\\274\\200\\345\\205\\254\\345\\217\\270/Scrapy\\347\\210\\254\\350\\231\\253.md\" (100%)\r\n create mode 100644 \"Obsidian Vault/\\345\\210\\233\\344\\270\\232\\347\\233\\270\\345\\205\\263/\\345\\274\\200\\345\\205\\254\\345\\217\\270/\\344\\272\\272\\343\\200\\201\\350\\264\\247\\343\\200\\201\\345\\272\\227.md\"\r\n(base) yinghaiyu@lshdehfvb16q1 Obsidian Vault % git push\r\nEnumerating objects: 18, done.\r\nCounting objects: 100% (18/18), done.\r\nDelta compression using up to 10 threads\r\nCompressing objects: 100% (9/9), done.\r\nWriting objects: 100% (10/10), 1.16 KiB | 1.16 MiB/s, done.\r\nTotal 10 (delta 7), reused 0 (delta 0), pack-reused 0\r\nremote: Resolving deltas: 100% (7/7), completed with 7 local objects.\r\nTo github.com:y1141335509/ObsidianVault.git\r\n   e4b7e2e..006cf2b  main -> main\r\n(base) yinghaiyu@lshdehfvb16q1 Obsidian Vault % git add .\r\n(base) yinghaiyu@lshdehfvb16q1 Obsidian Vault % git commit -m 'tasks'\r\n[main 027ba2b] tasks\r\n 3 files changed, 17 insertions(+), 5 deletions(-)\r\n create mode 100644 Obsidian Vault/Calendars/2024-03-05.md\r\n create mode 100644 Obsidian Vault/Calendars/2024-03-06.md\r\n(base) yinghaiyu@lshdehfvb16q1 Obsidian Vault % git push\r\nEnumerating objects: 13, done.\r\nCounting objects: 100% (13/13), done.\r\nDelta compression using up to 10 threads\r\nCompressing objects: 100% (7/7), done.\r\nWriting objects: 100% (8/8), 1.31 KiB | 1.31 MiB/s, done.\r\nTotal 8 (delta 4), reused 0 (delta 0), pack-reused 0\r\nremote: Resolving deltas: 100% (4/4), completed with 4 local objects.\r\nTo github.com:y1141335509/ObsidianVault.git\r\n   006cf2b..027ba2b  main -> main\r\n(base) yinghaiyu@lshdehfvb16q1 Obsidian Vault % git add .\r\n",
+                        "columns": 103,
+                        "data": "(base) yinghaiyu@lshdehfvb16q1 / % ls \r\nApplications\u001b[4CVolumes\u001b[9Cetc\u001b[13Csbin\r\nLibrary\u001b[9Cbin\u001b[13Chome\u001b[12Ctmp\r\nSystem\u001b[10Ccores\u001b[11Copt\u001b[13Cusr\r\nUsers\u001b[11Cdev\u001b[13Cprivate\u001b[9Cvar\r\n(base) yinghaiyu@lshdehfvb16q1 / % cd Users/yinghaiyu/Main/DesktopMain/\r\nEIN-Enhigh.pdf\r\nGAMES/\r\nLaiOffer/\r\nOffer\\ Letter\\ of\\ Employment.pdf\r\nResumes/\r\nSTUDY/\r\nScreen\\ Recording\\ 2023-01-26\\ at\\ 21.28.37.mov\r\nYinghai\\ Yu.docx\r\nYinghai\\ Yu.pdf\r\namazonOA.pdf\r\ndownload.png\r\ni983-Chenyun\\ Yang.pdf\r\nimag/\r\nvisa/\r\n狗生规划.xlsx\r\n(base) yinghaiyu@lshdehfvb16q1 / % cd Users/yinghaiyu/Main/DesktopMain/STUDY/\r\nAirflowTrigger/                   StableDiffusion/\r\nGA/                               VideoProducer/\r\nGameDevelopment/                  Wallpapers/\r\nGithubRepos/                      app\\ store\\ dev.developerprofile\r\nKnowledgeVault/                   app\\ store\\ dev.p12\r\nLANGUAGES/                        google\\ store\\ signing\\ key/\r\nRuoxi/                            y1141-app\\ store\\ key.p12\r\nSparkBatch/                       素材/\r\nSparkStreaming/                   \r\n(base) yinghaiyu@lshdehfvb16q1 / % cd Users/yinghaiyu/Main/DesktopMain/STUDY/KnowledgeVault/Obs\r\nidianVault \r\n(base) yinghaiyu@lshdehfvb16q1 ObsidianVault % ls\r\nObsidian Vault\r\n(base) yinghaiyu@lshdehfvb16q1 ObsidianVault %  cd Obsidian\\ Vault \r\n(base) yinghaiyu@lshdehfvb16q1 Obsidian Vault % git add .\r\n(base) yinghaiyu@lshdehfvb16q1 Obsidian Vault % git commit -m 'calendar'\r\n[main dbe5020] calendar\r\n 13 files changed, 10710 insertions(+), 235 deletions(-)\r\n create mode 100644 Obsidian Vault/.obsidian/plugins/obsidian-full-calendar/data.json\r\n create mode 100644 Obsidian Vault/Calendars/2024-02-26.md\r\n create mode 100644 Obsidian Vault/Calendars/2024-02-27.md\r\n(base) yinghaiyu@lshdehfvb16q1 Obsidian Vault % git pus\r\ngit: 'pus' is not a git command. See 'git --help'.\r\n\r\nThe most similar commands are\r\n\u001b[8Cpush\r\n\u001b[8Cpull\r\n(base) yinghaiyu@lshdehfvb16q1 Obsidian Vault % git push\r\nEnumerating objects: 44, done.\r\nCounting objects: 100% (44/44), done.\r\nDelta compression using up to 10 threads\r\nCompressing objects: 100% (24/24), done.\r\nWriting objects: 100% (25/25), 549.12 KiB | 4.39 MiB/s, done.\r\nTotal 25 (delta 11), reused 0 (delta 0), pack-reused 0\r\nremote: Resolving deltas: 100% (11/11), completed with 11 local objects.\r\nTo github.com:y1141335509/ObsidianVault.git\r\n   f85f5ca..dbe5020  main -> main\r\n(base) yinghaiyu@lshdehfvb16q1 Obsidian Vault % git add .\r\n(base) yinghaiyu@lshdehfvb16q1 Obsidian Vault % git commit -m 'calendar'\r\n[main 17838b8] calendar\r\n 4 files changed, 18 insertions(+), 40 deletions(-)\r\n create mode 100644 Obsidian Vault/Calendars/2024-03-12.md\r\n(base) yinghaiyu@lshdehfvb16q1 Obsidian Vault % git push\r\nEnumerating objects: 16, done.\r\nCounting objects: 100% (16/16), done.\r\nDelta compression using up to 10 threads\r\nCompressing objects: 100% (8/8), done.\r\nWriting objects: 100% (9/9), 1.63 KiB | 1.63 MiB/s, done.\r\nTotal 9 (delta 3), reused 0 (delta 0), pack-reused 0\r\nremote: Resolving deltas: 100% (3/3), completed with 3 local objects.\r\nTo github.com:y1141335509/ObsidianVault.git\r\n   dbe5020..17838b8  main -> main\r\n(base) yinghaiyu@lshdehfvb16q1 Obsidian Vault % git add .               \r\n(base) yinghaiyu@lshdehfvb16q1 Obsidian Vault % git commit -m 'calendar'\r\n[main 93e38d5] calendar\r\n 3 files changed, 6 insertions(+), 3 deletions(-)\r\n(base) yinghaiyu@lshdehfvb16q1 Obsidian Vault % git push                \r\nEnumerating objects: 15, done.\r\nCounting objects: 100% (15/15), done.\r\nDelta compression using up to 10 threads\r\nCompressing objects: 100% (7/7), done.\r\nWriting objects: 100% (8/8), 1.03 KiB | 1.03 MiB/s, done.\r\nTotal 8 (delta 5), reused 0 (delta 0), pack-reused 0\r\nremote: Resolving deltas: 100% (5/5), completed with 5 local objects.\r\nTo github.com:y1141335509/ObsidianVault.git\r\n   17838b8..93e38d5  main -> main\r\n(base) yinghaiyu@lshdehfvb16q1 Obsidian Vault % git add .               \r\n(base) yinghaiyu@lshdehfvb16q1 Obsidian Vault % git commit -m 'calendar'\r\n[main 94a1639] calendar\r\n 2 files changed, 2 insertions(+), 1 deletion(-)\r\n(base) yinghaiyu@lshdehfvb16q1 Obsidian Vault % git push                \r\nEnumerating objects: 13, done.\r\nCounting objects: 100% (13/13), done.\r\nDelta compression using up to 10 threads\r\nCompressing objects: 100% (6/6), done.\r\nWriting objects: 100% (7/7), 827 bytes | 827.00 KiB/s, done.\r\nTotal 7 (delta 5), reused 0 (delta 0), pack-reused 0\r\nremote: Resolving deltas: 100% (5/5), completed with 5 local objects.\r\nTo github.com:y1141335509/ObsidianVault.git\r\n   93e38d5..94a1639  main -> main\r\n(base) yinghaiyu@lshdehfvb16q1 Obsidian Vault % git add .               \r\n(base) yinghaiyu@lshdehfvb16q1 Obsidian Vault % git commit -m 'calendar'\r\n[main 05d83a0] calendar\r\n 3 files changed, 3 insertions(+), 2 deletions(-)\r\n(base) yinghaiyu@lshdehfvb16q1 Obsidian Vault % git push                \r\nEnumerating objects: 15, done.\r\nCounting objects: 100% (15/15), done.\r\nDelta compression using up to 10 threads\r\nCompressing objects: 100% (7/7), done.\r\nWriting objects: 100% (8/8), 879 bytes | 879.00 KiB/s, done.\r\nTotal 8 (delta 5), reused 0 (delta 0), pack-reused 0\r\nremote: Resolving deltas: 100% (5/5), completed with 5 local objects.\r\nTo github.com:y1141335509/ObsidianVault.git\r\n   94a1639..05d83a0  main -> main\r\n(base) yinghaiyu@lshdehfvb16q1 Obsidian Vault % git add .\r\n(base) yinghaiyu@lshdehfvb16q1 Obsidian Vault % git commit -m 'calendar'\r\n[main e4b7e2e] calendar\r\n 4 files changed, 33 insertions(+), 7 deletions(-)\r\n create mode 100644 Obsidian Vault/Calendars/2024-02-28.md\r\n(base) yinghaiyu@lshdehfvb16q1 Obsidian Vault % git push\r\nEnumerating objects: 20, done.\r\nCounting objects: 100% (20/20), done.\r\nDelta compression using up to 10 threads\r\nCompressing objects: 100% (9/9), done.\r\nWriting objects: 100% (11/11), 1.89 KiB | 1.89 MiB/s, done.\r\nTotal 11 (delta 6), reused 0 (delta 0), pack-reused 0\r\nremote: Resolving deltas: 100% (6/6), completed with 6 local objects.\r\nTo github.com:y1141335509/ObsidianVault.git\r\n   05d83a0..e4b7e2e  main -> main\r\n(base) yinghaiyu@lshdehfvb16q1 Obsidian Vault % git add . \r\n(base) yinghaiyu@lshdehfvb16q1 Obsidian Vault % git commit -m 'small business'\r\n[main 006cf2b] small business\r\n 4 files changed, 48 insertions(+), 10 deletions(-)\r\n rename \"Obsidian Vault/Scrapy\\347\\210\\254\\350\\231\\253.md\" => \"Obsidian Vault/\\345\\210\\233\\344\\270\\232\\347\\233\\270\\345\\205\\263/\\345\\274\\200\\345\\205\\254\\345\\217\\270/Scrapy\\347\\210\\254\\350\\231\\253.md\" (100%)\r\n create mode 100644 \"Obsidian Vault/\\345\\210\\233\\344\\270\\232\\347\\233\\270\\345\\205\\263/\\345\\274\\200\\345\\205\\254\\345\\217\\270/\\344\\272\\272\\343\\200\\201\\350\\264\\247\\343\\200\\201\\345\\272\\227.md\"\r\n(base) yinghaiyu@lshdehfvb16q1 Obsidian Vault % git push\r\nEnumerating objects: 18, done.\r\nCounting objects: 100% (18/18), done.\r\nDelta compression using up to 10 threads\r\nCompressing objects: 100% (9/9), done.\r\nWriting objects: 100% (10/10), 1.16 KiB | 1.16 MiB/s, done.\r\nTotal 10 (delta 7), reused 0 (delta 0), pack-reused 0\r\nremote: Resolving deltas: 100% (7/7), completed with 7 local objects.\r\nTo github.com:y1141335509/ObsidianVault.git\r\n   e4b7e2e..006cf2b  main -> main\r\n(base) yinghaiyu@lshdehfvb16q1 Obsidian Vault % git add .\r\n(base) yinghaiyu@lshdehfvb16q1 Obsidian Vault % git commit -m 'tasks'\r\n[main 027ba2b] tasks\r\n 3 files changed, 17 insertions(+), 5 deletions(-)\r\n create mode 100644 Obsidian Vault/Calendars/2024-03-05.md\r\n create mode 100644 Obsidian Vault/Calendars/2024-03-06.md\r\n(base) yinghaiyu@lshdehfvb16q1 Obsidian Vault % git push\r\nEnumerating objects: 13, done.\r\nCounting objects: 100% (13/13), done.\r\nDelta compression using up to 10 threads\r\nCompressing objects: 100% (7/7), done.\r\nWriting objects: 100% (8/8), 1.31 KiB | 1.31 MiB/s, done.\r\nTotal 8 (delta 4), reused 0 (delta 0), pack-reused 0\r\nremote: Resolving deltas: 100% (4/4), completed with 4 local objects.\r\nTo github.com:y1141335509/ObsidianVault.git\r\n   006cf2b..027ba2b  main -> main\r\n(base) yinghaiyu@lshdehfvb16q1 Obsidian Vault % git add .\r\n(base) yinghaiyu@lshdehfvb16q1 Obsidian Vault % git commit -m 'update'\r\n[main b485d9a] update\r\n 4 files changed, 60 insertions(+), 20 deletions(-)\r\n create mode 100644 Obsidian Vault/2024-03-07.md\r\n(base) yinghaiyu@lshdehfvb16q1 Obsidian Vault % git push\r\nEnumerating objects: 19, done.\r\nCounting objects: 100% (19/19), done.\r\nDelta compression using up to 10 threads\r\nCompressing objects: 100% (9/9), done.\r\nWriting objects: 100% (10/10), 2.11 KiB | 2.11 MiB/s, done.\r\nTotal 10 (delta 7), reused 0 (delta 0), pack-reused 0\r\nremote: Resolving deltas: 100% (7/7), completed with 7 local objects.\r\nTo github.com:y1141335509/ObsidianVault.git\r\n   027ba2b..b485d9a  main -> main\r\n(base) yinghaiyu@lshdehfvb16q1 Obsidian Vault % git",
                         "rows": 6
                       }
                     }
@@ -204,8 +180,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "0770e2c5a45717c4",
@@ -301,22 +276,26 @@
   },
   "active": "d366c9301febba19",
   "lastOpenFiles": [
-    "创业相关/开公司/人、货、店.md",
-    "2024-03-07.md",
+    "GameAI/Learning Videos.md",
+    "Papers/LLM介绍.md",
+    "Papers/Plan.md",
+    "Ruoxi/笔记📒.md",
     "项目开发/网站开发/项目.md",
+    "签证相关/回国计划.md",
+    "签证相关/2024-02-06.md",
+    "创业相关/开公司/Bubbles and Books商业计划书（Business Plan）.md",
+    "创业相关/开公司/人、货、店.md",
+    "Calendars/2024-03-07.md",
     "Calendars/2024-03-06.md",
     "Calendars/2024-03-05.md",
     "创业相关/开公司/货.md",
-    "GameAI/Learning Videos.md",
     "创业相关/买公司/Buy Small Business.md",
     "Calendars/2024-02-28.md",
-    "创业相关/开公司/Bubbles and Books商业计划书（Business Plan）.md",
     "Calendars/2024-02-26.md",
     "Calendars/2024-03-12.md",
     "Calendars/2024-02-27.md",
     "项目开发/游戏制作/帮助文档/发布应用.md",
     "YYH",
-    "签证相关/2024-02-06.md",
     "实用学习笔记/Elasticsearch/Elasticsearch + Kibana学习.md",
     "创业相关/Faire/Faire.md",
     "Ruoxi/换租房子.md",
@@ -326,12 +305,8 @@
     "创业相关/开公司/开出版社.md",
     "创业相关/开公司",
     "实用学习笔记/面试笔记",
-    "实用学习笔记/面试笔记/Ceribell, Inc..md",
-    "Excel 2024-02-18 10.38.28.sheet.md",
     "创业相关/Faire",
     "实用学习笔记/Elasticsearch",
-    "Ruoxi/小红书+TikTok.md",
-    "实用学习笔记/Airflow/面试+小红书.md",
     "创业相关/买公司",
     "创业相关",
     "实用学习笔记/Airflow",
