@@ -3,6 +3,18 @@
 
 
 
+---
+## Homework 6 - Finite State Machine (FSM) Theory
+
+### 6.1. Mealy & Moore
+- Mealy Output = F(state, input)
+- Moore Output = F(state)
+![[Screenshot 2024-03-12 at 16.56.54.png]]
+
+
+
+
+---
 ## Homework 5 - Projectile
 定义：
 * $p_t$ - 静止的target在时间$t$时的位置
