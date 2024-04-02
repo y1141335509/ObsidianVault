@@ -1,8 +1,30 @@
 
 
-## Homework 8 - Rule System Methods
+## Homework 8 - Procedural Content Generation (PCG, 内容动态生成)
 
-### 原胞自动机（Cellular Automaton）
+
+### Rule System Methods
+#### 原胞自动机（Cellular Automaton）
+好处：
+* 容易实现
+* complex behavior from small set of rules
+* intuitive mapping to game space generation
+* local coherence
+
+坏处：
+* 依赖于猜测和对于改动的检测
+* 较难检测到edge cases
+* 无法避免undesired output
+* 上限太低
+* global incoherrence
+
+
+#### 如何自己创建一个我的世界？（Minecraft）
+1. Random Noise
+2. Rules-based (also called agent-based)
+3. Multi-agent-based approaches
+
+
 
 
 
