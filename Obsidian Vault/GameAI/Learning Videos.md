@@ -24,11 +24,36 @@
 2. Rules-based (also called agent-based)
 3. Multi-agent-based approaches
 
+#### Terrain Features
+* landscapes are not complete without various objects such as trees, bushes, rocks (decorations)
+* object placement is a critical step in most PCG terrains
+* will be covered in the next lecture
+
+#### Object Placement
+Using RNG for object placement can result in clumping
+
+**Halton Sequence** 可以用来避免出现clumping
+原理是co-prime numbers之间没有公因数。案例如下：
+![[Screenshot 2024-04-02 at 16.43.10.png]]
+
+```python
+def halton_sequence(base, index):
+	result = 0
+	denom = 1
+
+	while index > 0:
+		denom *= base
+		result += (index % base) / denom
+		index = math.floor(index/base)
+	return result
 
 
+def halton_seq_2d(basex, basey, index):
+	x = halton_sequence(basex, index)
+	y = halton_sequence(basey, index)
 
-
-
+	return x, y
+```
 
 
 
