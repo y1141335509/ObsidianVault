@@ -1,5 +1,53 @@
 
 
+## Homework 8 - Rule System Methods
+
+### 原胞自动机（Cellular Automaton）
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+## Homework 7 - Fuzzy Logic and Racktrack
+### Fuzzy Logic
+ 
+Fuzzy Logic也就是模糊逻辑，与有限状态机（FSM）不同的是，Fuzzy Logic中每个状态之间的转换是模糊的。例如当温度**很冷**的时候，打开暖气。很冷就是一个没有被量化、模糊的界定。这么做的意义主要是为了节省计算资源。由于本身的模糊性，导致Fuzzy Logic在学术上并没有太多的应用。但是在工业界应用广泛。
+
+Fuzzy Logic通常分为 1) Fuzzification; 2) Fuzzy Rules; 3) De-Fuzzification这三个步骤
+![[Screenshot 2024-03-22 at 12.00.17.png]]
+
+
+![[Screenshot 2024-03-22 at 12.09.04.png]]
+
+Defuzzification
+常见的方法是使用Center of Gravity
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -11,9 +59,20 @@
 - Moore Output = F(state)
 ![[Screenshot 2024-03-12 at 16.56.54.png]]
 
+这次的作业里只是通过代码定义了FSM；使用Enum定义了各种State
 
-
-
+#### 6.1.1. FSM - Changing State Safely
+- 状态更改通常可以在任何地方发生，包括在特定FSM状态的UpdateState()中
+- 这可能会造成麻烦的情况，即当前状态会改变状态，但会执行进一步的代码
+- 如果调用EnterState()，然后在退出状态下执行进一步的代码，程序员很可能最终会因意想不到的副作用而搬起石头砸自己的脚
+- 因此，实施一种机制来实施延迟状态更改可能是可取的。
+- 例如，只允许状态更改请求作为UpdateState()返回值的一部分，该返回值指定:“保持当前状态”或“更改到这个新状态(这里是调用的一些参数)”。
+#### 6.1.2. Inaction Problem
+* 编写只做决策但自身不执行操作的FSM状态，而不是转换到执行操作的状态，这可能很诱人。
+* 如果FSM在每个模拟帧上执行状态，这可能导致在采取行动之前丢失帧
+* 一些FSM框架可能会指示立即(同一帧转换)以避免延迟
+* 必须小心避免无限循环或每帧的任意开销。
+* 通常最好实现用于确定决策的方法，而不是为此目的使用FSM状态
 
 
 
