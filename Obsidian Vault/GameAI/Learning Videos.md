@@ -2,7 +2,28 @@
 
 ## Homework 8 - Procedural Content Generation (PCG, 内容动态生成)
 
+### Homework Videos：
+- **Terrain层**：没有定义Perlin Scalar（值为0），意味着最底层是平的，没有突起的形状
+- **Biomes层**：The Biomes is like a probability map. Then we apply a second PCG to generate mountains. We create a Trapezoid Function PCG with 4 elements. An example of elements is like this:
+	- Element 0: 0.5 ==> (0.5, 0)
+	- Element 1: 0.6 ==> (0.6, 1)
+	- Element 2: 1  ==> (1, 1)
+	- Element 3: 1 ==> (1, 1)
+	This means everything below 0.5 will be 0. Anything above 0.6 is 1.
+	So you can see a few mountain-like shapes：
+	![[Screenshot 2024-04-04 at 15.45.19.png]]
+- 
 
+
+
+
+
+
+
+
+
+
+---
 ### Rule System Methods
 #### 原胞自动机（Cellular Automaton）
 好处：
@@ -32,7 +53,7 @@
 #### Object Placement
 Using RNG for object placement can result in clumping
 
-**Halton Sequence** 可以用来避免出现clumping
+##### **Halton Sequence** 可以用来避免出现clumping
 原理是co-prime numbers之间没有公因数。案例如下：
 ![[Screenshot 2024-04-02 at 16.43.10.png]]
 
@@ -54,6 +75,8 @@ def halton_seq_2d(basex, basey, index):
 
 	return x, y
 ```
+
+##### Poisson Distribution也可以用来避免Clumping
 
 
 
