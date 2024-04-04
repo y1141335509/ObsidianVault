@@ -29,6 +29,8 @@
 					![[Screenshot 2024-04-04 at 16.24.32.png]]
 					最后，<span style="background:#fff88f">调整Max Value的大小，然后将曲线调成下图形状，就能把上面的小尖尖变成矮石子了，同时石子周围有 坑状环</span>
 					![[Screenshot 2024-04-04 at 16.27.14.png]]
+					此外，<span style="background:#fff88f">如果你只是想要一个坑，可以把Combine Type改为Subtract，就能得到下图</span>：
+					![[Screenshot 2024-04-04 at 16.29.15.png]]
 
 
 
