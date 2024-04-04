@@ -4,22 +4,22 @@
 
 ### Homework Videos：
 - **Terrain层**：没有定义Perlin Scalar（值为0），意味着最底层是平的，没有突起的形状
-- **Biomes层**：The Biomes is like a probability map. 
-- **MountainBiome层**：Then we apply a second PCG to generate mountains. We create a Trapezoid Function PCG with 4 elements. An example of elements is like this:
-	- Element 0: 0.45 ==> (0.45, 0)
-	- Element 1: 0.6 ==> (0.6, 1)
-	- Element 2: 1  ==> (1, 1)
-	- Element 3: 1 ==> (1, 1)
-	This means everything below 0.45 will be 0. Anything above 0.6 is 1.
-	So you can see a few mountain-like shapes：
-	![[Screenshot 2024-04-04 at 15.45.19.png]]
-- **MountainBase层**：由于MountainBiome使用的是TrapezoidFunction，我们需要将山变得更像山一点。
-	![[Screenshot 2024-04-04 at 15.54.29.png]]
-	通过在这一层添加一些Perlin Noise，就能得到一些类似于山 形状的突起。我们还能通过调节MaxValue修改山的高度。
-- **MountainDetail层**：这里有添加了一层，我的理解是为了让山有更多的细节。此外，如果我们想要在山上添加一个 树层，也可以使用相同的方法。
-	![[Screenshot 2024-04-04 at 15.58.13.png]]
-
-
+	- **Biomes层**：The Biomes is like a probability map. 
+		- **MountainBiome层**：Then we apply a second PCG to generate mountains. We create a Trapezoid Function PCG with 4 elements. An example of elements is like this:
+			- Element 0: 0.45 ==> (0.45, 0)
+			- Element 1: 0.6 ==> (0.6, 1)
+			- Element 2: 1  ==> (1, 1)
+			- Element 3: 1 ==> (1, 1)
+			This means everything below 0.45 will be 0. Anything above 0.6 is 1.
+			So you can see a few mountain-like shapes：
+			![[Screenshot 2024-04-04 at 15.45.19.png]]
+			- **MountainBase层**：由于MountainBiome使用的是TrapezoidFunction，我们需要将山变得更像山一点。
+				![[Screenshot 2024-04-04 at 15.54.29.png]]
+				通过在这一层添加一些Perlin Noise，就能得到一些类似于山 形状的突起。我们还能通过调节MaxValue修改山的高度。
+				- **MountainDetail层**：这里有添加了一层，我的理解是为了让山有更多的细节。此外，如果我们想要在山上添加一个 树层，也可以使用相同的方法。
+					![[Screenshot 2024-04-04 at 15.58.13.png]]
+		- **HillsBiome层**：这层也是基于Biome这个probability层的，意味着在原Terrain层上会有概率出现HillsBiome。同样我们使用TrapezoidFunction来界定边界。Element 0 => 0; Element 1 => 0; Element 2 => 0.3; Element 3 => 0.5意味着取(0, 0); (0, 1); (0.3, 1); (0.5, 0); 这几个点。
+			![[Screenshot 2024-04-04 at 16.04.51.png]]
 
 
 
