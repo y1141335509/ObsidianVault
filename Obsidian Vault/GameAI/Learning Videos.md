@@ -20,7 +20,19 @@
 					![[Screenshot 2024-04-04 at 15.58.13.png]]
 		- **HillsBiome层**：这层也是基于Biome这个probability层的，意味着在原Terrain层上会有概率出现HillsBiome。同样我们使用TrapezoidFunction来界定边界。Element 0 => 0; Element 1 => 0; Element 2 => 0.3; Element 3 => 0.5意味着取(0, 0); (0, 1); (0.3, 1); (0.5, 0); 这几个点。<span style="background:#fff88f">说明 Biomes层的值为0.3到0.5的时候，才会出现HillsBiome</span>。
 			![[Screenshot 2024-04-04 at 16.04.51.png]]
-			
+			- **HillsBase层**：这层在上一层的基础上，通过Add 的方法添加了一些Perlin Noise。<span style="background:#fff88f">所以你会看到原本是平原的区域变成了一些稍矮的山丘状</span>。
+				![[Screenshot 2024-04-04 at 16.14.54.png]]
+				- **HillDetail层**：尽管添加了一些小山丘，但由于HillsBiome层使用了TrapezoidFunction，<span style="background:#fff88f">你还是能看出来山丘边界有一些棱角。所以我们可以额外添加一个HillDetail层来添加额外的Perlin Noise</span>
+					![[Screenshot 2024-04-04 at 16.20.34.png]]
+				- **Stones层**：接着我们想要在刚刚的小山丘上加一些小石头。所以我们创建Stones层，然后通过Perlin Noise生成与HillDetail层类似的突起（如下图）。					![[Screenshot 2024-04-04 at 16.21.34.png]]
+					<span style="background:#fff88f">但是你会发现效果并不好。所以我们可以切换成Perlin Noise With Mapping Curve进行微调</span>。如下图
+					![[Screenshot 2024-04-04 at 16.24.32.png]]
+					最后，<span style="background:#fff88f">调整Max Value的大小，然后将曲线调成下图形状，就能把上面的小尖尖变成矮石子了，同时石子周围有 坑状环</span>
+					![[Screenshot 2024-04-04 at 16.27.14.png]]
+
+
+
+
 
 
 
