@@ -9,5 +9,7 @@
   "chronology",
   "editing-toolbar",
   "obsidian-full-calendar",
-  "obsidian-plugin-toc"
+  "obsidian-plugin-toc",
+  "mathematica-plot",
+  "copilot"
 ]
