@@ -49,6 +49,18 @@
                 }
               },
               {
+                "id": "6b3a2a66bb4ca76c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "实用学习笔记/Network Analysis/Networkx + Network Analysis.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
                 "id": "eb79ea083cb2c98a",
                 "type": "leaf",
                 "state": {
@@ -61,7 +73,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           },
           {
             "id": "b931a97bd1cd5a99",
@@ -98,7 +110,7 @@
                       },
                       "serial": {
                         "columns": 168,
-                        "data": "(base) yinghaiyu@Yinghais-MacBook-Pro / % ls\r\nApplications\u001b[4CSystem\u001b[10CVolumes\u001b[9Ccores\u001b[11Cetc\u001b[13Copt\u001b[13Csbin\u001b[12Cusr\r\nLibrary\u001b[9CUsers\u001b[11Cbin\u001b[13Cdev\u001b[13Chome\u001b[12Cprivate\u001b[9Ctmp\u001b[13Cvar\r\n(base) yinghaiyu@Yinghais-MacBook-Pro / % cd Users/yinghaiyu/Main/DesktopMain/STUDY/KnowledgeVault \r\n(base) yinghaiyu@Yinghais-MacBook-Pro KnowledgeVault % ls\r\nObsidianVault\u001b[3CZoteroPapers\r\n(base) yinghaiyu@Yinghais-MacBook-Pro KnowledgeVault % cd ObsidianVault \r\n(base) yinghaiyu@Yinghais-MacBook-Pro ObsidianVault % ls\r\nObsidian Vault\r\n(base) yinghaiyu@Yinghais-MacBook-Pro ObsidianVault % cd Obsidian\\ Vault \r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % ls\r\nCalendars\u001b[15CPapers\u001b[18C创业相关\u001b[16C签证相关\r\nGameAI\u001b[18CRuoxi\u001b[19C实用学习笔记\u001b[12C项目开发\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git add .\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git commit -m 'installed copilot'\r\n[main 6748bd3] installed copilot\r\n 10 files changed, 113844 insertions(+), 7 deletions(-)\r\n create mode 100644 Obsidian Vault/.obsidian/plugins/copilot/main.js\r\n create mode 100644 Obsidian Vault/.obsidian/plugins/copilot/manifest.json\r\n create mode 100644 Obsidian Vault/.obsidian/plugins/copilot/styles.css\r\n create mode 100644 Obsidian Vault/.obsidian/plugins/mathematica-plot/data.json\r\n create mode 100644 Obsidian Vault/.obsidian/plugins/mathematica-plot/main.js\r\n create mode 100644 Obsidian Vault/.obsidian/plugins/mathematica-plot/manifest.json\r\n create mode 100644 Obsidian Vault/.obsidian/plugins/mathematica-plot/styles.css\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git push\r\nEnumerating objects: 26, done.\r\nCounting objects: 100% (26/26), done.\r\nDelta compression using up to 10 threads\r\nCompressing objects: 100% (16/16), done.\r\nWriting objects: 100% (18/18), 660.58 KiB | 7.34 MiB/s, done.\r\nTotal 18 (delta 6), reused 0 (delta 0), pack-reused 0 (from 0)\r\nremote: Resolving deltas: 100% (6/6), completed with 6 local objects.\r\nTo github.com:y1141335509/ObsidianVault.git\r\n   f523038..6748bd3  main -> main\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git a",
+                        "data": "(base) yinghaiyu@Yinghais-MacBook-Pro / % ls\r\nApplications\u001b[4CSystem\u001b[10CVolumes\u001b[9Ccores\u001b[11Cetc\u001b[13Copt\u001b[13Csbin\u001b[12Cusr\r\nLibrary\u001b[9CUsers\u001b[11Cbin\u001b[13Cdev\u001b[13Chome\u001b[12Cprivate\u001b[9Ctmp\u001b[13Cvar\r\n(base) yinghaiyu@Yinghais-MacBook-Pro / % cd Users/yinghaiyu/Main/DesktopMain/STUDY/KnowledgeVault \r\n(base) yinghaiyu@Yinghais-MacBook-Pro KnowledgeVault % ls\r\nObsidianVault\u001b[3CZoteroPapers\r\n(base) yinghaiyu@Yinghais-MacBook-Pro KnowledgeVault % cd ObsidianVault \r\n(base) yinghaiyu@Yinghais-MacBook-Pro ObsidianVault % ls\r\nObsidian Vault\r\n(base) yinghaiyu@Yinghais-MacBook-Pro ObsidianVault % cd Obsidian\\ Vault \r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % ls\r\nCalendars\u001b[15CPapers\u001b[18C创业相关\u001b[16C签证相关\r\nGameAI\u001b[18CRuoxi\u001b[19C实用学习笔记\u001b[12C项目开发\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git add .\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git commit -m 'installed copilot'\r\n[main 6748bd3] installed copilot\r\n 10 files changed, 113844 insertions(+), 7 deletions(-)\r\n create mode 100644 Obsidian Vault/.obsidian/plugins/copilot/main.js\r\n create mode 100644 Obsidian Vault/.obsidian/plugins/copilot/manifest.json\r\n create mode 100644 Obsidian Vault/.obsidian/plugins/copilot/styles.css\r\n create mode 100644 Obsidian Vault/.obsidian/plugins/mathematica-plot/data.json\r\n create mode 100644 Obsidian Vault/.obsidian/plugins/mathematica-plot/main.js\r\n create mode 100644 Obsidian Vault/.obsidian/plugins/mathematica-plot/manifest.json\r\n create mode 100644 Obsidian Vault/.obsidian/plugins/mathematica-plot/styles.css\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git push\r\nEnumerating objects: 26, done.\r\nCounting objects: 100% (26/26), done.\r\nDelta compression using up to 10 threads\r\nCompressing objects: 100% (16/16), done.\r\nWriting objects: 100% (18/18), 660.58 KiB | 7.34 MiB/s, done.\r\nTotal 18 (delta 6), reused 0 (delta 0), pack-reused 0 (from 0)\r\nremote: Resolving deltas: 100% (6/6), completed with 6 local objects.\r\nTo github.com:y1141335509/ObsidianVault.git\r\n   f523038..6748bd3  main -> main\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git add .\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git commit -m 'elastic'\r\n[main 96d51c5] elastic\r\n 2 files changed, 67 insertions(+), 11 deletions(-)\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git push\r\nEnumerating objects: 15, done.\r\nCounting objects: 100% (15/15), done.\r\nDelta compression using up to 10 threads\r\nCompressing objects: 100% (7/7), done.\r\nWriting objects: 100% (8/8), 2.31 KiB | 2.31 MiB/s, done.\r\nTotal 8 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)\r\nremote: Resolving deltas: 100% (4/4), completed with 4 local objects.\r\nTo github.com:y1141335509/ObsidianVault.git\r\n   6748bd3..96d51c5  main -> main\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git add .",
                         "rows": 5
                       }
                     }
@@ -240,7 +252,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -264,7 +276,9 @@
   },
   "active": "d366c9301febba19",
   "lastOpenFiles": [
+    "实用学习笔记/Network Analysis/Networkx + Network Analysis.md",
     "实用学习笔记/Elasticsearch/Elasticsearch + Kibana学习.md",
+    "实用学习笔记/Network Analysis",
     "GameAI/Learning Videos.md",
     "实用学习笔记/Elasticsearch 1",
     "GameAI/images/Screenshot 2024-04-04 at 16.29.15.png",
@@ -300,7 +314,6 @@
     "Calendars/2024-02-26.md",
     "Calendars/2024-03-12.md",
     "Calendars/2024-02-27.md",
-    "项目开发/游戏制作/帮助文档/发布应用.md",
     "YYH",
     "创业相关/开公司",
     "实用学习笔记/面试笔记",
@@ -309,7 +322,6 @@
     "创业相关/买公司",
     "创业相关",
     "实用学习笔记/Airflow",
-    "实用学习笔记/量化交易相关",
     "游戏制作/Untitled.canvas",
     "Untitled.canvas",
     "Untitled 1.canvas"
