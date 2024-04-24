@@ -85,8 +85,8 @@
                         "useWin32Conhost": true
                       },
                       "serial": {
-                        "columns": 168,
-                        "data": "(base) yinghaiyu@Yinghais-MacBook-Pro / % ls\r\nApplications\u001b[4CSystem\u001b[10CVolumes\u001b[9Ccores\u001b[11Cetc\u001b[13Copt\u001b[13Csbin\u001b[12Cusr\r\nLibrary\u001b[9CUsers\u001b[11Cbin\u001b[13Cdev\u001b[13Chome\u001b[12Cprivate\u001b[9Ctmp\u001b[13Cvar\r\n(base) yinghaiyu@Yinghais-MacBook-Pro / % cd Users/yinghaiyu/Main/DesktopMain/STUDY/KnowledgeVault/ObsidianVault/Obsidian\\ Vault \r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % ls\r\nCalendars\u001b[15CPapers\u001b[18C创业相关\u001b[16C签证相关\r\nGameAI\u001b[18CRuoxi\u001b[19C实用学习笔记\u001b[12C项目开发\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git add .",
+                        "columns": 181,
+                        "data": "(base) yinghaiyu@Yinghais-MacBook-Pro / % ls\r\nApplications\u001b[4CSystem\u001b[10CVolumes\u001b[9Ccores\u001b[11Cetc\u001b[13Copt\u001b[13Csbin\u001b[12Cusr\r\nLibrary\u001b[9CUsers\u001b[11Cbin\u001b[13Cdev\u001b[13Chome\u001b[12Cprivate\u001b[9Ctmp\u001b[13Cvar\r\n(base) yinghaiyu@Yinghais-MacBook-Pro / % cd Users/yinghaiyu/Main/DesktopMain/STUDY/KnowledgeVault/ObsidianVault/Obsidian\\ Vault \r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % ls\r\nCalendars\u001b[15CPapers\u001b[18C创业相关\u001b[16C签证相关\r\nGameAI\u001b[18CRuoxi\u001b[19C实用学习笔记\u001b[12C项目开发\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git add .\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git commit -m 'about DAS'\r\n[main edc2e6e] about DAS\r\n 1 file changed, 6 insertions(+), 30 deletions(-)\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git push\r\nEnumerating objects: 9, done.\r\nCounting objects: 100% (9/9), done.\r\nDelta compression using up to 10 threads\r\nCompressing objects: 100% (4/4), done.\r\nWriting objects: 100% (5/5), 505 bytes | 505.00 KiB/s, done.\r\nTotal 5 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)\r\nremote: Resolving deltas: 100% (3/3), completed with 3 local objects.\r\nTo github.com:y1141335509/ObsidianVault.git\r\n   4d508e1..edc2e6e  main -> main\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git add. ",
                         "rows": 5
                       }
                     }
@@ -147,7 +147,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "0770e2c5a45717c4",
@@ -228,11 +229,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 533.5
+    "width": 623.5
   },
   "left-ribbon": {
     "hiddenItems": {

@@ -1,5 +1,51 @@
 
 
+## Final Exam Preparation
+### Decision Making
+
+#### 三种常见的 Decision Making
+* Reactive
+	* 直接对于环境状态作出反应
+	* 根据条件动作（conditional actions）提前设置好了该如何决策
+	* 大部分Real-time game AI agents都是reactive的
+* Deliberative
+	* 对于环境进行建模（这是一种离散化的建模方式）
+	* 为确定能达到目标状态的计划而作出的推论
+* Reflective
+	* 从过往的经验学习
+
+##### Reactive Decision Making常见的算法
+1. **Decision Tress** - 与ML上的决策树类似，本质上就是一系列的if-else判断放在一起，通过leaf node来决定该采取什么行动。在早期游戏比较常见。其次，Decision Tree在其他引擎里更加常见，但是在Unity里面更常见的是FSM。
+2. **Rule Based Systems** - 
+3. **Finite State Machines** - 
+4. **Behavior Trees** - 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
 ## Homework 8 - Procedural Content Generation (PCG, 内容动态生成)
 
 ### Homework Videos：
