@@ -123,9 +123,28 @@ Cons:
 
 
 ---
-##### Rule Based Systems
+##### Rule Based Systems （RBS）
+1. Two-part structure
+	* Facts (database of knowledge)
+	* Rules (if/then constructs, with Boolean operations)
+2. Like an FSM, but tirggers based on DB/effects are more general
+3. Basic process/idea:
+
+RBS都是需要一个database的，里面存放了规则表
 
 
+
+---
+##### Goal Oriented Decision Making
+
+Reactive Decision-Making Problems
+* Shallowness & Realism
+* Adaptability
+* Heavy Design Burden
+
+常见的Goal Oriented Behaviors (GOBs)是 《The Sims》游戏
+
+由于是Goal- Driven的，所以很容易预见Goal（demand）之间是会有冲突和不一致的
 
 
 
