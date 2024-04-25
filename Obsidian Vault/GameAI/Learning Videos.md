@@ -3,7 +3,7 @@
 ## Final Exam Preparation
 ### Decision Making
 
-#### 三种常见的 Decision Making
+三种常见的 Decision Making
 * Reactive
 	* 直接对于环境状态作出反应
 	* 根据条件动作（conditional actions）提前设置好了该如何决策
@@ -14,7 +14,7 @@
 * Reflective
 	* 从过往的经验学习
 ---
-##### Reactive Decision Making常见的算法
+#### Reactive Decision Making常见的算法
 1. **Decision Tress** - 与ML上的决策树类似，本质上就是一系列的if-else判断放在一起，通过leaf node来决定该采取什么行动。在早期游戏比较常见。其次，Decision Tree在其他引擎里更加常见，但是在Unity里面更常见的是FSM。
 	- Benefits:
 		- Simple to implement
@@ -104,12 +104,16 @@ Defuzzification的问题在于如何将一组membership values转变成一个单
 然后对于combined的图，挑选合适的strategy。这本书中给出的strategy如下：
 ![[Screenshot 2024-04-25 at 14.27.35.png]]
 使用的是*Mean of the Max*，得到了中间下边的表。12.5就是最左边梯形的顶边的Mean；50就是中间梯形顶边的Mean；87.5是最右边梯形顶边的Mean。
-然后每个Mean都有一个confidence score。最终的Desirability就是三个Mean的加权平均
+然后每个Mean都有一个confidence score。最终的Desirability就是三个Mean的加权平均。**这样就有了所谓的Crisp Value**。
+
+
+主要的问题（Performance of Fuzzy Rules）就是空间开销非常大
+使用Comb's Method可以一定程度上较少空间开销。例如$((p \wedge q) \Longrightarrow r \Longleftrightarrow (p \Longrightarrow r) \vee (q \Longrightarrow r))$
 
 
 
-
-
+---
+##### Rule Based Systems
 
 
 
