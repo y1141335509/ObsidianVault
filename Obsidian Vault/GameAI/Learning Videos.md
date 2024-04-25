@@ -38,12 +38,17 @@
 3. **Finite State Machines** - 
 	1. Mealy & Moore
 		![[Screenshot 2024-04-24 at 19.51.41.png]]
-4. 
-5. **Behavior Trees** - 
+	2. Hierarchical FSM
+4. **Behavior Trees** - 与FSM很相似，但是Behavior Tree本身是有非常大的自由度的，而且在最近的游戏开发中非常流行
 
-
-
-
+##### Fuzzy Logic
+Non-numeric linguistic expression，所以这是一种适用于非常模糊、主观场景的方法
+例如对于thermostat的描述，我们如何针对温度的改变来调整空调温度？
+在Fuzzy Logic中会有这样的描述
+![[Screenshot 2024-04-25 at 11.27.43.png]]
+当温度有一点点热的时候，将空调温度调低一点。
+所以也是需要定义Rules的。如下：
+![[Screenshot 2024-04-25 at 11.29.07.png]]
 
 
 

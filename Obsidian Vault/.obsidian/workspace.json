@@ -205,7 +205,7 @@
                   },
                   "serial": {
                     "columns": 67,
-                    "data": "(base) yinghaiyu@Yinghais-MacBook-Pro / % cd Users/yinghaiyu/Main/D\r\nesktopMain/\r\nCOMPANY/\r\nGAMES/\r\nLaiOffer/\r\nResumes/\r\nSTUDY/\r\nScreen\\ Recording\\ 2023-01-26\\ at\\ 21.28.37.mov\r\namazonOA.pdf\r\ndownload.png\r\nvisa/\r\n狗生规划.xlsx\r\n(base) yinghaiyu@Yinghais-MacBook-Pro / % cd Users/yinghaiyu/Main/DesktopMain/STUDY/\r\nAirflowTrigger/\r\nGA/\r\nGameDevelopment/\r\nGithubRepos/\r\nKnowledgeVault/\r\nLANGUAGES/\r\nNIW/\r\nRuoxiProjects/\r\nStableDiffusion/\r\nVideoProducer/\r\nWallpapers/\r\napp\\ store\\ dev.developerprofile\r\napp\\ store\\ dev.p12\r\ngoogle\\ store\\ signing\\ key/\r\ny1141-app\\ store\\ key.p12\r\n(base) yinghaiyu@Yinghais-MacBook-Pro / % cd Users/yinghaiyu/Main/DesktopMain/STUDY/KnowledgeVault/ObsidianVault/Obsidian\\ Vault/\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % ls\r\nCalendars\u001b[15C创业相关\r\nGameAI\u001b[18C实用学习笔记\r\nPapers\u001b[18C签证相关\r\nRuoxi\u001b[19C项目开发\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git add ",
+                    "data": "(base) yinghaiyu@Yinghais-MacBook-Pro / % ls\r\nApplications\u001b[4CVolumes\u001b[9Cetc\u001b[13Csbin\r\nLibrary\u001b[9Cbin\u001b[13Chome\u001b[12Ctmp\r\nSystem\u001b[10Ccores\u001b[11Copt\u001b[13Cusr\r\nUsers\u001b[11Cdev\u001b[13Cprivate\u001b[9Cvar\r\n(base) yinghaiyu@Yinghais-MacBook-Pro / % cd Users/yinghaiyu/Main/D\r\nesktopMain/STUDY/KnowledgeVault/ObsidianVault/Obsidian\\ Vault \r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git a",
                     "rows": 7
                   }
                 }
@@ -230,16 +230,18 @@
       "daily-notes:Open today's daily note": false,
       "command-palette:Open command palette": false,
       "templates:Insert template": false,
+      "excel:Create Excel File": false,
+      "obsidian-projects:Open projects": false,
       "terminal:Open terminal": false,
       "chronology:Open Chronology": false,
-      "obsidian-full-calendar:Open Full Calendar": false,
-      "obsidian-projects:Open projects": false,
-      "excel:Create Excel File": false
+      "obsidian-full-calendar:Open Full Calendar": false
     }
   },
   "active": "4699ffec508606f0",
   "lastOpenFiles": [
     "GameAI/Learning Videos.md",
+    "GameAI/images/Screenshot 2024-04-25 at 11.29.07.png",
+    "GameAI/images/Screenshot 2024-04-25 at 11.27.43.png",
     "签证相关/回国计划.md",
     "Untitled.md",
     "GameAI/images/Screenshot 2024-04-24 at 19.51.41.png",
@@ -258,8 +260,6 @@
     "GameAI/images/Screenshot 2024-04-04 at 16.21.34.png",
     "GameAI/images/Screenshot 2024-04-04 at 16.20.34.png",
     "GameAI/images/Screenshot 2024-04-04 at 16.14.54.png",
-    "GameAI/images/Screenshot 2024-04-04 at 16.04.51.png",
-    "GameAI/images/Screenshot 2024-04-04 at 15.58.13.png",
     "创业相关/开公司/人、货、店.md",
     "创业相关/开公司/Bubbles and Books商业计划书（Business Plan）.md",
     "Calendars/2024-03-15.md",
