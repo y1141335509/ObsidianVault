@@ -92,8 +92,11 @@ Defuzzification的问题在于如何将一组membership values转变成一个单
 如下图所示
 ![[Screenshot 2024-04-25 at 14.12.20.png]]
 
-
-
+案例：Buckland's Rocket Launcher（什么时候需要启动Rocket Launcher）
+![[Screenshot 2024-04-25 at 14.21.07.png]]
+假设现在是 distance = 200； ammo = 8
+在左下两个图中，先找到distance = 200的垂线与 Far这个membership function之间的交点。然后做水平线与右图中的 Okay (ammo status) membership function形成两个交点（对应0.33的DOM）
+然后对于ammo = 8; 再在Okay (ammo status) membership function中作垂线，发现相交于0.78的DOM。
 
 
 
