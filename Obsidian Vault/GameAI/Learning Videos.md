@@ -16,9 +16,30 @@
 
 ##### Reactive Decision Making常见的算法
 1. **Decision Tress** - 与ML上的决策树类似，本质上就是一系列的if-else判断放在一起，通过leaf node来决定该采取什么行动。在早期游戏比较常见。其次，Decision Tree在其他引擎里更加常见，但是在Unity里面更常见的是FSM。
-2. **Rule Based Systems** - 
+	- Benefits:
+		- Simple to implement
+		- Easy to understand and read
+		- Training and learning is possible
+	- Downsides:
+		- Dangerous from a software engineering perspective
+		- Game changes can cause subtle bugs, compounded if affects rare decision tree branches
+		- Lazy loading of expensive calculations needed to provide decision data
+	所以如何balance decision tree就很重要，因为可以节省计算时间。
+	 此外你可以尝试Merge Branches，但是需要注意在merge的时候不要形成DAG。
+	 ![[Screenshot 2024-04-24 at 16.37.08.png]]
+2. **Rule Based Systems** - Is the core theory to AI during 70s and 80s, commonly implemented in LISP. 其核心就是一些列的condition-action statements，这和Decision Tree很像。 
+	通常是需要先定义更加specific的statement，然后定义稍微模糊的statement
+	Rule based System比较大的问题是：
+	1. How to select among multiple valid rules?
+		1. Advanced production rules systems utilize an **arbiter** that selects from matching rules
+		2. **Fixed Priority Arbiter**: 为了简单，我们只需要评估第一个与order list相匹配的rule
+		3. Priority weighting for rules or sensor events
+	2. Can be stateless
 3. **Finite State Machines** - 
-4. **Behavior Trees** - 
+	1. Mealy & Moore
+		![[Screenshot 2024-04-24 at 19.51.41.png]]
+4. 
+5. **Behavior Trees** - 
 
 
 

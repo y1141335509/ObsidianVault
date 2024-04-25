@@ -14,7 +14,12 @@
   "command-palette",
   "editor-status",
   "bookmarks",
+  "markdown-importer",
   "outline",
   "word-count",
-  "file-recovery"
+  "slides",
+  "audio-recorder",
+  "file-recovery",
+  "publish",
+  "sync"
 ]

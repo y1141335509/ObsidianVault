@@ -4,100 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "0794f646da5c70ac",
-        "type": "split",
+        "id": "2eb6a4b703690e3f",
+        "type": "tabs",
         "children": [
           {
-            "id": "2eb6a4b703690e3f",
-            "type": "tabs",
-            "dimension": 85.91549295774648,
-            "children": [
-              {
-                "id": "e08b586bc501099a",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "签证相关/回国计划.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "06f73b819f0c8573",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "GameAI/Learning Videos.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "eb79ea083cb2c98a",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "实用学习笔记/Github相关/GitHub.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
+            "id": "e08b586bc501099a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "签证相关/回国计划.md",
+                "mode": "source",
+                "source": false
               }
-            ],
-            "currentTab": 1
+            }
           },
           {
-            "id": "b931a97bd1cd5a99",
-            "type": "tabs",
-            "dimension": 14.084507042253522,
-            "children": [
-              {
-                "id": "d366c9301febba19",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "terminal:terminal",
-                  "state": {
-                    "terminal:terminal": {
-                      "cwd": null,
-                      "focus": false,
-                      "profile": {
-                        "args": [],
-                        "executable": "/bin/zsh",
-                        "name": "",
-                        "platforms": {
-                          "darwin": true
-                        },
-                        "pythonExecutable": "python3",
-                        "restoreHistory": true,
-                        "successExitCodes": [
-                          "0",
-                          "SIGINT",
-                          "SIGTERM"
-                        ],
-                        "terminalOptions": {},
-                        "type": "integrated",
-                        "useWin32Conhost": true
-                      },
-                      "serial": {
-                        "columns": 181,
-                        "data": "(base) yinghaiyu@Yinghais-MacBook-Pro / % ls\r\nApplications\u001b[4CSystem\u001b[10CVolumes\u001b[9Ccores\u001b[11Cetc\u001b[13Copt\u001b[13Csbin\u001b[12Cusr\r\nLibrary\u001b[9CUsers\u001b[11Cbin\u001b[13Cdev\u001b[13Chome\u001b[12Cprivate\u001b[9Ctmp\u001b[13Cvar\r\n(base) yinghaiyu@Yinghais-MacBook-Pro / % cd Users/yinghaiyu/Main/DesktopMain/STUDY/KnowledgeVault/ObsidianVault/Obsidian\\ Vault \r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % ls\r\nCalendars\u001b[15CPapers\u001b[18C创业相关\u001b[16C签证相关\r\nGameAI\u001b[18CRuoxi\u001b[19C实用学习笔记\u001b[12C项目开发\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git add .\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git commit -m 'about DAS'\r\n[main edc2e6e] about DAS\r\n 1 file changed, 6 insertions(+), 30 deletions(-)\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git push\r\nEnumerating objects: 9, done.\r\nCounting objects: 100% (9/9), done.\r\nDelta compression using up to 10 threads\r\nCompressing objects: 100% (4/4), done.\r\nWriting objects: 100% (5/5), 505 bytes | 505.00 KiB/s, done.\r\nTotal 5 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)\r\nremote: Resolving deltas: 100% (3/3), completed with 3 local objects.\r\nTo github.com:y1141335509/ObsidianVault.git\r\n   4d508e1..edc2e6e  main -> main\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git add. ",
-                        "rows": 5
-                      }
-                    }
-                  },
-                  "pinned": true
-                }
+            "id": "06f73b819f0c8573",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GameAI/Learning Videos.md",
+                "mode": "source",
+                "source": false
               }
-            ]
+            }
+          },
+          {
+            "id": "eb79ea083cb2c98a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "实用学习笔记/Github相关/GitHub.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "direction": "horizontal"
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -147,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 258.50418853759766
   },
   "right": {
     "id": "0770e2c5a45717c4",
@@ -157,6 +103,7 @@
       {
         "id": "0785070a3b53ed54",
         "type": "tabs",
+        "dimension": 85.3157121879589,
         "children": [
           {
             "id": "ba4b0406aebf215b",
@@ -219,43 +166,89 @@
               "type": "full-calendar-sidebar-view",
               "state": {}
             }
-          },
-          {
-            "id": "028920e042f0d9d9",
-            "type": "leaf",
-            "state": {
-              "type": "copilot-chat-view",
-              "state": {}
-            }
           }
         ],
         "currentTab": 3
+      },
+      {
+        "id": "bc4d13c553e8a926",
+        "type": "tabs",
+        "dimension": 14.684287812041113,
+        "children": [
+          {
+            "id": "4699ffec508606f0",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "terminal:terminal",
+              "state": {
+                "terminal:terminal": {
+                  "cwd": null,
+                  "focus": false,
+                  "profile": {
+                    "args": [],
+                    "executable": "/bin/zsh",
+                    "name": "",
+                    "platforms": {
+                      "darwin": true
+                    },
+                    "pythonExecutable": "python3",
+                    "restoreHistory": true,
+                    "successExitCodes": [
+                      "0",
+                      "SIGINT",
+                      "SIGTERM"
+                    ],
+                    "terminalOptions": {},
+                    "type": "integrated",
+                    "useWin32Conhost": true
+                  },
+                  "serial": {
+                    "columns": 67,
+                    "data": "(base) yinghaiyu@Yinghais-MacBook-Pro / % cd Users/yinghaiyu/Main/D\r\nesktopMain/\r\nCOMPANY/\r\nGAMES/\r\nLaiOffer/\r\nResumes/\r\nSTUDY/\r\nScreen\\ Recording\\ 2023-01-26\\ at\\ 21.28.37.mov\r\namazonOA.pdf\r\ndownload.png\r\nvisa/\r\n狗生规划.xlsx\r\n(base) yinghaiyu@Yinghais-MacBook-Pro / % cd Users/yinghaiyu/Main/DesktopMain/STUDY/\r\nAirflowTrigger/\r\nGA/\r\nGameDevelopment/\r\nGithubRepos/\r\nKnowledgeVault/\r\nLANGUAGES/\r\nNIW/\r\nRuoxiProjects/\r\nStableDiffusion/\r\nVideoProducer/\r\nWallpapers/\r\napp\\ store\\ dev.developerprofile\r\napp\\ store\\ dev.p12\r\ngoogle\\ store\\ signing\\ key/\r\ny1141-app\\ store\\ key.p12\r\n(base) yinghaiyu@Yinghais-MacBook-Pro / % cd Users/yinghaiyu/Main/DesktopMain/STUDY/KnowledgeVault/ObsidianVault/Obsidian\\ Vault/\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % ls\r\nCalendars\u001b[15C创业相关\r\nGameAI\u001b[18C实用学习笔记\r\nPapers\u001b[18C签证相关\r\nRuoxi\u001b[19C项目开发\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git add ",
+                    "rows": 7
+                  }
+                }
+              },
+              "pinned": true
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 623.5
+    "width": 627.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "markdown-importer:Open format converter": false,
+      "audio-recorder:Start/stop recording": false,
+      "publish:Publish changes...": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "command-palette:Open command palette": false,
       "templates:Insert template": false,
-      "obsidian-projects:Open projects": false,
       "terminal:Open terminal": false,
       "chronology:Open Chronology": false,
       "obsidian-full-calendar:Open Full Calendar": false,
-      "excel:Create Excel File": false,
-      "copilot:Copilot Chat": false
+      "obsidian-projects:Open projects": false,
+      "excel:Create Excel File": false
     }
   },
-  "active": "d366c9301febba19",
+  "active": "4699ffec508606f0",
   "lastOpenFiles": [
     "GameAI/Learning Videos.md",
-    "实用学习笔记/Elasticsearch/Elasticsearch + Kibana学习.md",
+    "签证相关/回国计划.md",
+    "Untitled.md",
+    "GameAI/images/Screenshot 2024-04-24 at 19.51.41.png",
     "实用学习笔记/Github相关/GitHub.md",
+    "obsidian.css",
+    "manifest.json",
+    "theme.css",
+    "GameAI/images/Screenshot 2024-04-24 at 16.37.08.png",
+    "实用学习笔记/Elasticsearch/Elasticsearch + Kibana学习.md",
     "实用学习笔记/Network Analysis/Networkx + Network Analysis.md",
     "实用学习笔记/Network Analysis",
     "实用学习笔记/Elasticsearch 1",
@@ -267,8 +260,6 @@
     "GameAI/images/Screenshot 2024-04-04 at 16.14.54.png",
     "GameAI/images/Screenshot 2024-04-04 at 16.04.51.png",
     "GameAI/images/Screenshot 2024-04-04 at 15.58.13.png",
-    "GameAI/images/Screenshot 2024-04-04 at 15.54.29.png",
-    "GameAI/images/Screenshot 2024-04-04 at 15.45.19.png",
     "创业相关/开公司/人、货、店.md",
     "创业相关/开公司/Bubbles and Books商业计划书（Business Plan）.md",
     "Calendars/2024-03-15.md",
@@ -281,7 +272,6 @@
     "Papers/Plan.md",
     "Ruoxi/笔记📒.md",
     "项目开发/网站开发/项目.md",
-    "签证相关/回国计划.md",
     "签证相关/2024-02-06.md",
     "Calendars/2024-03-07.md",
     "Calendars/2024-03-06.md",
@@ -289,16 +279,11 @@
     "创业相关/开公司/货.md",
     "Calendars/2024-02-28.md",
     "Calendars/2024-02-26.md",
-    "Calendars/2024-03-12.md",
-    "Calendars/2024-02-27.md",
     "YYH",
     "创业相关/开公司",
     "实用学习笔记/面试笔记",
     "创业相关/Faire",
     "实用学习笔记/Elasticsearch",
-    "创业相关/买公司",
-    "创业相关",
-    "实用学习笔记/Airflow",
     "游戏制作/Untitled.canvas",
     "Untitled.canvas",
     "Untitled 1.canvas"
