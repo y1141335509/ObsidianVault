@@ -85,11 +85,12 @@ Defuzzification的问题在于如何将一组membership values转变成一个单
 如图，我们已经定义了三个membership functions (creep, walk, run)，我们希望通过某种Defuzzification方法将membership function对应到横轴上。但是你很容易发现，如果我们画了一个个水平线（DOM），就会得到不止一个与membership function的交点。
 此外我们还要考虑，当画了一个水平线之后，高于该水平线的地方有不止一个membership function，甚至有些时候在整个定义域范围内都可以取到值。
 
-这时候可以使用Min-Max，也就是the min of the max values observed。例如下图中，如果我们取到了梯形的上边（上边都是最大值，也是observed的值），然后取这里面最小的值，或者平均值等等。
+**这时候可以使用Min-Max**，也就是the min of the max values observed。例如下图中，如果我们取到了梯形的上边（上边都是最大值，也是observed的值），然后取这里面最小的值，或者平均值等等。
 ![[Screenshot 2024-04-25 at 14.08.03.png]]
 
-
-
+**另一种Defuzzification的方法是 Center of Gravity**
+如下图所示
+![[Screenshot 2024-04-25 at 14.12.20.png]]
 
 
 
