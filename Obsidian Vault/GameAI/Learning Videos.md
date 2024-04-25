@@ -62,6 +62,31 @@ Non-numeric linguistic expression，所以这是一种适用于非常模糊、�
 
 ###### Fuzzification 模糊化
 ![[Screenshot 2024-04-25 at 12.39.05.png]]
+对于small set和enumerated types的模糊化：
+* 可以预先决定membership 的值。
+* 使用lookup table作为fuzzification function
+下图就是set operation以及可以如何使用lookup table
+![[Screenshot 2024-04-25 at 13.20.07.png]]
+下图解释了上图中`min`和`max`函数的使用原因：
+![[Screenshot 2024-04-25 at 13.21.59.png]]
+
+如上图所示，我们有3个membership functions（dumb, average, clever），他们之间有overlap。 所以当 `A && B`的时候，就会触发 `m(A&&B)`，此时我们取 `min(A, B)`，于是就有了上面左图标黑的部分
+
+###### Defuzzification 去模糊化
+是fuzzification过程的逆过程
+* 需要将数据翻译成模糊的状态
+* Defuzzification有多种方法
+	* Mean of Max
+	* Centroid
+	* Average of Maxima
+	* ...
+Defuzzification的问题在于如何将一组membership values转变成一个单一值（crisp value）下图就很好地说明了该问题：
+![[Screenshot 2024-04-25 at 13.48.02.png]]
+如图，我们已经定义了三个membership functions (creep, walk, run)，我们希望通过某种Defuzzification方法将membership function对应到横轴上。但是你很容易发现，如果我们画了一个个水平线（DOM），就会得到不止一个与membership function的交点。
+此外我们还要考虑，当画了一个水平线之后，高于该水平线的地方有不止一个membership function，甚至有些时候在整个定义域范围内都可以取到值。
+
+这时候可以使用Min-Max，也就是the min of the max values observed。例如下图中，如果我们取到了梯形的上边（上边都是最大值，也是observed的值），然后取这里面最小的值，或者平均值等等。
+![[Screenshot 2024-04-25 at 14.08.03.png]]
 
 
 
