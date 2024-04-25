@@ -88,6 +88,7 @@ Defuzzification的问题在于如何将一组membership values转变成一个单
 **这时候可以使用Min-Max**，也就是the min of the max values observed。例如下图中，如果我们取到了梯形的上边（上边都是最大值，也是observed的值），然后取这里面最小的值，或者平均值等等。
 ![[Screenshot 2024-04-25 at 14.08.03.png]]
 
+---
 **另一种Defuzzification的方法是 Center of Gravity**
 如下图所示
 ![[Screenshot 2024-04-25 at 14.12.20.png]]
@@ -97,6 +98,25 @@ Defuzzification的问题在于如何将一组membership values转变成一个单
 假设现在是 distance = 200； ammo = 8
 在左下两个图中，先找到distance = 200的垂线与 Far这个membership function之间的交点。然后做水平线与右图中的 Okay (ammo status) membership function形成两个交点（对应0.33的DOM）
 然后对于ammo = 8; 再在Okay (ammo status) membership function中作垂线，发现相交于0.78的DOM。
+*然后来做Defuzzification*：
+![[Screenshot 2024-04-25 at 14.25.49.png]]
+左到右的6张图其实就是沿虚线剪掉，然后将右边三个图拼到一起得到最右边的图。
+然后对于combined的图，挑选合适的strategy。这本书中给出的strategy如下：
+![[Screenshot 2024-04-25 at 14.27.35.png]]
+使用的是*Mean of the Max*，得到了中间下边的表。12.5就是最左边梯形的顶边的Mean；50就是中间梯形顶边的Mean；87.5是最右边梯形顶边的Mean。
+然后每个Mean都有一个confidence score。最终的Desirability就是三个Mean的加权平均
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
