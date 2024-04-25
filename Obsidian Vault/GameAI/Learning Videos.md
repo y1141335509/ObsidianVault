@@ -49,7 +49,10 @@ Non-numeric linguistic expression，所以这是一种适用于非常模糊、�
 当温度有一点点热的时候，将空调温度调低一点。
 所以也是需要定义Rules的。如下：
 ![[Screenshot 2024-04-25 at 11.29.07.png]]
-
+###### Degree of Membership
+* 当有多个非零的DOMs时，DOM之和需要为1
+* 但是通常来说，取weighted average就足以获得较好的结果了
+* 
 
 
 
