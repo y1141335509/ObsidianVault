@@ -110,6 +110,16 @@ Defuzzification的问题在于如何将一组membership values转变成一个单
 主要的问题（Performance of Fuzzy Rules）就是空间开销非常大
 使用Comb's Method可以一定程度上较少空间开销。例如$((p \wedge q) \Longrightarrow r \Longleftrightarrow (p \Longrightarrow r) \vee (q \Longrightarrow r))$
 
+Pro
+* Easy to understand
+* Efficient way to represent linguistic and subjective attributes of the real world
+* Supports smooth transitions between behaviors
+* Generally easier to create than methods involving training
+Cons:
+* Defining set membership functions can be difficult
+* Debugging knowledge can be difficult
+* Defuzzification step can have surprising subleties
+
 
 
 ---
