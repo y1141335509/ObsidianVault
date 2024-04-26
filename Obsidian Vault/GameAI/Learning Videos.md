@@ -1,6 +1,92 @@
 
 
 ## Final Exam Preparation
+
+
+
+
+
+
+
+
+
+---
+
+### Learning - Q-Learning
+
+
+---
+### Learning - Exploration and Exploitation
+
+
+
+---
+
+### Learning - Naive Bayes Classifiers
+
+---
+
+### Learning - N-Grams
+
+---
+
+### Learning - Case Based Reasoning (CBR)
+
+**主要流程：**
+* 将过往经验存在memory中
+* 然后对于给定的问题：
+	* 将最相似最相关的经验提取出来
+	* 重新将过往经验应用到该问题上
+	* Revise这个solution的效果和性能
+	* 更新该方法for future use
+
+
+**Case Retrieval**
+* 输入：是一组cases 和一个新问题 P
+* 输出：
+	* 最相似的case 或者
+	* 一组最相似的cases，或者
+	* 某个足够相似的case
+* solution：
+	* Sequential retrieval
+	* 2-step retrieval: 1) select subset S of cases; 2) Sequential retrieval on S
+	* Retrieval with indexed cases
+	* Other advanced solutions
+
+**Feature Similarity**
+1. Surface Features
+	1. Measurements from state in unmodified form
+	2. Example: Absolute positions of agent and enemy
+2. Derived Features
+	1. features calculated from state, guided by experts
+	2. Example: Distance between agent and enemy
+	3. Can be expensive to calculate
+	4. But can better reflect human decision making
+
+**Indexing**
+* Predictive of the case relevance
+* recognizable in the sense that it should be understandable why they are used
+* abstract enough to allow for widening the future use of the case base
+* concrete (discriminative) enough to facilitate and accurate retrieval
+
+**Similarity Measure**
+* Euclidean distance in multi-dimensional space defined by features
+* But what about a Bool? Int or Float (range limited) features?
+* Need way to normalize or adjust contribution to distance
+* Use a set of weights
+* Weights can evolve over time introducing bias according to importance of certain features
+
+
+
+
+
+---
+### Learning - Decision Trees
+
+
+
+
+---
 ### Decision Making
 
 三种常见的 Decision Making
@@ -127,7 +213,7 @@ Cons:
 1. Two-part structure
 	* Facts (database of knowledge)
 	* Rules (if/then constructs, with Boolean operations)
-2. Like an FSM, but tirggers based on DB/effects are more general
+2. Like an FSM, but triggers based on DB/effects are more general
 3. Basic process/idea:
 
 RBS都是需要一个database的，里面存放了规则表
@@ -147,7 +233,8 @@ Reactive Decision-Making Problems
 由于是Goal- Driven的，所以很容易预见Goal（demand）之间是会有冲突和不一致的
 
 
-
+**Discontentment** is a metric of all need insistence values
+The Sims goal is to reduce overall discontentment
 
 
 
