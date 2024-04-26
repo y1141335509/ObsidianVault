@@ -76,7 +76,20 @@
 * Use a set of weights
 * Weights can evolve over time introducing bias according to importance of certain features
 
+###### Efficient Retrieval - kd Tree
+是一种k-dimensional tree，它是从space-partitioning of points in a k-dimensional space形成的（很像decision tree）
+![[Screenshot 2024-04-26 at 12.03.46.png]]
 
+###### Case Adaptation
+![[Screenshot 2024-04-26 at 12.06.29.png]]
+* Structural Adaptation
+	* Adaptation rules applied directly to the solution
+	* Modifying certain parameters (e.g., swapping out, interpolating, etc.)
+* Derivational Adaptation
+	* Reuse algorithms, methods, or rules that generated the original solution (e.g., A* search)
+
+![[Screenshot 2024-04-26 at 12.09.58.png]]
+![[Screenshot 2024-04-26 at 12.10.11.png]]
 
 
 
