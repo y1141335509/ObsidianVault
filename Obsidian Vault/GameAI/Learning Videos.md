@@ -6,7 +6,9 @@
 
 
 
-
+Halton Sequence
+Poisson Lattice
+Perlin Noise
 
 
 
@@ -23,10 +25,16 @@
 ---
 
 ### Learning - Naive Bayes Classifiers
+![[Screenshot 2024-04-26 at 12.27.37.png]]
+
+
 
 ---
 
 ### Learning - N-Grams
+
+
+
 
 ---
 

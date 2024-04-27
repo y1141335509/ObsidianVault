@@ -13,5 +13,8 @@
   "periodic-notes",
   "templater-obsidian",
   "obsidian-weread-plugin",
-  "cmdr"
+  "cmdr",
+  "obsidian-mind-map",
+  "obsidian-markmind",
+  "obsidian-excalidraw-plugin"
 ]
