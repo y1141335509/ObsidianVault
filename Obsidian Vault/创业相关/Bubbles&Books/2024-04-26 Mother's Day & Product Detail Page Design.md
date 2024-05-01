@@ -15,7 +15,13 @@
 	* 📦快递盒 $0
 	* 🏴‍☠️邮寄费 $15
 
+* 🎃万圣节礼物盒
 
+* 需要做campaign（母亲节）
+	* Strawberry Chocolate Moisture Melt 
+	* Key Lime Moisture Melt
+	* Paranormal Romance (Best Seller)
+* 取货好好拍拍照
 
 
 
