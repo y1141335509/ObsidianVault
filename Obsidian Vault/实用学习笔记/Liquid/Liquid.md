@@ -43,7 +43,66 @@ _输出_ 里的值可以在输出之前经过若干个 **过滤器** 的转�
 [这里](https://liquidjs.com/zh-cn/tags/overview.html) 是 LiquidJS 支持的完整的标签列表。
 
 
+## 安装和使用
+如果你还不了解 Liquid 模板语言，请参考 [Liquid 模板语言简介](https://liquidjs.com/zh-cn/tutorials/intro-to-liquid.html)。
+### 在Node.js 里使用
+通过 NPM 安装：
+```bash
+npm install --save liquidjs
+```
 
+```javascript
+var { Liquid } = require('liquidjs');
+var engine = new Liquid();
+
+engine
+    .parseAndRender('{{name | capitalize}}', {name: 'alice'})
+    .then(console.log);     // 输出 'Alice'
+```
+
+> **示例**
+> 这里有一个 LiquidJS 在 Node.js 里使用的例子：[liquidjs/demo/nodejs/](https://github.com/harttle/liquidjs/blob/master/demo/nodejs/).
+
+LiquidJS 的类型定义也导出并发布到了 NPM 包里，写 TypeScript 的项目可以直接这样使用：
+```typescript
+import { Liquid } from 'liquidjs';
+const engine = new Liquid();
+
+engine
+    .parseAndRender('{{name | capitalize}}', {name: 'alice'})
+    .then(console.log);     // 输出 'Alice'
+```
+
+> **示例**
+> 这里有一个 LiquidJS 在 TypeScript 下的例子：[liquidjs/demo/typescript/](https://github.com/harttle/liquidjs/blob/master/demo/typescript/).
+
+### 在浏览器里使用
+
+LiquidJS 预先构建了 UMD Bundle，可以通过 jsDelivr CDN 来引用：
+```html
+<script src="https://cdn.jsdelivr.net/npm/liquidjs/dist/liquid.browser.min.js"></script>     <!--生产环境-->
+<script src="https://cdn.jsdelivr.net/npm/liquidjs/dist/liquid.browser.umd.js"></script>     <!--开发环境-->
+```
+
+> **示例**
+> 这里有一个 jsFiddle 上的在线例子：[jsfiddle.net/x43eb0z6](https://jsfiddle.net/x43eb0z6/)，其源码也可以在 [liquidjs/demo/browser/](https://github.com/harttle/liquidjs/blob/master/demo/browser/) 找到。
+
+> **兼容性**
+> 在类似 IE 和 Android UC 这样的浏览器中，你可能需要引入 [Promise polyfill](https://github.com/taylorhakes/promise-polyfill)，参看 [caniuse 的统计](http://caniuse.com/#feat=promises)。
+
+### 在命令行里使用
+你还可以在命令行里使用 LiquidJS：
+```bash
+echo '{{"hello" | capitalize}}' | npx liquidjs
+```
+
+模板来自标准输入，数据则来自参数，这个参数可以是一个 JSON 文件的路径，也可以是一个 JSON 字符串：
+```bash
+echo 'Hello, {{ name }}.' | npx liquidjs '{"name": "Snake"}'
+```
+
+### 其他
+[@stevenanthonyrevo](https://github.com/stevenanthonyrevo) 还提供了一个 ReactJS demo，请参考 [liquidjs/demo/reactjs/](https://github.com/harttle/liquidjs/blob/master/demo/reactjs/)。
 
 
 
