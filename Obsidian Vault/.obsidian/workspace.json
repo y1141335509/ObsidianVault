@@ -85,7 +85,7 @@
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 5
           },
           {
             "id": "c604b651f37fb77a",
@@ -263,7 +263,7 @@
                   },
                   "serial": {
                     "columns": 57,
-                    "data": "yinghaiyu@Yinghais-MacBook-Pro / % ls\r\nApplications\u001b[4Ccores\u001b[11Csbin\r\nLibrary\u001b[9Cdev\u001b[13Ctmp\r\nSystem\u001b[10Cetc\u001b[13Cusr\r\nUsers\u001b[11Chome\u001b[12Cvar\r\nVolumes\u001b[9Copt\r\nbin\u001b[13Cprivate\r\nyinghaiyu@Yinghais-MacBook-Pro / % cd Users/yinghaiyu/Main/DesktopMain/STUDY/KnowledgeVault \r\nyinghaiyu@Yinghais-MacBook-Pro KnowledgeVault % ls\r\nObsidianVault\u001b[3CZoteroPapers\r\nyinghaiyu@Yinghais-MacBook-Pro KnowledgeVault % cd ObsidianVault/Obsidian\\ Vault \r\nyinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % ls\r\nCalendars\u001b[15C创业相关\r\nExcalidraw\u001b[14C实用学习笔记\r\nGameAI\u001b[18C签证相关\r\nPapers\u001b[18C项目开发\r\nRuoxi\r\nyinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git add .\r\n\r\nyinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git commi\r\nt -m '05-06'\r\n[main dd2878a] 05-06\r\n 4 files changed, 199 insertions(+), 49 deletions(-)\r\n create mode 100644 \"Obsidian Vault/\\345\\256\\236\\347\\224\\250\\345\\255\\246\\344\\271\\240\\347\\254\\224\\350\\256\\260/Liquid and Shopify/Learning Shopify and E-Commerce.md\"\r\n rename \"Obsidian Vault/\\345\\256\\236\\347\\224\\250\\345\\255\\246\\344\\271\\240\\347\\254\\224\\350\\256\\260/Liquid/Liquid.md\" => \"Obsidian Vault/\\345\\256\\236\\347\\224\\250\\345\\255\\246\\344\\271\\240\\347\\254\\224\\350\\256\\260/Liquid and Shopify/Liquid.md\" (100%)\r\n create mode 100644 \"Obsidian Vault/\\345\\256\\236\\347\\224\\250\\345\\255\\246\\344\\271\\240\\347\\254\\224\\350\\256\\260/Liquid and Shopify/Shopify Liquid.md\"\r\nyinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git push\r\nEnumerating objects: 15, done.\r\nCounting objects: 100% (15/15), done.\r\nDelta compression using up to 10 threads\r\nCompressing objects: 100% (9/9), done.\r\nWriting objects: 100% (10/10), 7.12 KiB | 7.12 MiB/s, done.\r\nTotal 10 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)\r\nremote: Resolving deltas: 100% (4/4), completed with 4 local objects.\r\nTo github.com:y1141335509/ObsidianVault.git\r\n   25a358a..dd2878a  main -> main\r\nyinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git add ",
+                    "data": "yinghaiyu@Yinghais-MacBook-Pro / % ls\r\nApplications\u001b[4Ccores\u001b[11Csbin\r\nLibrary\u001b[9Cdev\u001b[13Ctmp\r\nSystem\u001b[10Cetc\u001b[13Cusr\r\nUsers\u001b[11Chome\u001b[12Cvar\r\nVolumes\u001b[9Copt\r\nbin\u001b[13Cprivate\r\nyinghaiyu@Yinghais-MacBook-Pro / % cd Users/yinghaiyu/Main/DesktopMain/STUDY/KnowledgeVault \r\nyinghaiyu@Yinghais-MacBook-Pro KnowledgeVault % ls\r\nObsidianVault\u001b[3CZoteroPapers\r\nyinghaiyu@Yinghais-MacBook-Pro KnowledgeVault % cd ObsidianVault/Obsidian\\ Vault \r\nyinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % ls\r\nCalendars\u001b[15C创业相关\r\nExcalidraw\u001b[14C实用学习笔记\r\nGameAI\u001b[18C签证相关\r\nPapers\u001b[18C项目开发\r\nRuoxi\r\nyinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git add .\r\n\r\nyinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git commi\r\nt -m '05-06'\r\n[main dd2878a] 05-06\r\n 4 files changed, 199 insertions(+), 49 deletions(-)\r\n create mode 100644 \"Obsidian Vault/\\345\\256\\236\\347\\224\\250\\345\\255\\246\\344\\271\\240\\347\\254\\224\\350\\256\\260/Liquid and Shopify/Learning Shopify and E-Commerce.md\"\r\n rename \"Obsidian Vault/\\345\\256\\236\\347\\224\\250\\345\\255\\246\\344\\271\\240\\347\\254\\224\\350\\256\\260/Liquid/Liquid.md\" => \"Obsidian Vault/\\345\\256\\236\\347\\224\\250\\345\\255\\246\\344\\271\\240\\347\\254\\224\\350\\256\\260/Liquid and Shopify/Liquid.md\" (100%)\r\n create mode 100644 \"Obsidian Vault/\\345\\256\\236\\347\\224\\250\\345\\255\\246\\344\\271\\240\\347\\254\\224\\350\\256\\260/Liquid and Shopify/Shopify Liquid.md\"\r\nyinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git push\r\nEnumerating objects: 15, done.\r\nCounting objects: 100% (15/15), done.\r\nDelta compression using up to 10 threads\r\nCompressing objects: 100% (9/9), done.\r\nWriting objects: 100% (10/10), 7.12 KiB | 7.12 MiB/s, done.\r\nTotal 10 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)\r\nremote: Resolving deltas: 100% (4/4), completed with 4 local objects.\r\nTo github.com:y1141335509/ObsidianVault.git\r\n   25a358a..dd2878a  main -> main\r\nyinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git add .\r\n\r\nyinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git commi\r\nt -m 'calender'\r\n[main 9961e5a] calender\r\n 3 files changed, 35 insertions(+), 10 deletions(-)\r\n create mode 100644 Obsidian Vault/Calendars/2024-05-09.md\r\nyinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git push\r\nEnumerating objects: 18, done.\r\nCounting objects: 100% (18/18), done.\r\nDelta compression using up to 10 threads\r\nCompressing objects: 100% (9/9), done.\r\nWriting objects: 100% (10/10), 1.70 KiB | 1.70 MiB/s, done.\r\nTotal 10 (delta 6), reused 0 (delta 0), pack-reused 0 (from 0)\r\nremote: Resolving deltas: 100% (6/6), completed with 6 local objects.\r\nTo github.com:y1141335509/ObsidianVault.git\r\n   dd2878a..9961e5a  main -> main\r\nyinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % ",
                     "rows": 26
                   }
                 }
@@ -291,20 +291,20 @@
       "terminal:Open terminal": false,
       "chronology:Open Chronology": false,
       "obsidian-full-calendar:Open Full Calendar": false,
-      "templater-obsidian:Templater": false,
       "obsidian-weread-plugin:同步微信读书笔记": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-projects:Open projects": false
+      "obsidian-projects:Open projects": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "4699ffec508606f0",
   "lastOpenFiles": [
+    "实用学习笔记/Liquid and Shopify/Learning Shopify and E-Commerce.md",
+    "实用学习笔记/Liquid and Shopify/Liquid.md",
     "实用学习笔记/Liquid and Shopify/Shopify Liquid.md",
     "Calendars/2024-05-09.md",
-    "实用学习笔记/Liquid and Shopify/Learning Shopify and E-Commerce.md",
     "创业相关/Bubbles&Books/2024-04-26 Mother's Day & Product Detail Page Design.md",
     "实用学习笔记/Github相关/GitHub.md",
-    "实用学习笔记/Liquid and Shopify/Liquid.md",
     "Excalidraw/Drawing 2024-05-06 13.58.44.excalidraw.md",
     "Excalidraw",
     "签证相关/回国计划.md",
