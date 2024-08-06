@@ -1,29 +1,5 @@
 
 
-
-## placeholder
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Set up environment and Run test commands
 
 Activate your environment:
@@ -44,37 +20,6 @@ Running a Local test:
 (ml4t) yinghaiyu@Yinghais-MacBook-Pro assess_portfolio % PYTHONPATH=../:. python3 analysis.py
 (ml4t) yinghaiyu@Yinghais-MacBook-Pro assess_portfolio % PYTHONPATH=../:. python3 grade_analysis.py
 ```
-
-
-
-
-
-
-
-
-## 1
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

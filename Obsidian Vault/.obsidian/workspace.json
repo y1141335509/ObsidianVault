@@ -25,50 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "实用学习笔记/Github相关/GitHub.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d9f7174ea074ae37",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "创业相关/Bubbles&Books/2024-04-26 Mother's Day & Product Detail Page Design.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4bf819562b02ef04",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "创业相关/Bubbles&Books/2024-05-30 男士礼盒 & 父亲节礼盒.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f5ffc08b7e193391",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GA/ML4T/ML4T - Project 1.md",
+                "file": "创业相关/Bubbles&Books/2024-07-31.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -168,18 +132,18 @@
             }
           },
           {
-            "id": "dc03ccf1b5c2016c",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {}
-            }
-          },
-          {
             "id": "1b69e3a3a5d6f5fe",
             "type": "leaf",
             "state": {
               "type": "chronology-calendar-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "dc03ccf1b5c2016c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
               "state": {}
             }
           },
@@ -190,81 +154,9 @@
               "type": "full-calendar-sidebar-view",
               "state": {}
             }
-          },
-          {
-            "id": "29340a7111b26e01",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "terminal:terminal",
-              "state": {
-                "terminal:terminal": {
-                  "cwd": "/Users/yinghaiyu/Main/DesktopMain/STUDY/KnowledgeVault/ObsidianVault/Obsidian Vault",
-                  "focus": false,
-                  "profile": {
-                    "args": [],
-                    "executable": "/bin/zsh",
-                    "name": "",
-                    "platforms": {
-                      "darwin": true
-                    },
-                    "pythonExecutable": "python3",
-                    "restoreHistory": true,
-                    "successExitCodes": [
-                      "0",
-                      "SIGINT",
-                      "SIGTERM"
-                    ],
-                    "terminalOptions": {},
-                    "type": "integrated",
-                    "useWin32Conhost": true
-                  },
-                  "serial": null
-                }
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "fa662ef4aea669f3",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "terminal:terminal",
-              "state": {
-                "terminal:terminal": {
-                  "cwd": "/Users/yinghaiyu/Main/DesktopMain/STUDY/KnowledgeVault/ObsidianVault/Obsidian Vault",
-                  "focus": false,
-                  "profile": {
-                    "args": [],
-                    "executable": "/bin/zsh",
-                    "name": "",
-                    "platforms": {
-                      "darwin": true
-                    },
-                    "pythonExecutable": "python3",
-                    "restoreHistory": true,
-                    "successExitCodes": [
-                      "0",
-                      "SIGINT",
-                      "SIGTERM"
-                    ],
-                    "terminalOptions": {},
-                    "type": "integrated",
-                    "useWin32Conhost": true
-                  },
-                  "serial": {
-                    "columns": 56,
-                    "data": "(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % ",
-                    "rows": 43
-                  }
-                }
-              },
-              "pinned": true
-            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 4
       },
       {
         "id": "7bc02ca0bd20ad80",
@@ -294,14 +186,16 @@
                       "SIGINT",
                       "SIGTERM"
                     ],
-                    "terminalOptions": {},
+                    "terminalOptions": {
+                      "documentOverride": null
+                    },
                     "type": "integrated",
                     "useWin32Conhost": true
                   },
                   "serial": {
                     "columns": 56,
-                    "data": "(base) yinghaiyu@Yinghais-MacBook-Pro / % ls\r\nApplications\u001b[4Ccores\u001b[11Csbin\r\nLibrary\u001b[9Cdev\u001b[13Ctmp\r\nSystem\u001b[10Cetc\u001b[13Cusr\r\nUsers\u001b[11Chome\u001b[12Cvar\r\nVolumes\u001b[9Copt\r\nbin\u001b[13Cprivate\r\n(base) yinghaiyu@Yinghais-MacBook-Pro / % cd Users/yinghaiyu/Main/DesktopMain/STUDY/KnowledgeVault/ObsidianVault/Obsidian\\ Vault/\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % l\r\ns\r\nCalendars\u001b[15C创业相关\r\nExcalidraw\u001b[14C实用学习笔记\r\nGA\u001b[22C签证相关\r\nPapers\u001b[18C项目开发\r\nRuoxi\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % g\r\nit add .\r\n\r\n\r\n\r\n\r\n\r\n\r\n\u001b[7A\u001b[8C",
-                    "rows": 24
+                    "data": "(base) yinghaiyu@Yinghais-MacBook-Pro / % ls\r\nApplications\u001b[4Ccores\u001b[11Csbin\r\nLibrary\u001b[9Cdev\u001b[13Ctmp\r\nSystem\u001b[10Cetc\u001b[13Cusr\r\nUsers\u001b[11Chome\u001b[12Cvar\r\nVolumes\u001b[9Copt\r\nbin\u001b[13Cprivate\r\n(base) yinghaiyu@Yinghais-MacBook-Pro / % cd Users/yinghaiyu/Main/DesktopMain/STUDY/KnowledgeVault/ObsidianVault\r\n\r\n(base) yinghaiyu@Yinghais-MacBook-Pro ObsidianVault % ls\r\n\r\nObsidian Vault\r\n(base) yinghaiyu@Yinghais-MacBook-Pro ObsidianVault % cd\r\n Obsidian\\ Vault \r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % g\r\nit ad ",
+                    "rows": 26
                   }
                 }
               }
@@ -331,17 +225,22 @@
       "obsidian-weread-plugin:同步微信读书笔记": false,
       "obsidian-projects:Open projects": false,
       "templater-obsidian:Templater": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-kanban:Create new board": false
     }
   },
   "active": "4699ffec508606f0",
   "lastOpenFiles": [
+    "创业相关/Bubbles&Books/2024-07-31.md",
+    "实用学习笔记/Godot",
+    "实用学习笔记/Github相关/GitHub.md",
     "GA/ML4T/ML4T - Project 1.md",
+    "GA/MachineLearning",
+    "创业相关/Bubbles&Books/2024-04-26 Mother's Day & Product Detail Page Design.md",
     "签证相关/回国计划.md",
     "创业相关/Bubbles&Books/img",
     "创业相关/Bubbles&Books/img/Screenshot 2024-05-30 at 22.30.28.png",
     "创业相关/Bubbles&Books/2024-05-30 男士礼盒 & 父亲节礼盒.md",
-    "创业相关/Bubbles&Books/2024-04-26 Mother's Day & Product Detail Page Design.md",
     "实用学习笔记/Liquid and Shopify/Learning Shopify and E-Commerce.md",
     "实用学习笔记/Liquid and Shopify/Shopify Liquid.md",
     "实用学习笔记/Liquid and Shopify/Liquid.md",
@@ -350,7 +249,6 @@
     "GA/ML4T",
     "GA",
     "Calendars/2024-05-09.md",
-    "实用学习笔记/Github相关/GitHub.md",
     "Excalidraw/Drawing 2024-05-06 13.58.44.excalidraw.md",
     "Excalidraw",
     "实用学习笔记/Liquid and Shopify",
@@ -366,8 +264,6 @@
     "GA/GameAI/images/Screenshot 2024-04-25 at 14.25.49.png",
     "GA/GameAI/images/Screenshot 2024-04-25 at 14.21.07.png",
     "obsidian.css",
-    "manifest.json",
-    "theme.css",
     "实用学习笔记/Elasticsearch/Elasticsearch + Kibana学习.md",
     "实用学习笔记/Network Analysis/Networkx + Network Analysis.md",
     "创业相关/开公司/人、货、店.md",
@@ -380,7 +276,6 @@
     "Calendars/2024-03-08.md",
     "Papers/LLM介绍.md",
     "Papers/Plan.md",
-    "Ruoxi/笔记📒.md",
     "游戏制作/Untitled.canvas",
     "Untitled.canvas",
     "Untitled 1.canvas"
