@@ -27,6 +27,51 @@
 
 
 
+# Chapter 5 Replication
+
+
+
+
+
+# Chapter 6 Partition
+
+
+
+
+
+# Chapter 7 Transactions
+
+
+
+
+
+# Chapter 8 The Trouble with Distributed Systems
+
+
+
+
+
+# Chapter 9 Consistency and Consensus
+
+
+
+
+
+# Chapter 10 Batch Processing
+
+
+
+
+
+# Chapter 11 Stream Processing
+
+
+
+
+
+# Chapter 12 The Future of Data Systems
+
+
 
 
 
