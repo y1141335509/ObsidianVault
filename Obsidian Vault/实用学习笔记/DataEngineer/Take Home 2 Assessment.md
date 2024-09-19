@@ -331,7 +331,8 @@ ORDER BY play_count DESC
 LIMIT 1;
 ```
 
-
+### Potential Improvements
+1. 给例如`fact_game_play`或者`fact_user_level`表添加indexes。作用是当执行较为复杂的语句，例如`where, join, order by`的时候，不需要进行full table scan。例如当你执行`select * from fact_game_play where user_id = 5;`的时候，MySQL就需要full table scan找到 `user_id = 5`的行。如果有indexes的话`create index idx_fact_game_play_user_id on fact_game_play(user_id);` ，这些索引就可以像是一个lookup table一样立刻给出结果。（我感觉它的本质
 
 
 
