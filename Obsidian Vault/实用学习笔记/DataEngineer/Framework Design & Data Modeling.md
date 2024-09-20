@@ -1,3 +1,18 @@
+在开始作答之前需要问：
+1. 关于Input Data
+	1. What are we getting the input data from? And, how often will be get the data?
+	2. What is the schema?
+	3. What is the input data size?
+2. 关于Transformation
+	1. What are the business rules? **咋问？**
+3. 关于Output Data
+	1. Understand the metric in detail
+	2. How the output data will be used?
+	3. What is the refresh rate?
+	4. What is the query pattern?
+	5. What is the data retention?
+
+---
 # Framework Design
 
 1. **how did i set up data ingestion**
@@ -193,20 +208,65 @@ The marketing team wants real-time updates on user engagement with various featu
 ##### 如何让这个设计Incremental？
 
 1. **使用Timestamps帮我们做Incremental Loading**
-	* 在这两个fact table 里，我们都存放了timestamp，这就说明我们每次incremental loading的时候只需要更新 the delta
-2. **Change Data Capture (CDC)**
-	* 使用一些CDC的技术来追踪 data changes without full data table loadings。例如我们可以使用**AWS DMS** 或者**Snowflake Streams**来实现CDC
-3. **Partitioning**
+	* 在这两个fact table 里，我们都存放了timestamp，这就说明我们每次incremental loading的时候只需要更新 the delta。
+	* 相关的incremental loading 工具有 **airflow, AWS Glue, dbt** 等等
+1. **Change Data Capture (CDC)**
+	* 使用一些CDC的技术来追踪 data changes without full data table loadings。例如我们可以使用**AWS DMS** 或者**Snowflake Streams**， **Debezium** 来实现CDC。
+2. **Partitioning**
 	* 还可以通过 partitioning 的方式（例如通过时间或者地域切分），将fact table 切分；这样做可以加速queries同时确保 data ingestion的高效（因为只需要对特定的partition进行操作）。
 
 ##### 如何改进当前的设计？
-1. **Optimize Query Performance**
-	* 一种方法是给经常被访问的 列 （例如`game_id`, `user_id`, `game_play_timestamp`等）添加 index来减少查询时间，避免full table loading
+**Optimize Query Performance**
+1. 一种方法是给经常被访问的 列 （例如`game_id`, `user_id`, `game_play_timestamp`等）添加 index来减少查询时间，避免full table loading
+	* 一种是 **B-tree indexes** 或者 **bitmap indexes** 对 **low cardinality**的列进行index（例如 `activity_id` 只有 login, logout, play_game, level_change这4个）
+	* 另一种是通过 **Composite Indexes**。例如我们可以将两个列`timestamp`和`user_id` 合并创建index。这样可以避免full table loading
+	* `CREATE INDEX index_name ON table_name (col1, col2, ...);`
+
 2. 另一种方法是 在添加几个dimension table。这种方法在我们有额外数据（例如devices, locations）的时候比较有用
 3. Surrogate Keys - 对于large table来说，使用surrogate key会比使用 （例如`user_id`, `game_id`等 ）有更好的性能
-4. Track Event Hierarchies - 如果有需要的话还可以 添加一个新的 dimension table `dim_event_type` 来区分 `play_game`, `login`, `logout`, `level_up`等不同的事件。
+4. Partitioning 
+	* 更细致的partitioning 方案：例如在**snowflake**中，我们可以使用**automatic clustering**或者**micro-partitioning**。这两种方案都可以有虎query性能而不需要手动干预。在**PostgreSQL**中我们可以使用**range partitioning**或者**list partitioning**对特定的列进行切
+```mysql
+	-- create a table with partitions using VALUE RANGES
+	CREATE TABLE employees (id INT NOT NULL, name VARCHAR(20)) 
+	PARTITION BY RANGE(id) (
+		PARTITION p0 VALUES LESS THAN (5),
+		PARTITION p1 VALUES LESS THAN (10),
+		PARTITION p2 VALUES LESS THAN MAXVALUE
+	);
 
+	-- create a table with partitions using LIST
+	CREATE TABLE customers (name VARCHAR(20), city VARCHAR(15))
+	PARTITION BY LIST COLUMNS(city) (
+		PARTITION pRegion1 VALUES IN ('Beijing', 'Shanghai'),
+		PARTITION pRegion2 VALUES IN ('Tokyo', 'Kyoto'),
+		PARTITION pRegion3 VALUES IN ('New York', 'Seattle')
+	);
 
+	-- create a table with partitions using HASH
+	CREATE TABLE employees (id INT NOT NULL, job_code INT)
+	PARTITION BY HASH(job_code)
+	PARTITIONS 4;            -- 将 job_code 进行哈希然后分成 4份
+
+	-- create a table with partitions using KEY
+	CREATE TABLE customers (id INT NOT NULL, name VARCHAR(30))
+	PARTITION BY KEY()
+	PARTITIONS 2;            -- 将 KEY 分成 2份
+
+	-- 对多份 PARTITIONS 进行query：
+	SELECT * FROM employees WHERE id < 5
+```
+5. Track Event Hierarchies - 如果有需要的话还可以 添加一个新的 dimension table `dim_event_type` 来区分 `play_game`, `login`, `logout`, `level_up`等不同的事件。
+6. Caching - 可以添加一个caching layer (e.g., Redis) 用来存放 frequently accessed data，来减少对于primary database的loading
+7. Materialized Views - 这些是 pre-calculated results stored in physically storage, which allows for faster queries。我们可以定义更新materialized views
+
+##### 如何实现Scalability？
+1. Sharding - 如果用户量显著增加的话，我们可能需要考虑使用sharding。可以通过user_id或者 location 将数据切分
+2. Data Lake Integration - 当数据量非常大，我们可以考虑offline historical 或者 infrequently accessed data 到 data lake 中。通常可以考虑使用 AWS S3，从而减少cost
+
+##### 如何Handle SCD (Slowly Changing Dimensions)？
+1. SCD Type 2 - 是会随时间变化，且需要historical track的数据。例如 revenue amount, product price等 （这种列 比较适合放在 fact table 或者有 `timestamp`列的表里。
+2. SCD Type 1 - 通常就是不需要 historical track 的数据。例如 user preference, address等信息 （我的理解是这种列 可以放在dimension table里）
 
 
 
