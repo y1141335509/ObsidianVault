@@ -12,6 +12,99 @@
 	4. What is the query pattern?
 	5. What is the data retention?
 
+
+
+## Questions for Guideline
+1. What does success look like for this role in the first 6 months?
+2. Are there any upcoming projects or challenges that this role will address?
+3. How does this role interact with other teams, such as Data Analytics or Financial teams?
+
+# API and System Design
+
+什么是Endpoint？——是一种URL path，是用来让外部访问某些内部资源的。例如 `/users, /transactions` 等。
+什么是HTTP 方法？——包括`GET, POST, PUT/PATCH, DELETE` 分别用来获取、创建、更新、删除数据
+什么是Request/Response？——request包含几个headers，parameters和一个body；response包含状态码（例如200, 404等）和数据
+
+下面是一个使用`flask` 进行的API design：
+```python
+from flask import Flask, request, jsonify
+
+app = Flask(__name__)
+
+data = {'users': []}     # sample data for database
+
+@app.route('/users', methods=['GET'])
+def get_users():
+    return jsonify(data['users'])
+
+@app.route('/users', methods(['POST']))
+def create_user():
+    new_user = request.json
+    data['users'].append(new_user)
+    return jsonify(new_user), 201
+
+if __name__ == '__main__':
+    app.run(debug=True)
+```
+
+什么是REST？ Representational State Transfer
+
+
+**You**: "Here’s how I would design the pipeline:
+1. **Ingestion**:
+    - Use Kafka to buffer the incoming events.
+    - Each event should include a unique transaction ID to help with deduplication.
+2. **Processing**:
+    - Use Apache Beam running on Google Dataflow for real-time processing.
+    - Apply a sliding window of 5 minutes to calculate the total contributions per user.
+    - Deduplicate events within the window by maintaining a stateful map of transaction IDs.
+3. **Storage**:
+    - Save raw events in GCS with a timestamp-based directory structure for easy retrieval.
+    - Write aggregated results to a partitioned BigQuery table to optimize query performance.
+4. **Monitoring**:
+    - Use Google Cloud Monitoring to track pipeline health, throughput, and latency."
+
+
+# High-Level Design Question (3rd Round)
+## 1. 如何处理和搭建Real-Time Data Pipeline？
+**问题描述**：Guideline handles real-time 401(k) contributions. We need a robust pipeline to process these events and store aggregated data in BigQuery. The requirements are:
+1. Contributions are streamed into Kafka.
+2. Aggregate the total contribution amount per user every 5 minutes.
+3. Store raw events in GCS (Google Cloud Storage) for auditing.
+4. Write aggregated results to BigQuery for reporting.
+
+**面试回答**：1. What is the expected data/event volume? How many events per second? 2. How strict are latency requirements? (e.g., does it have to be near real-time or can they be a bit late?); 3. What happens if there are duplicate or late-arriving events?
+
+**关键点：**
+1. 数据接收（使用Kafka来接收 steam real-time data events），同时将kafka设置为多个partition来提高scalability，最后对数据进行备份
+2. 数据处理（使用Apache Beam + Google Dataflow），然后以5 minute为窗口进行per-user aggregation，最后使用Beam的watermarking来处理late arrival data
+3. 数据存储（使用GCS）然后可以使用timestamp作为directory structure。例如`gs://bucket_name/events/YYYY/MM/DD`
+4. 监控（使用Google Cloud Monitoring）来监控throughout, lag等参数
+Follow-up Questions:
+1. 如何处理重复数据？—— 使用Kafka 消息中的transaction ID来去重；通过维护 已处理ID  这一信息 保重Beam中没有重复处理数据。
+2. 如何处理late arriving events? —— 使用Beam中的sliding window + 所允许的迟到时间（例如1 minute）；确保late data在finalization之前都被aggregate了
+3. 如何scale up该pipeline？—— 增加kafka中partition的数量；使用Dataflow中的auto-scaling功能来处理节点；通过对`user_id` 聚类来优化BigQuery
+4. 如果输入数据的schema有变化怎么办？—— 使用kafka的schema validation功能（例如Avro或者Protobuf）
+5. 如果pipeline的某个component fail了怎么办？——使用Dataflow中自带的`retry` 和`checkpointing` 功能来实现fault recovery；将pipeline的intermediate state存入GCS以便能够从上一个checkpoint处重启pipeline。
+
+
+**Late Arrival** - 通常由网络延迟、上游数据处理延迟、clock synchronization问题造成。Late Arrival会导致你在进行aggregation后得到不准确的结果、或者造成数据的duplicate。解决方案通常是设置一个grace period 例如Apache Beam `withAllowedLateness(Duration.standardMinutes(2))` 或者Watermarks
+
+
+
+
+# Kafka知识
+
+
+Kafka 中包含多个Topics； 每个Topics被切分成多个Partitions； 每个Partition都是一个独立的 log，里面存放一部分Topic Message
+Producers 会将 Messages 写入特定的Partition （通常基于key，例如`user_id`）
+Consumers 通过 Parallel的方式从Partition上读取数据。
+
+
+
+
+
+
 ---
 # Framework Design
 
@@ -44,6 +137,7 @@
 		6. As scale up the system, do we gradually upgrade each component or migrate to another architecture? (这时候就需要horizontal sharding、CDN、caching、rate limiting、SQL、NoSQL databases相关的知识了)
 6. (5 min) Review and wrap up
 	1. 
+
 
 #### Kinesis Data Streams vs. Data Firehose
 
@@ -100,7 +194,7 @@ SELECT * FROM users PARTITION (p_2);
 	2. Hash-based partitioning - 是通过添加hash key（例如user ID）的方法对数据进行索引。该方法能够保证在多个partitions上进行索引
 	3. Consistent Hashing - 通常是应用在分布式系统上（例如NoSQL数据库上），是为了确保数据在节点之间能够被均匀分配
 2. Load Balancer in ingestion
-	1. Load Balacner能够将数据均匀分配到多个计算节点上（例如在ETL pipeline中）。比如你可以在real-time streaming platform (kafka) 中将workload 分发给不同的consumer groups来balance workload
+	1. Load Balancer能够将数据均匀分配到多个计算节点上（例如在ETL pipeline中）。比如你可以在real-time streaming platform (kafka) 中将workload 分发给不同的consumer groups来balance workload
 	2. read/write balancing - 对于高write写入的系统，我们可以使用Cassandra, HBase等write-optimized databases。高读取系统可以通过使用replicas来balance workload
 
 #### APIs: REST, SOAP, GraphQL, RPC

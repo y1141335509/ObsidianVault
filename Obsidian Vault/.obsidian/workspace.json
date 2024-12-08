@@ -22,17 +22,17 @@
             }
           },
           {
-            "id": "eb79ea083cb2c98a",
+            "id": "a36d80aa76673d80",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "实用学习笔记/面试笔记/DataEngineer/Data Modeling & Framework Design.md",
+                "file": "创业相关/Bubbles&Books/开店规划 - 2025.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Data Modeling & Framework Design"
+              "title": "开店规划 - 2025"
             }
           }
         ],
@@ -109,6 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "实用学习笔记/面试笔记/DataEngineer/Data Modeling & Framework Design.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +119,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Data Modeling & Framework Design"
             }
           },
           {
@@ -127,11 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "实用学习笔记/面试笔记/DataEngineer/Data Modeling & Framework Design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Data Modeling & Framework Design"
             }
           },
           {
@@ -162,9 +164,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "实用学习笔记/面试笔记/DataEngineer/Data Modeling & Framework Design.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Data Modeling & Framework Design"
             }
           },
           {
@@ -215,8 +219,8 @@
                     "useWin32Conhost": true
                   },
                   "serial": {
-                    "columns": 40,
-                    "data": "(base) yinghaiyu@Yinghais-MacBook-Pro / % ls\r\nApplications\u001b[4Cetc\r\nLibrary\u001b[9Chome\r\nSystem\u001b[10Copt\r\nUsers\u001b[11Cprivate\r\nVolumes\u001b[9Csbin\r\nbin\u001b[13Ctmp\r\ncores\u001b[11Cusr\r\ndev\u001b[13Cvar\r\n(base) yinghaiyu@Yinghais-MacBook-Pro / % cd Users/yinghaiyu/Main/DesktopMain/STUDY/KnowledgeVault/ObsidianVault/Obsidian\\ Vault/\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % ls\r\nCalendars\r\nExcalidraw\r\nGA\r\nPapers\r\nRuoxi\r\n创业相关\r\n实用学习笔记\r\n签证相关\r\n项目开发\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git add .\r\n\r\n\r\n\r\n\u001b[3A",
+                    "columns": 43,
+                    "data": "(base) yinghaiyu@Yinghais-MacBook-Pro / % l\r\ns\r\nApplications\u001b[4Cetc\r\nLibrary\u001b[9Chome\r\nSystem\u001b[10Copt\r\nUsers\u001b[11Cprivate\r\nVolumes\u001b[9Csbin\r\nbin\u001b[13Ctmp\r\ncores\u001b[11Cusr\r\ndev\u001b[13Cvar\r\n(base) yinghaiyu@Yinghais-MacBook-Pro / % cd Users/yinghaiyu/Main/DesktopMain/STUDY/KnowledgeVault/ObsidianVault/Obsidian\\ Vault\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % ls\r\nCalendars\r\nExcalidraw\r\nGA\r\nPapers\r\nRuoxi\r\n创业相关\r\n实用学习笔记\r\n签证相关\r\n项目开发\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git add .\r\n\r\n\r\n\r\n\u001b[4A\u001b[21C",
                     "rows": 26
                   }
                 }
@@ -249,23 +253,24 @@
       "obsidian-weread-plugin:同步微信读书笔记": false,
       "obsidian-projects:Open projects": false,
       "templater-obsidian:Templater": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-kanban:Create new board": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "4699ffec508606f0",
   "lastOpenFiles": [
+    "创业相关/Bubbles&Books/开店规划 - 2025.md",
     "实用学习笔记/面试笔记/DataEngineer/Data Modeling & Framework Design.md",
+    "签证相关/回国计划.md",
+    "实用学习笔记/面试笔记/DataEngineer/Take Home 2 Assessment.md",
     "实用学习笔记/面试笔记/DataEngineer/Designing Data Intensive Applications copy.pdf",
     "实用学习笔记/面试笔记/DataEngineer/Designing a Data Intensive App.md",
-    "实用学习笔记/面试笔记/DataEngineer/Take Home 2 Assessment.md",
     "创业相关/Bubbles&Books/副业 2024-07-31.md",
     "实用学习笔记/面试笔记/DataEngineer/Untitled.md",
     "实用学习笔记/面试笔记/DataEngineer/Ceribell, Inc..md",
     "实用学习笔记/面试笔记/DataEngineer/images/Screenshot 2024-09-18 at 17.08.20.png",
     "实用学习笔记/面试笔记/DataEngineer/images",
-    "签证相关/回国计划.md",
     "实用学习笔记/面试笔记/DataEngineer",
     "实用学习笔记/游戏开发学习/CSharp编程/Yellow Book Code Samples 6.4/Code Sample 57 WPF Adding Machine/AddingMachine/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs",
     "实用学习笔记/游戏开发学习/CSharp编程/Yellow Book Code Samples 6.4/Code Sample 57 WPF Adding Machine/AddingMachine/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs",
