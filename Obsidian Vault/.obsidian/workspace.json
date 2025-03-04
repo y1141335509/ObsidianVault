@@ -246,7 +246,7 @@
                   },
                   "serial": {
                     "columns": 43,
-                    "data": "(base) yinghaiyu@Yinghais-MacBook-Pro / % l\r\ns\r\nApplications\u001b[4Cetc\r\nLibrary\u001b[9Chome\r\nSystem\u001b[10Copt\r\nUsers\u001b[11Cprivate\r\nVolumes\u001b[9Csbin\r\nbin\u001b[13Ctmp\r\ncores\u001b[11Cusr\r\ndev\u001b[13Cvar\r\n(base) yinghaiyu@Yinghais-MacBook-Pro / % cd Users/yinghaiyu/Main/DesktopMain/STUDY/KnowledgeVault/ObsidianVault/Obsidian\\ Vault/\r\n\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % ls\r\nCalendars\r\nExcalidraw\r\nGA\r\nPapers\r\nRuoxi\r\n创业相关\r\n实用学习笔记\r\n签证相关\r\n项目开发\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git ad\r\n\r\n\r\n\u001b[3A\u001b[18C",
+                    "data": "(base) yinghaiyu@Yinghais-MacBook-Pro / % l\r\ns\r\nApplications\u001b[4Cetc\r\nLibrary\u001b[9Chome\r\nSystem\u001b[10Copt\r\nUsers\u001b[11Cprivate\r\nVolumes\u001b[9Csbin\r\nbin\u001b[13Ctmp\r\ncores\u001b[11Cusr\r\ndev\u001b[13Cvar\r\n(base) yinghaiyu@Yinghais-MacBook-Pro / % cd Users/yinghaiyu/Main/DesktopMain/STUDY/KnowledgeVault/ObsidianVault/Obsidian\\ Vault/\r\n\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % ls\r\nCalendars\r\nExcalidraw\r\nGA\r\nPapers\r\nRuoxi\r\n创业相关\r\n实用学习笔记\r\n签证相关\r\n项目开发\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git add .\r\ng\u001b[7;1m%\u001b[0m                                         \r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git commit -m 'exam 2 - GA OMSC\r\nS 6515'\r\n[main 43f08a2] exam 2 - GA OMSCS 6515\r\n 30 files changed, 710 insertions(+), 388 deletions(-)\r\n create mode 100755 Obsidian Vault/.obsidian/plugins/obsidian-git/obsidian_askpass.sh\r\n create mode 100644 Obsidian Vault/GA/CS6515Algorithm/Exam 2 Preparation.md\r\n create mode 100644 Obsidian Vault/GA/CS6515Algorithm/img/Pasted image 20250304095300.png\r\n create mode 100644 Obsidian Vault/GA/CS6515Algorithm/img/Screenshot 2025-03-04 at 10.07.10.png\r\n create mode 100644 Obsidian Vault/GA/CS6515Algorithm/img/Screenshot 2025-03-04 at 10.34.59.png\r\n create mode 100644 Obsidian Vault/GA/CS6515Algorithm/img/Screenshot 2025-03-04 at 10.35.33.png\r\n create mode 100644 Obsidian Vault/GA/CS6515Algorithm/img/Screenshot 2025-03-04 at 11.09.56.png\r\n create mode 100644 Obsidian Vault/GA/CS6515Algorithm/img/Screenshot 2025-03-04 at 12.01.33.png\r\n create mode 100644 Obsidian Vault/GA/CS6515Algorithm/img/Screenshot 2025-03-04 at 13.34.35.png\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git push\r\nEnumerating objects: 75, done.\r\nCounting objects: 100% (75/75), done.\r\nDelta compression using up to 10 threads\r\nCompressing objects: 100% (44/44), done.\r\nWriting objects:  28% (13/46), 3.08 MiB | 5Writing objects:  30% (14/46), 3.08 MiB | 5Writing objects:  32% (15/46), 3.08 MiB | 5Writing objects:  34% (16/46), 3.08 MiB | 5Writing objects:  36% (17/46), 3.08 MiB | 5Writing objects:  39% (18/46), 3.08 MiB | 5Writing objects:  41% (19/46), 3.08 MiB | 5Writing objects:  43% (20/46), 3.08 MiB | 5Writing objects:  45% (21/46), 3.08 MiB | 5Writing objects:  47% (22/46), 3.08 MiB | 5Writing objects:  50% (23/46), 3.08 MiB | 5Writing objects:  52% (24/46), 3.08 MiB | 5Writing objects:  54% (25/46), 3.08 MiB | 5Writing objects:  56% (26/46), 3.08 MiB | 5Writing objects:  58% (27/46), 3.08 MiB | 5Writing objects:  60% (28/46), 3.08 MiB | 5Writing objects:  63% (29/46), 3.08 MiB | 5Writing objects:  65% (30/46), 3.08 MiB | 5Writing objects:  67% (31/46), 3.08 MiB | 5Writing objects:  69% (32/46), 3.08 MiB | 5Writing objects:  71% (33/46), 3.08 MiB | 5Writing objects:  73% (34/46), 3.08 MiB | 5Writing objects:  76% (35/46), 3.08 MiB | 5Writing objects:  78% (36/46), 3.08 MiB | 5Writing objects:  80% (37/46), 3.08 MiB | 5Writing objects:  82% (38/46), 3.08 MiB | 5Writing objects:  84% (39/46), 3.08 MiB | 5Writing objects:  86% (40/46), 3.08 MiB | 5Writing objects:  89% (41/46), 3.08 MiB | 5Writing objects:  91% (42/46), 3.08 MiB | 5Writing objects:  93% (43/46), 3.08 MiB | 5Writing objects:  95% (44/46), 3.08 MiB | 5Writing objects:  97% (45/46), 3.08 MiB | 5Writing objects: 100% (46/46), 3.08 MiB | 5Writing objects: 100% (46/46), 7.52 MiB | 6.34 MiB/s, done.\r\nTotal 46 (delta 15), reused 0 (delta 0), pack-reused 0 (from 0)\r\nremote: Resolving deltas: 100% (15/15), completed with 15 local objects.\r\nTo github.com:y1141335509/ObsidianVault.git\r\n   b5be763..43f08a2  main -> main\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % ",
                     "rows": 26
                   }
                 }
@@ -288,8 +288,10 @@
   "active": "4699ffec508606f0",
   "lastOpenFiles": [
     "GA/CS6515Algorithm/Exam 2 Preparation.md",
-    "GA/CS6515Algorithm/img/Screenshot 2025-03-04 at 13.34.35.png",
+    "GA/CS6515Algorithm/img/Screenshot 2025-03-04 at 13.42.52.png",
     "GA/CS6515Algorithm/img/Screenshot 2025-03-04 at 12.01.33.png",
+    "GA/CS6515Algorithm/img/Screenshot 2025-03-04 at 13.34.35.png",
+    "GA/CS6515Algorithm/img/Screenshot 2025-03-04 at 13.37.53.png",
     "GA/CS6515Algorithm/img/Screenshot 2025-03-04 at 11.09.56.png",
     "Screenshot 2025-03-04 at 11.09.43.png",
     "GA/CS6515Algorithm/img/Screenshot 2025-03-04 at 10.35.33.png",
@@ -300,8 +302,6 @@
     "创业相关/Bubbles&Books/开店规划 - 2025.md",
     "GA/CS6515Algorithm",
     "实用学习笔记/DMV/Drivers License.md",
-    "实用学习笔记/DMV/img/Pasted image 20250205001911.png",
-    "实用学习笔记/DMV/img/Pasted image 20250205000533.png",
     "实用学习笔记/DMV/img",
     "实用学习笔记/DMV",
     "实用学习笔记/面试笔记/DataEngineer/Data Modeling & Framework Design.md",

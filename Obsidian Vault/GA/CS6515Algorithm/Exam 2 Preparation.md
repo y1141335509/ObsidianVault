@@ -58,9 +58,12 @@ SCC 定义：在有向图中，如果一个图的每个顶点都可以从其他�
 ![[Screenshot 2025-03-04 at 12.01.33.png]]
 有了所有节点的pre和post order之后，我们按照post order降序排列：L -> K -> J -> I -> H -> D -> C -> B -> E -> A -> G -> F。
 然后回到原本的Graph G上，按照该顺序run DFS。首先从L开始，会遍历完L, K, J, I, H。这五个节点就是第一个SCC。然后遍历D，它自己是第二个SCC。然后是C, G, F，它们3个是第三个SCC。然后是B, E，它们是第四个SCC。最后是A，它自己是第五个SCC。
-![[Screenshot 2025-03-04 at 13.34.35.png]]
+![[Screenshot 2025-03-04 at 13.37.53.png]]
+该算法不仅仅是能够找到所有的SCC而已，如果我们画出Metagraph的话会发现：1-5 SCC之间的edge都是从右向左的（如上右图）。也就是**反向的Topological Order**。
 
-
+总结一下：
+**要找到一个普通有向图中的SCC，我们需要run两次DFS。第一次DFS跑在reverse Graph上；第二次DFS跑在原Graph上。我们最终可以找到所有的SCC，且所有 SCC之间的边都是从右向左连接的（也就是反向的Topological Order）。**
+![[Screenshot 2025-03-04 at 13.42.52.png]]
 
 
 
