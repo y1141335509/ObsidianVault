@@ -78,6 +78,33 @@ Dijkstra - $O((n+m) \log n)$ runtime, $n$ is the number of vertices; $m$ is the 
 
 ## DP3 - Shortest Paths
 
+DPV:
+6.17 (change making)
+6.18
+6.19
+6.20 (optimal BST)
+6.7 (Palindrome subsequence)
+
+
+**Shortest Path Algorithms via DP** - 给定一个有向图$\vec{G}=(V,E)$，它的edge的权重为$w(e)$。为了方便，我们总是用$s$表示起点，$z$表示终点。$\text{dist}(z)$表示从$s$ 到$z$的最短路径。比较常用的**Dijkstra's Algorithm的局限在于：1）只能解决单源的最短路问题；2）要求所有edge的权重不能为负。**该算法的时间复杂度为 $O((n+m)\log n$
+
+当图中存在cycle，且该cycle的所有edge 权重之和为负的时候，Dijkstra algorithm会无限次在该cycle中循环。
+
+现在我们假设某个图，没有这样的negative cycle。这意味着从$s$ 到$z$的最短路径$p$会经过图中每个节点最多一次。进而意味着 $|p|<=n-1$ edges。
+DP idea -> 我们想要用 $DP(i-1,z)$来表示$DP(i,z)$。其中$i, z$分别表示第$i$个edge和第$z$个节点。
+看下面的图，要想找到递推公式，我们可以想象从$s$ 到$z$，在到达$z$之前，我们假设要找到一个节点$y$ 满足从$s$ 到$y$也是最短路，且从$y$ 到$z$也是最短的。**这意味着$DP(i,z)=\min_{y,z\in E}\{DP(i-1,y)+w(y,z)\}$。此外还要注意要取该值与$DP(i-1,z)$之间的最小值**。
+![[Screenshot 2025-03-05 at 10.31.00.png]]
+**所以我们有如下完整的递推公式：**
+$DP(i,z)=\min\{DP(i-1,z), \min_{y,z\in E}\{DP(i-1,y)+w(y,z)\}\}$
+![[Screenshot 2025-03-05 at 10.37.45.png]]
+
+
+
+
+
+
+
+
 
 
 
