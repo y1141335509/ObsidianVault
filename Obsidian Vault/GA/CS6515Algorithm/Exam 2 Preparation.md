@@ -65,13 +65,18 @@ SCC 定义：在有向图中，如果一个图的每个顶点都可以从其他�
 **要找到一个普通有向图中的SCC，我们需要run两次DFS。第一次DFS跑在reverse Graph上；第二次DFS跑在原Graph上。我们最终可以找到所有的SCC，且所有 SCC之间的边都是从右向左连接的（也就是反向的Topological Order）。**
 ![[Screenshot 2025-03-04 at 13.42.52.png]]
 
+Dijkstra - $O((n+m) \log n)$ runtime, $n$ is the number of vertices; $m$ is the number of edges
 
 
+## GR2 - SAT
+给了一个formula，例如$f=(X_1\lor X_2)\land(\bar{X_1}\lor X_2)$ ，已知$f$为真，求每个$X$的真假。
+对于该类型的问题有如下事实：
+* 如果对于所有$i， X_i和\bar{X_i}$ 都在不同的SCC中，那么*S是一个Sink SCC* 和*Component $\bar{S}$是一个Source SCC* 这两个陈述之间是 充要条件。
+ ![[Screenshot 2025-03-04 at 14.28.38.png]]
+课件里的做法就是构建了一个有向图，然后找到图中的Source和Sink节点。将Sink节点$S$变成True，同时将Source节点$\bar{S}$变成False；然后去掉当前的Sink节点$S$和Source节点$\bar{S}$。重复，直到没有任何SCC为止
 
 
-
-
-
+## DP3 - Shortest Paths
 
 
 
