@@ -92,19 +92,78 @@ DPV:
 
 现在我们假设某个图，没有这样的negative cycle。这意味着从$s$ 到$z$的最短路径$p$会经过图中每个节点最多一次。进而意味着 $|p|<=n-1$ edges。
 DP idea -> 我们想要用 $DP(i-1,z)$来表示$DP(i,z)$。其中$i, z$分别表示第$i$个edge和第$z$个节点。
-看下面的图，要想找到递推公式，我们可以想象从$s$ 到$z$，在到达$z$之前，我们假设要找到一个节点$y$ 满足从$s$ 到$y$也是最短路，且从$y$ 到$z$也是最短的。**这意味着$DP(i,z)=\min_{y,z\in E}\{DP(i-1,y)+w(y,z)\}$。此外还要注意要取该值与$DP(i-1,z)$之间的最小值**。
+看下面的图，要想找到递推公式，我们可以想象从$s$ 到$z$，在到达$z$之前，我们假设要找到一个节点$y$ 满足从$s$ 到$y$也是最短路，且从$y$ 到$z$也是最短的。**这意味着$DP(i,z)=\min_{\vec{yz}\in E}\{DP(i-1,y)+w(y,z)\}$。此外还要注意要取该值与$DP(i-1,z)$之间的最小值**。
 ![[Screenshot 2025-03-05 at 10.31.00.png]]
 **所以我们有如下完整的递推公式：**
-$DP(i,z)=\min\{DP(i-1,z), \min_{y,z\in E}\{DP(i-1,y)+w(y,z)\}\}$
+$DP(i,z)=\min\{DP(i-1,z), \min_{\vec{yz}\in E}\{DP(i-1,y)+w(y,z)\}\}$
 ![[Screenshot 2025-03-05 at 10.37.45.png]]
 
+### Bellman Ford Algorithm
+![[Screenshot 2025-03-05 at 10.42.10.png]]
+**$i$表示边的个数**
+**通过上面的算法，如何找到Negative Weight Cycle？**
+![[Screenshot 2025-03-05 at 10.52.39.png]]
+首先由于从 s 到 a 权重为5，所以在(i=1, a)处填5；该行剩下列都是没有路径的，所以填∞。
+接着从s 到 b 是 5 + 3，所以填8；该行剩下列都是没有路径的，所以填∞。
+![[Screenshot 2025-03-05 at 10.54.43.png]]
+再继续看，从b到c权重为-6，所以在(i=3, c)列 填 8+ (-6) = 2；此外 从 b 还可以到 d，所以在 (i=3, d)列填 8+4=12
+![[Screenshot 2025-03-05 at 10.58.57.png]]
+然后(i=4, e)要注意，是要从 c -> e，我们发现从 s 到 c的最短路径为2，所以在(i=4, e) 填 2 + 5 = 7。
+然后(i=4, a)也要注意，我们可以从s -> a -> b -> c -> a，也就是在negative weight cycle处兜了一圈。所以(i=4, a)填 5+3+(-6)+2 = 4
+剩下的格子(i=4, b), (i=4, c), (i=4, d)都不变，分别是8，2，12 （如下图）
+![[Screenshot 2025-03-05 at 11.05.22.png]]
+下面是完整的DP table
+![[Screenshot 2025-03-05 at 11.16.50.png]]
+**当图中存在negative weight cycle的时候，当经过它的时候，当前的 i 行 会与 i-1 行不同**。如果没有negative weight cycle的时候，我们的算法会在 i=5 行就结束。但有negative weight cycle的话，需要 i=6 行，且 i 行 会与 i-1 行的值不同。
+**那如何确定到底是哪几个节点组成了该negative cycle呢？** - **Check if $DP(n,z)< DP(n-1,z)$ for some $z\in V$**。例如，(i=4, a) < (i=3, a)，所以a 是；(i=5, b) < (i=4, b)，所以b 是；(i=6, c) < (i=5, c)，所以c 是；
+
+以上就是具体的计算案例。对于Bellman-Ford algorithm，它的时间复杂度是 $O(nm)$, $n, m$分别是节点个数和edge个数。该算法是单源最短路算法。如果要让计算所有节点对 之间的最短路，那就是要运行 n 次该算法，也就是 $O(n^2m)$的复杂度。之后我们将讨论Floyd-Warshall 算法，它的复杂度是$O(n^3)$。通常来说 $m$的数量级约等于$n^2$，所以 Floyd-Warshall算法的复杂度通常是 快于 $O(n^2m)$的。
+
+
+### Floyd-Warshall Algorithm
+**该算法的思想也是DP，但是一个3维DP。$DP(i,s,t)$。其中，$i,s,t$分别表示：$s,t$之间的中间节点；起点；终点。所以$DP(i,s,t)$表示从s 到 t 之间，可能会经过 ${1,2,..., i}$作为中间节点的最短路径$P$。**
+Base Case如下图：
+![[Screenshot 2025-03-05 at 11.41.10.png]]
+递推公式：也就是当 第i 个节点$i\notin P$的时候，$DP(i,s,t)=DP(i-1,s,t)$
+当第i 个节点$i\in P$的时候，如下图，我们的最短路径应该是从 s -> $\{1,2,...i-1\}$节点集合 -> 节点$i$ -> $\{1,2,...i-1\}$节点集合 -> 终点 t
+![[Screenshot 2025-03-05 at 11.53.56.png]]
+**所以$i\in P$的递推公式应该是： $DP(i,s,t)=DP(i-1, s,i)+DP(i-1,i,t)$** —— 也就是多了一段**从 s 到 i （但是可能经过了 {1,...i-1}节点集合）的路径** 加上 **从 i 到 w （但是可能经过了 {1,...i-1}节点集合）的路径）**
+最终我们给出该算法的递推公式为： 
+$DP(i,s,t)=\min\{DP(i-1,s,t),DP(i-1,s,i)+DP(i-1,i,t)\}$
+![[Screenshot 2025-03-05 at 12.27.54.png]]
+该算法也预设所有权重都是非负的。那如果有负权重该如何找到呢？——我们看下面的例子就能发现，如果我们计算$DP(n,a,a)=-1$。也就是说从一个节点到该节点本身，在经过了最多 n 个中间节点之后，这条最短路径的值 是负数。**所以我们可以检查 DP table的对角线元素，如果任何一个元素的 DP 值 为负，那就存在着 negative cycle**, i.e., Check if $DP(n, y, y) < 0$ for some $y \in V$.
+![[Screenshot 2025-03-05 at 12.30.54.png]]
+
+对比一下Bellman-Ford和Floyd-warshall这两种算法（我们还用上图为例）：
+* Bellman-Ford - 假设我们选择了 d节点作为 起始节点 s 。**那么该算法其实并不能够找到negative cycle 或者例如 e 节点这样 unreachable 节点的最短路径的**。所以**该算法仅限于 从起始节点s 到 reachable 节点的单源最短路径查找**
+* Floyd-Warshall- 并没有上面Bellman-Ford算法的限制。它能找到所有节点对（pair-wise）之间的最短路径
 
 
 
+## GR3 - Minimum Spanning Tree (MST)
+**Given** - undirected $G=(V,E)$ with weights $w(e)$ for $e\in E$.
+**Goal** - find the minimal size, connected subgraph (i.e., spanning tree) of min weight
+
+什么是Tree？Tree = Connected, Acyclic Graph （连通无环图）
+Tree的基本性质是：
+1. Tree on $n$ vertices has $n-1$ edges
+2. In a tree, exactly 1 path between every pair of vertices
+3. Any connected $G=(V,E)$ with $|E|=|V|-1$ is a tree
 
 
+![[Screenshot 2025-03-05 at 20.56.47.png]]
 
 
+图的切分性质（Cut Property）：
+引理 - For undirected graph $G=(V,E)$, take $X\subset E$, where $X\subset T$ for a MST $T$.  然后取$S\subset V$ where no edge of $X$ is in the $\text{cut}(S,\bar{S})$. 检查所有$G$的Cut 的所有edges。让 $e^*$ 表示该$\text{cut}(S, \bar{S})$所有edges中权重最小的那个。那么$X \cup e^*\subset T'$ where $T'$ is a MST.
+
+## MF1 - Ford-Fulkerson Algorithm
+
+
+## MF2 - Max-Flow Min Cut
+
+
+## MF4 - Edmonds-Karp Algorithm
 
 
 
