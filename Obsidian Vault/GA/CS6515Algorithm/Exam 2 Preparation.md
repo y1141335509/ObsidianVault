@@ -177,6 +177,8 @@ Residual Network Graph - indicates how much more flow is allowed in each edge in
 ![[Screenshot 2025-03-05 at 23.32.20.png]]
 ![[Screenshot 2025-03-05 at 23.35.38.png]]
 
+Assumption - Integer Capacities 
+Time Complexity O(n+m)
 
 
 
