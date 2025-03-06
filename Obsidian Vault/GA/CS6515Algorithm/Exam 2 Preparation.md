@@ -156,8 +156,31 @@ Tree的基本性质是：
 
 图的切分性质（Cut Property）：
 引理 - For undirected graph $G=(V,E)$, take $X\subset E$, where $X\subset T$ for a MST $T$.  然后取$S\subset V$ where no edge of $X$ is in the $\text{cut}(S,\bar{S})$. 检查所有$G$的Cut 的所有edges。让 $e^*$ 表示该$\text{cut}(S, \bar{S})$所有edges中权重最小的那个。那么$X \cup e^*\subset T'$ where $T'$ is a MST.
+可能不太好理解，**我们看下图，假设我们将一个Graph 切分成了左右两个部分$S, \bar{S}$。 $e^*$ 表示该$\text{cut}(S, \bar{S})$所有edges中权重最小的那个，那么根据MST的定义不难发现$e^*$也应该被算作是最终 MST $T$ 的边 之一。如此一来就有了递推公式**
+![[Screenshot 2025-03-05 at 21.13.46.png]]
+
+
 
 ## MF1 - Ford-Fulkerson Algorithm
+假设有一个Flow Network，它是一个directed graph $G=(V, E)$, source节点为$s$, sink节点为$t$， $s, t \in V$。此外 对于每一个边$e\in E$，且每个edge都有一个capacity $c_e >0$。如下图：
+![[Screenshot 2025-03-05 at 21.32.03.png]]
+现在我们想要最大化 flow $s$ to $t$。我们用$f_e$表示 边$e$的 Flow
+
+我们希望的是 每个节点都尽量 flow-in = flow-out
+![[Screenshot 2025-03-05 at 21.51.10.png]]
+**在Flow Network中Cycle是不会影响最终结果的**
+
+### Ford-Fulkerson Algorithm
+**在Flow Network中，该算法的核心思想是找到一个从 source 到 sink的还有可用capacity的path（称为augmented path），然后将尽可能多的flow 放在这个path上。该算法通过不断发现新的augmented path，直到最后达到maximum flow**
+
+Residual Network Graph - indicates how much more flow is allowed in each edge in the network graph.
+![[Screenshot 2025-03-05 at 23.32.20.png]]
+![[Screenshot 2025-03-05 at 23.35.38.png]]
+
+
+
+
+
 
 
 ## MF2 - Max-Flow Min Cut
