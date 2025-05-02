@@ -86,7 +86,7 @@ DPV:
 6.7 (Palindrome subsequence)
 
 
-**Shortest Path Algorithms via DP** - 给定一个有向图$\vec{G}=(V,E)$，它的edge的权重为$w(e)$。为了方便，我们总是用$s$表示起点，$z$表示终点。$\text{dist}(z)$表示从$s$ 到$z$的最短路径。比较常用的**Dijkstra's Algorithm的局限在于：1）只能解决单源的最短路问题；2）要求所有edge的权重不能为负。**该算法的时间复杂度为 $O((n+m)\log n$
+**Shortest Path Algorithms via DP** - 给定一个有向图$\vec{G}=(V,E)$，它的edge的权重为$w(e)$。为了方便，我们总是用$s$表示起点，$z$表示终点。$\text{dist}(z)$表示从$s$ 到$z$的最短路径。比较常用的**Dijkstra's Algorithm的局限在于：1）只能解决单源的最短路问题；2）要求所有edge的权重不能为负。该算法的时间复杂度为 $O((n+m)\log n$
 
 当图中存在cycle，且该cycle的所有edge 权重之和为负的时候，Dijkstra algorithm会无限次在该cycle中循环。
 
@@ -178,7 +178,7 @@ Residual Network Graph - indicates how much more flow is allowed in each edge in
 ![[Screenshot 2025-03-05 at 23.35.38.png]]
 
 Assumption - Integer Capacities 
-Time Complexity O(n+m)
+Time Complexity O(mC), where C is the capacity of the network, m is the number of edges
 
 
 
@@ -186,11 +186,32 @@ Time Complexity O(n+m)
 
 
 ## MF2 - Max-Flow Min Cut
+### Min Cut Problem
+Cut is a partition of $V=L\cup R$.
+an st-cut is a cut where $s\in L, t\in R$，也就是说这种切分方式能够将source和sink分别放在左右两个subgraph中。
+
+有了st-cut之后我们算一下连通 $L$到$R$的edge的capacity：$\text{capacity}(L,R)=\sum_{\vec{vw}\in E, v\in L, w\in R}c_{vw}=\text{capacity from} \space L \text{→} R$
+如下图：绿色箭头就是从L 到 R 的edge
+![[Screenshot 2025-03-06 at 00.09.02.png]]
+
+### Min st-cut Problem
+给定一个Flow Network， 要找到一个st-cut $(L, R)$使得这样切分下，被切到的edges的capacity之和最小。
+
+例如上面途中的切分方式，edges的capacity之和为27，并不是最小的。下图显示了最小切分方式，edges的capacity之和为12.
+
+![[Screenshot 2025-03-06 at 00.12.05.png]]
+
+你会发现这种切分方式下的最小capacity之和为12，正好等于Max Flow。这并不是巧合。我们引入Max-Flow= Min st-cut也就是Max Flow Min Cut theorem:
+**Max Flow的大小 等于 拥有最小capacity之和的st-cut**
+
+
+
 
 
 ## MF4 - Edmonds-Karp Algorithm
 
-
+使用了BFS而不是DFS；不需要假设所有的capacity都是正整数，而只需要是正数。
+时间： $O(m^2n)$
 
 
 
