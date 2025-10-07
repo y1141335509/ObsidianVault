@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "签证相关/回国计划.md",
+                "file": "实用学习笔记/面试笔记/DataEngineer/Data Modeling & Framework Design.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "回国计划"
+              "title": "Data Modeling & Framework Design"
             }
           },
           {
@@ -36,20 +36,6 @@
             }
           },
           {
-            "id": "21554f38cd9dbccb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "创业相关/Quant/学习Quant.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "学习Quant"
-            }
-          },
-          {
             "id": "6b1fd8f6b409869d",
             "type": "leaf",
             "state": {
@@ -61,6 +47,20 @@
               },
               "icon": "lucide-file",
               "title": "计划"
+            }
+          },
+          {
+            "id": "21554f38cd9dbccb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "创业相关/Quant/学习Quant.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "学习Quant"
             }
           },
           {
@@ -77,8 +77,7 @@
               "title": "ChatGPT Chrome Plugin Development"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -260,6 +259,7 @@
                     },
                     "pythonExecutable": "python3",
                     "restoreHistory": true,
+                    "rightClickAction": "copyPaste",
                     "successExitCodes": [
                       "0",
                       "SIGINT",
@@ -273,8 +273,8 @@
                   },
                   "serial": {
                     "columns": 41,
-                    "data": "(base) yinghaiyu@Yinghais-MacBook-Pro / % ls\r\nApplications\u001b[4Cetc\r\nLibrary\u001b[9Chome\r\nSystem\u001b[10Copt\r\nUsers\u001b[11Cprivate\r\nVolumes\u001b[9Csbin\r\nbin\u001b[13Ctmp\r\ncores\u001b[11Cusr\r\ndev\u001b[13Cvar\r\n(base) yinghaiyu@Yinghais-MacBook-Pro / % cd Users/yinghaiyu/Main/DesktopMain/STUDY/KnowledgeVault/ObsidianVault/Obsidian\\ Vault/\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % ls\r\nCalendars\r\nChatGPT Chrome Plugin Development.md\r\nExcalidraw\r\nGA\r\nPapers\r\nRuoxi\r\n创业相关\r\n实用学习笔记\r\n签证相关\r\n计划.md\r\n项目开发\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git add .\r\n\r\n\r\n\u001b[3A\u001b[23C",
-                    "rows": 23
+                    "data": "(base) yinghaiyu@Yinghais-MacBook-Pro / % \r\n * Restored history at Thu Aug 28 2025 12:39:10 GMT-0700 (Pacific Daylight Time)\r\n\r\n(base) yinghaiyu@Yinghais-MacBook-Pro / % \r\n * Restored history at Sun Oct 05 2025 17:04:23 GMT-0700 (Pacific Daylight Time)\r\n\r\n(base) yinghaiyu@Yinghais-MacBook-Pro / % \r\n * Restored history at Sun Oct 05 2025 17:04:40 GMT-0700 (Pacific Daylight Time)\r\n\r\n(base) yinghaiyu@Yinghais-MacBook-Pro / % \r\n * Restored history at Sun Oct 05 2025 17:05:01 GMT-0700 (Pacific Daylight Time)\r\n\r\n(base) yinghaiyu@Yinghais-MacBook-Pro / % \r\n * Restored history at Tue Oct 07 2025 10:34:44 GMT-0700 (Pacific Daylight Time)\r\n\r\n(base) yinghaiyu@Yinghais-MacBook-Pro / % ls \r\nApplications\u001b[4Cetc\r\nLibrary\u001b[9Chome\r\nSystem\u001b[10Copt\r\nUsers\u001b[11Cprivate\r\nVolumes\u001b[9Csbin\r\nbin\u001b[13Ctmp\r\ncores\u001b[11Cusr\r\ndev\u001b[13Cvar\r\n(base) yinghaiyu@Yinghais-MacBook-Pro / % cd Users/yinghaiyu/\r\nApplications/\r\nDesktop/\r\nDocuments/\r\nDownloads/\r\nLibrary/\r\nMain/\r\nMovies/\r\nMusic/\r\nOneDrive@\r\nPictures/\r\nPublic/\r\nTemplates/\r\nZotero/\r\nchromedriver_manual/\r\niMyFone\\ MagicMic/\r\njbr_err_pid10966.log\r\njbr_err_pid1234.log\r\njbr_err_pid41143.log\r\njbr_err_pid712.log\r\nopt/\r\n(base) yinghaiyu@Yinghais-MacBook-Pro / % cd Users/yinghaiyu/Main/DesktopMain/STUDY/\r\nAI-Applications/\r\nAirflowTrigger/\r\nDataEngineer/\r\nGA/\r\nGameDevelopment/\r\nGithubRepos/\r\nGodot\\ Game\\ Development/\r\nKnowledgeVault/\r\nLANGUAGES/\r\nNIW/\r\nQuant/\r\nRuoxiProjects/\r\nVideoProducer/\r\nWallpapers/\r\napp\\ store\\ dev.developerprofile\r\napp\\ store\\ dev.p12\r\nfood-war/\r\ngoogle\\ store\\ signing\\ key/\r\nk8s/\r\ny1141-app\\ store\\ key.p12\r\n(base) yinghaiyu@Yinghais-MacBook-Pro / % cd Users/yinghaiyu/Main/DesktopMain/STUDY/  \r\nAI-Applications/\r\nAirflowTrigger/\r\nDataEngineer/\r\nGA/\r\nGameDevelopment/\r\nGithubRepos/\r\nGodot\\ Game\\ Development/\r\nKnowledgeVault/\r\nLANGUAGES/\r\nNIW/\r\nQuant/\r\nRuoxiProjects/\r\nVideoProducer/\r\nWallpapers/\r\napp\\ store\\ dev.developerprofile\r\napp\\ store\\ dev.p12\r\nfood-war/\r\ngoogle\\ store\\ signing\\ key/\r\nk8s/\r\ny1141-app\\ store\\ key.p12\r\n(base) yinghaiyu@Yinghais-MacBook-Pro / % cd Users/yinghaiyu/Main/DesktopMain/STUDY/KnowledgeVault/ObsidianVault/Obsidian\\ Vault\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % ls\r\nCalendars\r\nChatGPT Chrome Plugin Development.md\r\nExcalidraw\r\nGA\r\nPapers\r\nRuoxi\r\n创业相关\r\n实用学习笔记\r\n签证相关\r\n计划.md\r\n项目开发\r\n(base) yinghaiyu@Yinghais-MacBook-Pro Obsidian Vault % git add . \r\n",
+                    "rows": 20
                   }
                 }
               },
@@ -290,6 +290,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "markdown-importer:Open format converter": false,
       "audio-recorder:Start/stop recording": false,
       "publish:Publish changes...": false,
@@ -313,6 +314,10 @@
   },
   "active": "4699ffec508606f0",
   "lastOpenFiles": [
+    "实用学习笔记/面试笔记/DataEngineer/Data Modeling & Framework Design.md",
+    "实用学习笔记/面试笔记/DataEngineer/NVIDIA.md",
+    "签证相关/回国计划.md",
+    "创业相关/Bubbles&Books/开店规划 - 2025.md",
     "创业相关/Quant/学习Quant.md",
     "计划.md",
     "ChatGPT Chrome Plugin Development.md",
@@ -329,18 +334,14 @@
     "GA/CS6515Algorithm/img/Screenshot 2025-03-05 at 12.30.54.png",
     "GA/CS6515Algorithm/img/Screenshot 2025-03-05 at 12.27.54.png",
     "GA/CS6515Algorithm/img",
-    "创业相关/Bubbles&Books/开店规划 - 2025.md",
     "GA/CS6515Algorithm",
     "实用学习笔记/DMV/Drivers License.md",
     "实用学习笔记/DMV/img",
     "实用学习笔记/DMV",
-    "实用学习笔记/面试笔记/DataEngineer/Data Modeling & Framework Design.md",
-    "签证相关/回国计划.md",
     "实用学习笔记/面试笔记/DataEngineer/Take Home 2 Assessment.md",
     "实用学习笔记/面试笔记/DataEngineer/Designing Data Intensive Applications copy.pdf",
     "实用学习笔记/面试笔记/DataEngineer/Designing a Data Intensive App.md",
     "创业相关/Bubbles&Books/副业 2024-07-31.md",
-    "实用学习笔记/面试笔记/DataEngineer/Untitled.md",
     "实用学习笔记/面试笔记/DataEngineer/Ceribell, Inc..md",
     "实用学习笔记/面试笔记/DataEngineer/images",
     "实用学习笔记/面试笔记/DataEngineer",

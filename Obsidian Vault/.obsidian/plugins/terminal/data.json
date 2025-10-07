@@ -24,6 +24,7 @@
         "darwin": true
       },
       "restoreHistory": true,
+      "rightClickAction": "copyPaste",
       "successExitCodes": [
         "0",
         "SIGINT",
@@ -43,6 +44,7 @@
       },
       "pythonExecutable": "python3",
       "restoreHistory": true,
+      "rightClickAction": "copyPaste",
       "successExitCodes": [
         "0",
         "SIGINT",
@@ -57,6 +59,7 @@
     "developerConsole": {
       "name": "",
       "restoreHistory": true,
+      "rightClickAction": "copyPaste",
       "successExitCodes": [
         "0",
         "SIGINT",
@@ -75,6 +78,7 @@
         "linux": true
       },
       "restoreHistory": true,
+      "rightClickAction": "copyPaste",
       "successExitCodes": [
         "0",
         "SIGINT",
@@ -94,6 +98,7 @@
       },
       "pythonExecutable": "python3",
       "restoreHistory": true,
+      "rightClickAction": "copyPaste",
       "successExitCodes": [
         "0",
         "SIGINT",
@@ -113,6 +118,7 @@
         "win32": true
       },
       "restoreHistory": true,
+      "rightClickAction": "copyPaste",
       "successExitCodes": [
         "0",
         "SIGINT",
@@ -132,6 +138,7 @@
       },
       "pythonExecutable": "python3",
       "restoreHistory": true,
+      "rightClickAction": "copyPaste",
       "successExitCodes": [
         "0",
         "SIGINT",
